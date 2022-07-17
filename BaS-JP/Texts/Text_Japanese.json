@@ -444,7 +444,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "35",
-          "text": "「稲妻」は金属製のアイテムを通して感電させる！",
+          "text": "「稲妻」魔法は金属製のアイテムから感電する！",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -1387,7 +1387,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "HeightAutoSetting",
-          "text": "快適にゲームを体験して いただくため、身長が きちんと設定されていることを 確認してください。\n\nリラックスして直立した 状態で、 身長自動調整」を クリックしてください:",
+          "text": "快適にゲームを体験して いただくため、身長が きちんと設定されていることを 確認してください。\n\nリラックスして直立した 状態で、 「身長自動調整」を クリックしてください:",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -3981,7 +3981,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "RuinsDescription",
-          "text": "遺跡は今や失われた文明の残骸にすぎません。\n垂直移動が必要な2階建ての中サイズのマップです。", //誤訳が初歩的すぎないか?
+          "text": "遺跡は今や失われた文明の残骸にすぎません。\n垂直移動が必要な二層構造の中サイズのマップです。", //誤訳が初歩的すぎないか?
           "spriteAddress": null,
           "videoAddress": null
         }
@@ -5093,7 +5093,7 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "ContainerCover",
-      "name": "貨物の覆い",
+      "name": "容器の蓋",
       "description": ""
     },
     {
