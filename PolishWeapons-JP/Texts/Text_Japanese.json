@@ -1,0 +1,76 @@
+{
+  "$type": "ThunderRoad.TextData, ThunderRoad",
+  "id": "Japanese",
+  "saveFolder": "bas",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 1,
+  "textGroups": [
+    {
+      "$type": "ThunderRoad.TextData+TextGroup, ThunderRoad",
+      "id": "Default",
+      "texts": [
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Poland",
+          "text": "ポーランド"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "VRSmith.PolishAirforceDagger",
+      "name": "ポーランド空軍の短剣",
+      "description": "ポーランド空軍で使用されていた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "VRSmith.Czekan",
+      "name": "チェカン",
+      "description": "ポーランドの斧"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "VRSmith.Nadziak",
+      "name": "ナジャク",
+      "description": "ポーランドの戦鎚。ステッキとしても使われ、貴族に人気があった。オスマン発祥で、ポーランドや中央ヨーロッパで広く使われた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "VRSmith.Ciupaga",
+      "name": "チウパガ",
+      "description": "ポーランドの山岳地帯の住民が使っていた羊飼いの斧。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "VRSmith.Koncerz",
+      "name": "コンツェシュ",
+      "description": "フサリアが使っていた刺突専用の剣。馬上で突撃槍のように使われていたらしい。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "VRSmith.PolishSaberGold",
+      "name": "ポーランド軽騎兵のサーベル",
+      "description": "1921年制式ポーランド陸軍騎兵サーベル"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "VRSmith.PolishSaber",
+      "name": "ポーランドのシャブラ",
+      "description": "ポーランド貴族の剣"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "VRSmith.Szczerbiec",
+      "name": "シュチェルビェツ",
+      "description": "ポーランドの王者の剣。唯一現存するポーランドの王権の象徴。"
+    },
+    {
+      "id": "VRSmith.Batorowka",
+      "name": "バルトルフカ",
+      "description": "ポーランド=ハンガリー王ステファン・バートリの名にちなんだポーランド=ハンガリー型のサーベル。"
+    }
+  ]
+}
