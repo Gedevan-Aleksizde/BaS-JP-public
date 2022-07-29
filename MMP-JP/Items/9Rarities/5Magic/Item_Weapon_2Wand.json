@@ -1,0 +1,6 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MMPWand",
+  "version": 4,
+  "displayName": "魔法棒"
+}

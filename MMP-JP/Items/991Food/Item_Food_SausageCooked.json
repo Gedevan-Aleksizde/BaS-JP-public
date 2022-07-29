@@ -1,0 +1,6 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MMPSausageCooked",
+  "version": 4,
+  "displayName": "炙りソーセージ"
+}

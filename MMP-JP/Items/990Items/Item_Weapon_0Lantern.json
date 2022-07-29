@@ -1,0 +1,6 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MMPLantern",
+  "version": 4,
+  "displayName": "ランタン"
+}

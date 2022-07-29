@@ -1,0 +1,6 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MMPMagicBook",
+  "version": 4,
+  "displayName": "写本"
+}

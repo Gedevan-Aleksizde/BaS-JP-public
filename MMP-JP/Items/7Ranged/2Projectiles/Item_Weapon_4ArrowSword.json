@@ -1,0 +1,6 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MMPArrowSword",
+  "version": 4,
+  "displayName": "投擲剣"
+}

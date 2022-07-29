@@ -1,0 +1,7 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MMPBlackJack",
+  "version": 4,
+  "localizationId": "MMPBlackJack",
+  "displayName": "ブラックジャック"
+}

@@ -1,0 +1,6 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MMPTachi",
+  "version": 4,
+  "displayName": "太刀"
+}

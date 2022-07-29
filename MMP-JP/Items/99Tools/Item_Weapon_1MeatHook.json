@@ -1,0 +1,6 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MMPMeatHook",
+  "version": 4,
+  "displayName": "肉屋のフック"
+}
