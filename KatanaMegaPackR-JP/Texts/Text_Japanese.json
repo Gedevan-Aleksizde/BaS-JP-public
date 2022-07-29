@@ -1,0 +1,559 @@
+{
+  "$type": "ThunderRoad.TextData, ThunderRoad",
+  "id": "Japanese",
+  "saveFolder": "bas",
+  "version": 1,
+  "textGroups": [
+    {
+      "$type": "ThunderRoad.TextData+TextGroup, ThunderRoad",
+      "id": "Default",
+      "texts": [
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Katana MegaPack",
+          "text": "刀詰合せR"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPSangssudo",
+      "name": "サンスドー",
+      "description": "希少な韓国の大剣。戦場で適切に扱うには長期の訓練が必要である。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTantoKo",
+      "name": "小短刀 (鞘付き)",
+      "description": "短刀は戦闘用の武器から上級階級の装飾品として進化していった。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTantoKoSaya",
+      "name": "小短刀 (鞘付き)",
+      "description": "短刀は戦闘用の武器から上級階級の装飾品として進化していった。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTantoKo2",
+      "name": "懐剣",
+      "description": "懐剣は侍やその妻が携帯した。日常生活に利用するため、そして虜囚の身とならぬよう喉を突いて自決するために。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTantoKo2Saya",
+      "name": "懐剣 (鞘付き)",
+      "description": "懐剣は侍やその妻が携帯した。日常生活に利用するため、そして虜囚の身とならぬよう喉を突いて自決するために。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTantoAikuchi",
+      "name": "合口",
+      "description": "短刀は甲冑を着た敵に対し、掴み合いの間合いでは止めの武器として使うことができ、とても便利な武器だった。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTantoAikuchiSaya",
+      "name": "合口 (鞘付き)",
+      "description": "短刀は甲冑を着た敵に対し、掴み合いの間合いでは止めの武器として使うことができ、とても便利な武器だった。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTanto",
+      "name": "短刀",
+      "description": "短刀は主に侍が携帯し、しばしば太刀と一組で、刺突に優れた武器だった。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTantoSaya",
+      "name": "短刀 (鞘付き)",
+      "description": "短刀は主に侍が携帯し、しばしば太刀と一組で、刺突に優れた武器だった。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoKagemitsu",
+      "name": "謙信景光",
+      "description": "景光によって鍛えられ、大名の上杉謙信が長く帯刀していた。刃の「秩父大菩薩」の文字は奉納された神社を示している。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoKagemitsuSaya",
+      "name": "謙信景光 (鞘付き)",
+      "description": "景光によって鍛えられ、大名の上杉謙信が長く携帯していた。刃の「秩父大菩薩」の文字は奉納された神社を示している。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoSadamune",
+      "name": "物吉貞宗",
+      "description": "貞宗によって鍛えられた精巧な脇差であり、刃に彼の名が彫られている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoSadamuneSaya",
+      "name": "物吉貞宗 (鞘付き)",
+      "description": "貞宗によって鍛えられた精巧な脇差であり、刃に彼の名が彫られている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPWakizashiKo",
+      "name": "小脇差",
+      "description": "他の武器とは違い、脇差は、地位の高さを示すために侍だけが刀と共に帯びることが許可されていた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPWakizashiKoSaya",
+      "name": "小脇差 (鞘付き)",
+      "description": "他の武器とは違い、脇差は、地位の高さを示すために侍だけが刀と共に帯びることが許可されていた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPWakizashi",
+      "name": "脇差",
+      "description": "刀と合わせて使う武器。首を刎ねたり切腹の儀式に用いられた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPWakizashiSaya",
+      "name": "脇差 (鞘付き)",
+      "description": "刀と合わせて使う武器。首を刎ねたり切腹の儀式に用いられた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPWakizashiBohi",
+      "name": "新刀脇差",
+      "description": "刀より小さく軽量になった脇差は、室内戦闘でも用いられることがあった。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPWakizashiBohiSaya",
+      "name": "新刀脇差 (鞘付き)",
+      "description": "刀より小さく軽量になった脇差は、室内戦闘でも用いられることがあった。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaKo",
+      "name": "小さ刀",
+      "description": "並みの刀より短く、リーチを犠牲に劇的に速く抜くことができる。この長さを好む小柄な剣士がいた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaKoSaya",
+      "name": "小さ刀 (鞘付き)",
+      "description": "並みの刀より短く、リーチを犠牲に劇的に速く抜くことができる。この長さを好む小柄な剣士がいた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoHoneBami",
+      "name": "骨喰藤四郎",
+      "description": "かつて足利尊氏が帯びた小刀。斬りつけると容易に骨を断つことができたということからその名は「骨を喰らう者」を意味する。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoHoneBamiSaya",
+      "name": "骨喰藤四郎 (鞘付き)",
+      "description": "かつて足利尊氏が帯びた小刀。斬りつけると容易に骨を断つことができたということからその名は「骨を喰らう者」を意味する。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "version": 4,
+      "id": "KMPNinjato",
+      "name": "忍者剣",
+      "description": "人目につかないシノビの剣。刀と異なり真っ直ぐであり、暗殺のための刺突能力が増している。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "version": 4,
+      "id": "KMPNinjatoSaya",
+      "name": "忍者剣 (鞘付き)",
+      "description": "人目につかないシノビの剣。刀と異なり真っ直ぐであり、暗殺のための刺突能力が増している。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPUchigatana1",
+      "name": "抜き打ち刀",
+      "description": "剣を抜くのと斬撃を一瞬で行う術である、居合道で使うために切り詰めた打刀。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPUchigatana1Saya",
+      "name": "抜き打ち刀 (鞘付き)",
+      "description": "剣を抜くのと斬撃を一瞬で行う術である、居合道で使うために切り詰めた打刀。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaAikuchi",
+      "name": "合口拵の刀",
+      "description": "鍔のない刀。本来は鎧とともに装着するために作られたが、後に上流階級の間で人気となった。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaAikuchiSaya",
+      "name": "合口拵の刀 (鞘付き)",
+      "description": "鍔のない刀。本来は鎧とともに装着するために作られたが、後に上流階級の間で人気となった。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoMuramasa",
+      "name": "勢州桑名住村正",
+      "description": "伊勢の桑名の刀鍛冶の達人、千子村正によって鍛えられた伝説的な剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoMuramasaSaya",
+      "name": "勢州桑名住村正 (鞘付き)",
+      "description": "伊勢の桑名の刀鍛冶の達人、千子村正によって鍛えられた伝説的な剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaBohi",
+      "name": "新刀",
+      "description": "棒樋のある近代的な刀。威容を損ねることなく刃の重量を減らしている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaBohiSaya",
+      "name": "新刀 (鞘付き)",
+      "description": "棒樋のある近代的な刀。威容を損ねることなく刃の重量を減らしている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaOren",
+      "name": "オーレンの白鞘",
+      "description": "黒い白鞘に収納した服部半蔵の希少な剣。オーレンが所持し桜の花で装飾されている。極めて上質な剣のためめったに使われない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaOrenSaya",
+      "name": "オーレンの白鞘",
+      "description": "刀というよりは木の容器に保管した刀の刃であり、武器としての使用は想定していない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaShirasaya",
+      "name": "白鞘の刃",
+      "description": "刀というよりは木の容器に保管した刀の刃であり、武器としての使用は想定していない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaShirasayaSaya",
+      "name": "白鞘",
+      "description": "刀というよりは木の容器に保管した刀の刃であり、武器としての使用は想定していない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoKasen",
+      "name": "歌仙兼定",
+      "description": "兼定によって鍛えられ、苛烈な大名細川忠興が所有し、家臣36名をこの剣で処刑したと言われる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoKasenSaya",
+      "name": "歌仙兼定 (鞘付き)",
+      "description": "兼定によって鍛えられ、苛烈な大名細川忠興が所有し、家臣36名をこの剣で処刑したと言われる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPUchigatana3",
+      "name": "腰刀",
+      "description": "打刀は太刀より後世に、そして刀より以前に作られた。最高の出来とは言えないが、短く、作りやすい剣だった。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPUchigatana3Saya",
+      "name": "腰刀 (鞘付き)",
+      "description": "打刀は太刀より後世に、そして刀より以前に作られた。最高の出来とは言えないが、短く、作りやすい剣だった。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaRusty",
+      "name": "錆びた刀",
+      "description": "刀に使われる鋼は錆びやすく、血を拭き取らなかったらあっという間に駄目になってしまう。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaRustySaya",
+      "name": "錆びた刀 (鞘付き)",
+      "description": "刀に使われる鋼は錆びやすく、血を拭き取らなかったらあっという間に駄目になってしまう。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaKeiun",
+      "name": "関の刀",
+      "description": "美濃の関で鍛えられた刀。打刀より反りが浅く、刺突にも斬撃にも向いている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaKeiunSaya",
+      "name": "関の刀 (鞘付き)",
+      "description": "美濃の関で鍛えられた刀。打刀より反りが浅く、刺突にも斬撃にも向いている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPUchigatana2",
+      "name": "足軽の打刀",
+      "description": "徒歩兵の剣。太刀よりも小さく安価のため好まれたが、それでも侮れない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPUchigatana2Saya",
+      "name": "足軽の打刀 (鞘付き)",
+      "description": "徒歩兵の剣。太刀よりも小さく安価のため好まれたが、それでも侮れない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoMasamune",
+      "name": "石田正宗",
+      "description": "石田三成がかつて所有した刀。伝説的な刀鍛冶である正宗によって鍛えられた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoMasamuneSaya",
+      "name": "石田正宗 (鞘付き)",
+      "description": "石田三成がかつて所有した刀。伝説的な刀鍛冶である正宗によって鍛えられた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaBridesSword",
+      "name": "ザ・ブライドの剣",
+      "description": "服部半蔵が鍛えた業物であり、ベアトリクス・キドーが所有する剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaBridesSwordSaya",
+      "name": "ザ・ブライドの剣 (鞘付き)",
+      "description": "服部半蔵が鍛えた業物であり、ベアトリクス・キドーが所有する剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaMokko",
+      "name": "モッコー・カタナ",
+      "description": "摩耗し傷んでも長持ちするよう鍛えられた高品質な刃を持つ刀。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaMokkoSaya",
+      "name": "モッコー・カタナ (鞘付き)",
+      "description": "摩耗し傷んでも長持ちするよう鍛えられた高品質な刃を持つ刀。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaSakabato",
+      "name": "逆刃刀",
+      "description": "刀身の反対側に刃をつけた伝説の剣。人を殺めるのに適さない平和敵な武器と考えられる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaSakabatoSaya",
+      "name": "逆刃刀 (鞘付き)",
+      "description": "刀身の反対側に刃をつけた伝説の剣。人を殺めるのに適さない平和敵な武器と考えられる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaMusashi",
+      "name": "武蔵の大刀",
+      "description": "宮本武蔵考案の設計を複製した鍔のある刀。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaMusashiSaya",
+      "name": "武蔵の大刀 (鞘付き)",
+      "description": "宮本武蔵考案の設計を複製した鍔のある刀。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoSamonji",
+      "name": "江雪左文字",
+      "description": "刀鍛冶の達人、左文字の鍛えた傑出した刃で、将軍たちが代々受け継いだ。この刃は太刀として鍛えられたが、拵は刀のものである。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoSamonjiSaya",
+      "name": "江雪左文字 (鞘付き)",
+      "description": "刀鍛冶の達人、左文字の鍛えた傑出した刃で、将軍たちが代々受け継いだ。この刃は太刀として鍛えられたが、拵は刀のものである。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaGeneric",
+      "name": "古大刀",
+      "description": "並の刀より長い。長い刀は少し抜くのが難しくなるが、代わりにリーチの長さで補える。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaGenericSaya",
+      "name": "古大刀 (鞘付き)",
+      "description": "並の刀より長い。長い刀は少し抜くのが難しくなるが、代わりにリーチの長さで補える。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTachi1",
+      "name": "千手院の太刀",
+      "description": "刀より長く、特に馬上で反りのある刃を抜きやすくするため刃を下にして携行する。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTachi1Saya",
+      "name": "千手院の太刀 (鞘付き)",
+      "description": "刀より長く、特に馬上で反りのある刃を抜きやすくするため刃を下にして携行する。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTachi",
+      "name": "大和の太刀",
+      "description": "太刀は刀の前身である。ほとんどは弓を使う騎兵の予備武器として用いられた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTachiSaya",
+      "name": "大和の太刀 (鞘付き)",
+      "description": "太刀は刀の前身である。ほとんどは弓を使う騎兵の予備武器として用いられた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoShishio",
+      "name": "獅子王",
+      "description": "無銘の細い刃の太刀であり、ヨーカイ退治をした源頼政がミカドから授かったと伝わる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoShishioSaya",
+      "name": "獅子王 (鞘付き)",
+      "description": "無銘の細い刃の太刀であり、ヨーカイ退治をした源頼政がミカドから授かったと伝わる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoMunechika",
+      "name": "三日月宗近",
+      "description": "完全な状態で保存されている1000年前の古い刀身。三条宗近によって鍛えられ、夜空の三日月にちなんで名付けられた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPMeitoMunechikaSaya",
+      "name": "三日月宗近 (鞘付き)",
+      "description": "完全な状態で保存されている1000年前の古い刀身。三条宗近によって鍛えられ、夜空の三日月にちなんで名付けられた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTachiDojigiri",
+      "name": "童子切安綱",
+      "description": "日本の最も偉大な剣とされており、刀の発明者である安綱の生涯の傑作。この剣で殺したオニの名にちなんで名付けられた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTachiDojigiriSaya",
+      "name": "童子切安綱 (鞘付き)",
+      "description": "日本の最も偉大な剣とされており、刀の発明者である安綱の生涯の傑作。この剣で殺したオニの名にちなんで名付けられた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTachi2",
+      "name": "備前の太刀",
+      "description": "刀身に強い反りがある太刀は、馬上で振り下ろすのに理想の武器である。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTachi2Saya",
+      "name": "備前の太刀 (鞘付き)",
+      "description": "刀身に強い反りがある太刀は、馬上で振り下ろすのに理想の武器である。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPNodachi",
+      "name": "野太刀",
+      "description": "「戦場の剣」は携帯が難しく、主に戦場で使われた。抜くには鞘を取り払わねばならない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPNodachiSaya",
+      "name": "野太刀 (鞘付き)",
+      "description": "「戦場の剣」は携帯が難しく、主に戦場で使われた。抜くには鞘を取り払わねばならない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPNodachi2",
+      "name": "関の野太刀",
+      "description": "「戦場の剣」は携帯が難しく、主に戦場で使われた。抜くには鞘を取り払わねばならない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPNodachi2Saya",
+      "name": "関の野太刀 (鞘付き)",
+      "description": "「戦場の剣」は携帯が難しく、主に戦場で使われた。抜くには鞘を取り払わねばならない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPOdachi",
+      "name": "大太刀",
+      "description": "日本のグレートソード。扱うのが難しく、多くは神社に奉納されたものである。抜くには鞘を取り払わねばならない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPOdachiSaya",
+      "name": "大太刀 (鞘付き)",
+      "description": "日本のグレートソード。扱うのが難しく、多くは神社に奉納されたものである。抜くには鞘を取り払わねばならない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPOdachiTaroTachi",
+      "name": "太郎太刀",
+      "description": "大太刀を操る技量で有名であった侍、真柄直隆の所持していた巨大な奉納刀。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPOdachiTaroTachiSaya",
+      "name": "太郎太刀 (鞘付き)",
+      "description": "大太刀を操る技量で有名であった侍、真柄直隆の所持していた巨大な奉納刀。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPNagamaki",
+      "name": "長巻",
+      "description": "長柄武器と刀の交差点。遠い間合いから切り払って使う。抜くには鞘を取り払わねばならない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPNagamakiSaya",
+      "name": "長巻 (鞘付き)",
+      "description": "長柄武器と刀の交差点。遠い間合いから切り払って使う。抜くには鞘を取り払わねばならない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "version": 4,
+      "id": "KMPSangssudo",
+      "name": "サンスドー",
+      "description": "高度な技術を持つ兵士によって防御的な技に扱われる珍しい韓国の大剣。非常に長い柄が特徴。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "version": 4,
+      "id": "KMPSangssudoSheath",
+      "name": "サンスドー (鞘付き)",
+      "description": "高度な技術を持つ兵士によって防御的な技に扱われる珍しい韓国の大剣。非常に長い柄が特徴。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaUnfinished",
+      "name": "刀の刃",
+      "description": "茎に刀鍛冶の名が刻まれた刀の刃。この状態では戦闘に向かない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPDaisho",
+      "name": "大小",
+      "description": "注意: このアイテムは諸事情によりうまく動作しないため隠しています。解決法がわかる方は教えてください。侍が携行していた一組の剣であり、彼の誉れを表していた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPBokuto",
+      "name": "木刀",
+      "description": "刀の形状をそのまま真似た頑丈な木製の剣。安全な訓練用の代替物だが、それでもかなり威力が出る。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPShinai",
+      "name": "竹刀",
+      "description": "剣道で使う軽量な竹の棒。糸は適切な打ち込みのために刃の向きを表している。"
+    }
+  ]
+}
