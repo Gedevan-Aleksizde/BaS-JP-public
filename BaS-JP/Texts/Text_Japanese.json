@@ -659,13 +659,6 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Weapons",
-          "text": "武器",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Blunt",
           "text": "鈍器",
           "spriteAddress": null,
@@ -701,58 +694,10 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Clothes",
-          "text": "布製",
-          "spriteAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Leather",
-          "text": "革製",
-          "spriteAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Plate",
-          "text": "プレートアーマー",
-          "spriteAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Mages",
-          "text": "魔術師",
-          "spriteAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Potion",
           "text": "ポーション",
           "spriteAddress": null,
           "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Consumables",
-          "text": "消耗品",
-          "spriteAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Tools",
-          "text": "道具",
-          "spriteAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Utilities",
-          "text": "便利グッズ",
-          "spriteAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Food",
-          "text": "食料",
-          "spriteAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
@@ -3402,6 +3347,69 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Weapons",
+          "text": "武器",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Consumables",
+          "text": "消耗品",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Food",
+          "text": "食料",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Tools",
+          "text": "道具",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Utilities",
+          "text": "便利グッズ",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Clothes",
+          "text": "布製",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Leather",
+          "text": "革製",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Plate",
+          "text": "プレートアーマー",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Mages",
+          "text": "魔術師",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Warzone",
           "text": "交戦地帯",
           "spriteAddress": null,
@@ -5177,6 +5185,30 @@
     // official localization not supported yet
       {
         "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+        "id": "Anvil",
+        "name": "金床",
+        "description": "説明なし"
+      },
+      {
+        "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+        "id": "AnvilSupport",
+        "name": "金床の台",
+        "description": "説明なし"
+      },
+      {
+        "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+        "id": "BarrelBasement1",
+        "name": "樽の底",
+        "description": "説明なし"
+      },
+      {
+        "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+        "id": "BarrelDestroy1",
+        "name": "古い樽",
+        "description": "説明なし"
+      },
+      {
+        "$type": "ThunderRoad.TextData+Item, ThunderRoad",
         "id": "Chandelier",
         "name": "シャンデリア",
         "description": "説明なし"
@@ -5189,7 +5221,7 @@
       },
       {
         "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-        "id": "ForestRock",
+        "id": "Rock",
         "name": "岩",
         "description": "説明なし"
       },
@@ -5282,30 +5314,6 @@
         "$type": "ThunderRoad.TextData+Item, ThunderRoad",
         "id": "Portcullis",
         "name": "落とし戸",
-        "description": "説明なし"
-      },
-            {
-        "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-        "id": "Anvil",
-        "name": "金床",
-        "description": "説明なし"
-      },
-      {
-        "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-        "id": "AnvilSupport",
-        "name": "金床の台",
-        "description": "説明なし"
-      },
-      {
-        "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-        "id": "BarrelBasement1",
-        "name": "樽の底",
-        "description": "説明なし"
-      },
-      {
-        "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-        "id": "BarrelDestroy1",
-        "name": "古い樽",
         "description": "説明なし"
       },
       // Spells
