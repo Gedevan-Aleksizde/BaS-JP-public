@@ -1,0 +1,405 @@
+{
+  "$type": "ThunderRoad.TextData, ThunderRoad",
+  "id": "Japanese",
+  "saveFolder": "bas",
+  "version": 1,
+  "textGroups": [
+    {
+      "$type": "ThunderRoad.TextData+TextGroup, ThunderRoad",
+      "id": "Default",
+      "texts": [
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Longsword MegaPack",
+          "text": "長剣詰合せ"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPDuelistsDagger",
+      "name": "決闘者の短剣",
+      "description": "受け流すために大きな鍔のある短剣。対戦相手の刃を受け止め反撃するのを容易にする。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPParryingDagger",
+      "name": "受け流しの短剣",
+      "description": "軽量な短剣。携帯の容易な予備武器であり、接近された際にもう片方の手に持つ剣としても使える。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPRondel",
+      "name": "ロンデルダガー",
+      "description": "非常に太い刺突用の刃を持つ戦場用の短剣。隙間に潜り込み、鎧を容易に貫通することができる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPSwordHiltedDagger",
+      "name": "剣型鍔の短剣",
+      "description": "剣のように大きな鍔のついた戦闘用の短剣。目立つことを意図しているが、それでも戦闘においてもとても有効である。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPAutumnbrand",
+      "name": "錦秋の刃",
+      "description": "異なる種類の良質の金属から作られた剣。その名は所有者が一年で最も好む季節にちなむ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPAutumnbrandSheath",
+      "name": "錦秋の刃",
+      "description": "異なる種類の良質の金属から作られた剣。その名は所有者が一年で最も好む季節にちなむ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPEstoc2",
+      "name": "タック",
+      "description": "太い刃を持つ刺突用の剣。鎖鎧などの装甲に突き立てても折れ曲がらない力強さがある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPEstoc2Sheath",
+      "name": "タック",
+      "description": "太い刃を持つ刺突用の剣。鎖鎧などの装甲に突き立てても折れ曲がらない力強さがある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPEstoc3",
+      "name": "イングランドのタック",
+      "description": "太い刃を持つ設計の刺突剣。鎖鎧などの装甲に突き立てても折れ曲がらない力強さがある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPEstoc3Sheath",
+      "name": "イングランドのタック",
+      "description": "太い刃を持つ設計の刺突剣。鎖鎧などの装甲に突き立てても折れ曲がらない力強さがある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPGalxeyLongsword",
+      "name": "ガリュイールの長剣",
+      "description": "上質の鋼鉄から作り出したきらめく刃を持つ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPGalxeyLongswordSheath",
+      "name": "ガリュイールの長剣",
+      "description": "上質の鋼鉄から作り出したきらめく刃を持つ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPPallaviciniSword",
+      "name": "パラヴィチーニの剣",
+      "description": "イタリアの独特のバスタードソード。見た目が良いがモルドハウを念頭に置いて作られとても機能的でもある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPPallaviciniSwordSheath",
+      "name": "パラヴィチーニの剣",
+      "description": "イタリアの独特のバスタードソード。見た目が良いがモルドハウを念頭に置いて作られとても機能的でもある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPSideSword",
+      "name": "サイドソード",
+      "description": "レイピアの予備の剣で、広い刃によりより斬撃能力があるが、刺突も強力である。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPSideSwordSheath",
+      "name": "サイドソード",
+      "description": "レイピアの予備の剣で、広い刃によりより斬撃能力があるが、刺突も強力である。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPWrithenHiltSword",
+      "name": "ねじれた鍔の剣",
+      "description": "路上での戦闘のために作られた、装飾のある剣。一般人に見せびらかすためでもある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPWrithenHiltSwordSheath",
+      "name": "ねじれた鍔の剣",
+      "description": "路上での戦闘のために作られた、装飾のある剣。一般人に見せびらかすためでもある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPBonePommelSword",
+      "name": "骨柄の長剣",
+      "description": "骨の形の柄頭でバランスをとる丈夫な長剣。死神が手を差し伸べるだろう。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPBonePommelSwordSheath",
+      "name": "骨柄の長剣",
+      "description": "骨の形の柄頭でバランスをとる丈夫な長剣。死神が手を差し伸べるだろう。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPCivilianSword",
+      "name": "市民の剣",
+      "description": "一般兵が使用する剣より高級な剣。剣を持った相手と戦うのに適した追加部品が鍔にある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPCivilianSwordSheath",
+      "name": "市民の剣",
+      "description": "一般兵が使用する剣より高級な剣。剣を持った相手と戦うのに適した追加部品が鍔にある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPClunySword",
+      "name": "クリュニーの剣",
+      "description": "長持ちするよう設計された車輪状の柄頭のある細い剣。鍔の雨除けは天候による損傷を減らすのに理想。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPClunySwordSheath",
+      "name": "クリュニーの剣",
+      "description": "長持ちするよう設計された車輪状の柄頭のある細い剣。鍔の雨除けは天候による損傷を減らすのに理想。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPDanishLongsword",
+      "name": "デーンの長剣",
+      "description": "近接戦闘で握りやすいようにリカッソ付近を細くした、デーン人の独特の剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPDanishLongswordSheath",
+      "name": "デーンの長剣",
+      "description": "近接戦闘で握りやすいようにリカッソ付近を細くした、デーン人の独特の剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPFeder",
+      "name": "フェーダーシュヴェアート",
+      "description": "長剣の重量とバランスを再現しつつ殺傷力をなくしたイタリアの練習用の剣。しかし危険であることに変わりはない。"      
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPGallowglass",
+      "name": "ギャロウグラスの剣",
+      "description": "傭兵の手によって装飾されたアイルランドの長剣。"      
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPGallowglassSheath",
+      "name": "ギャロウグラスの剣",
+      "description": "傭兵の手によって装飾されたアイルランドの長剣。"      
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPEstoc",
+      "name": "エストック",
+      "description": "頑丈な刃の刺突用の剣。鎖鎧などの装甲に突き立てても折れ曲がらない力強さがある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPEstocSheath",
+      "name": "エストック",
+      "description": "頑丈な刃の刺突用の剣。鎖鎧などの装甲に突き立てても折れ曲がらない力強さがある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPHanweiBastardSword",
+      "name": "バスタードソード",
+      "description": "出自不明の不思議な剣。異なる剣の部品を鍛冶師の技で融合した一品。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPHanweiBastardSwordSheath",
+      "name": "バスタードソード",
+      "description": "出自不明の不思議な剣。異なる剣の部品を鍛冶師の技で融合した一品。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPItalianLongsword",
+      "name": "イタリアの長剣",
+      "description": "イタリア風の意匠の長剣。刺突攻撃に向いているが、刃の鋭さもあなどれない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPItalianLongswordSheath",
+      "name": "イタリアの長剣",
+      "description": "イタリア風の意匠の長剣。刺突攻撃に向いているが、刃の鋭さもあなどれない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPNormanTwoHander",
+      "name": "北方の両手剣",
+      "description": "象徴的な十字鍔の意匠のある、広い刃を持つ剣。暗黒時代のヴァイキングの剣ととてもよく似ている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPNormanTwoHanderSheath",
+      "name": "北方の両手剣",
+      "description": "象徴的な十字鍔の意匠のある、広い刃を持つ剣。暗黒時代のヴァイキングの剣ととてもよく似ている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPSeigneurSword",
+      "name": "セニョールの剣",
+      "description": "中世後期の領主が使ったフランス風の剣。軽量で片手でも両手でも容易に使用できる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPSeigneurSwordSheath",
+      "name": "セニョールの剣",
+      "description": "中世後期の領主が使ったフランス風の剣。軽量で片手でも両手でも容易に使用できる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPTeutonicLongsword",
+      "name": "チュートンの長剣",
+      "description": "一見すると簡素だが、このドイツ製の剣は均整が取れ、十字鍔と柄頭はモルドハウを繰り出すのに最適である。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPTeutonicLongswordSheath",
+      "name": "チュートンの長剣",
+      "description": "一見すると簡素だが、このドイツ製の剣は均整が取れ、十字鍔と柄頭はモルドハウを繰り出すのに最適である。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPTeutonicEstoc",
+      "name": "チュートンのエストック",
+      "description": "全身に鎧を着込んだ想定での決闘用の剣。ニッチで扱うのが難しいが決死の対装甲戦闘に優れる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPTeutonicEstocSheath",
+      "name": "チュートンのエストック",
+      "description": "全身に鎧を着込んだ想定での決闘用の剣。ニッチで扱うのが難しいが決死の対装甲戦闘に優れる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPExecutionersSword",
+      "name": "死刑執行人の剣",
+      "description": "斬首刑のために設計されたと一見してわかる剣。そのため刺突攻撃に使うのは非常に困難。"      
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPExecutionersSwordSheath",
+      "name": "死刑執行人の剣",
+      "description": "A sword designed explicitly for execution via beheading. Very unweildy and incapable of stabbing as a result."
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPGaelicLongsword",
+      "name": "ゲールの長剣",
+      "description": "鍔にクローバー型の飾りのある、アイルランド=ゲール人の着想を得た長剣。重々しく強力な斬撃を生む。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPGaelicLongswordSheath",
+      "name": "ゲールの長剣",
+      "description": "鍔にクローバー型の飾りのある、アイルランド=ゲール人の着想を得た長剣。重々しく強力な斬撃を生む。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPKatzbalger",
+      "name": "カッツバルガー",
+      "description": "本来は短い剣だったが、見た目の良さを求めて戦場用の剣として作り出された。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPKatzbalgerSheath",
+      "name": "カッツバルガー",
+      "description": "本来は短い剣だったが、見た目の良さを求めて戦場用の剣として作り出された。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPLandgraveSword",
+      "name": "方伯の剣",
+      "description": "風変わりなエストック風の重い刃を持つ高貴なドイツの長剣。貴族のために作られた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPLandgraveSwordSheath",
+      "name": "方伯の剣",
+      "description": "風変わりなエストック風の重い刃を持つ高貴なドイツの長剣。貴族のために作られた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPStonewashedSword",
+      "name": "石研ぎの大剣",
+      "description": "石研ぎにより黒く仕上げられ身の毛のよだつような見た目の、重い十字形の剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPStonewashedSwordSheath",
+      "name": "石研ぎの大剣",
+      "description": "石研ぎにより黒く仕上げられ身の毛のよだつような見た目の、重い十字形の剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPTeutonicWarSword",
+      "name": "チュートンの大剣",
+      "description": "チュートン騎士団によって使われた、戦場での使用を想定した剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPTeutonicWarSwordSheath",
+      "name": "チュートンの大剣",
+      "description": "チュートン騎士団によって使われた、戦場での使用を想定した剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPBearingSword",
+      "name": "儀礼用の剣",
+      "description": "富を誇示する巨大な剣。戦場で使う武器としては適さない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPGreatsword",
+      "name": "グレートソード",
+      "description": "高い技能を持つ戦士が戦場で使っていた、真の両手剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPZweihander",
+      "name": "ツヴァイハンダー",
+      "description": "ドイツ傭兵を象徴する剣。高い給料で雇われる兵士が使った。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPBaroqueSword",
+      "name": "バロック式メッサー",
+      "description": "18世紀風味のメッサー。貴族の装いにも合う。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPBaroqueSwordSheath",
+      "name": "バロック式メッサー",
+      "description": "18世紀風味のメッサー。貴族の装いにも合う。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPGreatFalchion",
+      "name": "片手半ファルシオン",
+      "description": "両手にもおさまるように改造した重い斬撃剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPGreatFalchionSheath",
+      "name": "片手半ファルシオン",
+      "description": "両手にもおさまるように改造した重い斬撃剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPGrosseMesser",
+      "name": "グロスメッサー",
+      "description": "ナイフの構造に基づいた大きめの斬撃剣。"      
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPGrosseMesserSheath",
+      "name": "グロスメッサー",
+      "description": "ナイフの構造に基づいた大きめの斬撃剣。"
+    }
+  ]
+}
