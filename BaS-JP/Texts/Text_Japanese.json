@@ -1997,7 +1997,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "CrouchOnJump",
-          "text": "しゃがみジャンプ",
+          "text": "ジャンプ時にしゃがみ姿勢",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -2529,7 +2529,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "PositionDamperMultiplier",
-          "text": "武器推進力乗数",
+          "text": "武器操作の抵抗乗数",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -2543,7 +2543,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "RotationDamperMultiplier",
-          "text": "ダンパー回転乗数",
+          "text": "回転動作の抵抗乗数",
           "spriteAddress": null,
           "videoAddress": null
         },
