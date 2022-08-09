@@ -200,8 +200,8 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "LMPFeder",
-      "name": "フェーダーシュヴェアート",
-      "description": "長剣の重量とバランスを再現しつつ殺傷力をなくしたイタリアの練習用の剣。しかし危険であることに変わりはない。"      
+      "name": "フェーダーシュヴェーアト",
+      "description": "長剣の重量とバランスを再現しつつ殺傷力をなくしたイタリアの練習用の剣。しかし危険であることに変わりはない。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
