@@ -1,7 +1,6 @@
 {
   "$type": "ThunderRoad.TextData, ThunderRoad",
   "id": "Japanese",
-  "saveFolder": "bas",
   "version": 1,
   "textGroups": [
     {
