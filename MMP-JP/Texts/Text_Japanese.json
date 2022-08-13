@@ -2753,14 +2753,14 @@
       "id": "MMPRen",
       "version": 2,
       "title": "1v1 決闘者",
-      "description": "ルネサンスの決闘者たちが刺突武器や二刀流武器を持ち出してくる。"
+      "description": "ルネサンスの決闘者たちが 刺突武器や二刀流武器を持ち出してくる。"
     },
     {
       "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
       "id": "MMPSabre",
       "version": 2,
       "title": "1v1 サーベル剣士",
-      "description": "さまざまな文化圏のサーベル型の武器を持ち込んだ決闘者たち。"
+      "description": "さまざまな文化圏の サーベル型の武器を持ち込んだ決闘者たち。"
     },
     {
       "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
@@ -2809,7 +2809,7 @@
       "id": "MMPCaestusEnemy",
       "version": 2,
       "title": "セスタス",
-      "description": "腕に格闘武器であるセスタスを装備したローマ闘技場の拳闘士たち。"
+      "description": "腕に格闘武器であるセスタスを装備した ローマ闘技場の拳闘士たち。"
     },
     {
       "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
