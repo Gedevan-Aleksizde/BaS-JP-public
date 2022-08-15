@@ -35,7 +35,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "6",
-          "text": "(MMP) 長剣の刃を掴むと、保護されていない顔面など小さい目標をより正確に刺すことができる。これを Halbschwert (ハルプシュヴェアート) という。"
+          "text": "(MMP) 長剣の刃を掴むと、保護されていない顔面など小さい目標をより正確に刺すことができる。これを Halbschwert (ハルプシュヴェーアト) という。"
           // The original text says "half-swording" but I will spell "halbschwert", the original word in German because of consistency.
         },
         {
