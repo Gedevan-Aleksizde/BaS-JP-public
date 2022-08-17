@@ -2522,28 +2522,28 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "PositionSpringMultiplier",
-          "text": "武器威力乗数",
+          "text": "武器のばね乗数",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "PositionDamperMultiplier",
-          "text": "武器操作の抵抗乗数",
+          "text": "武器のダンパー乗数",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "RotationSpringMultiplier",
-          "text": "ジャンプ回転乗数",
+          "text": "回転動作のばね乗数",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "RotationDamperMultiplier",
-          "text": "回転動作の抵抗乗数",
+          "text": "回転動作のダンパー乗数",
           "spriteAddress": null,
           "videoAddress": null
         },
