@@ -74,16 +74,17 @@ if __name__ == '__main__':
     for version in entries.keys():
         for folder in entries[version]['text'].keys():
             for fp in entries[version]['path'].joinpath(f'{folder}').rglob('*.json'):
-                if fp.exists():
-                    print(fp)
-                    with fp.open('r', encoding='utf-8') as f:
-                        item = json5.load(f, encoding='utf-8')
-                    if params.verbose:
-                        print(f"{fp} loaded.")
-                else:
-                    warnings.warning(f'{fp} not exists!')
-                item = {k:v for k, v in item.items() if k in params.attrs[folder]}
-                entries[version]['text'][folder] += [item]
+                if folder != "Texts" or fp.name == f"Text_{params.general['lang']}.json":
+                    if fp.exists():
+                        print(fp)
+                        with fp.open('r', encoding='utf-8') as f:
+                            item = json5.load(f, encoding='utf-8')
+                        if params.verbose:
+                            print(f"{fp} loaded.")
+                    else:
+                        warnings.warning(f'{fp} not exists!')
+                    item = {k:v for k, v in item.items() if k in params.attrs[folder]}
+                    entries[version]['text'][folder] += [item]
         if len(entries[version]['text']['Texts']) != 0:
             entries[version]['text']['Texts'] = [x['texts'] for x in entries[version]['text']['Texts'][0]['textGroups'] if x['id'] == 'Tips'][0]
     
