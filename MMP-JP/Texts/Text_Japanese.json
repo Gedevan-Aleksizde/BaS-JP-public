@@ -609,8 +609,8 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "エスタッツのファルシオン",
-      "name": "兵士の肉切り包丁",
+      "id": "MMPCleaver",
+      "name": "エスタッツのファルシオン",
       "description": "単純で簡単に製造できる武器。貧乏兵士が貧乏兵士を殺すのに使われた。"
     },
     {
