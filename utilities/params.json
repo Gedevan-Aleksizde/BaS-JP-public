@@ -13,9 +13,9 @@
     // "previous_origin": "Origin/KatanaMegaPackR/U11b4/",
     // "previous_translation": "KatanaMegaPackR-JP/Texts/Text_Japanese.json",
     
-    //"target": "Origin/LongswordMegaPack/U11.1",
-    //"previous_origin": "Origin/LongswordMegaPack/U11b4/",
-    //"previous_translation": "LongswordMegaPack-JP/Texts/Text_Japanese.json",
+    "target": "Origin/LongswordMegaPack/U11.2.2.2",
+    "previous_origin": "Origin/LongswordMegaPack/U11.1/",
+    "previous_translation": "LongswordMegaPack-JP/Texts/Text_Japanese.json",
     "attrs": {
         "Texts": [
             "$type",
