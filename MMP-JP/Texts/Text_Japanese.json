@@ -61,7 +61,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "11",
-          "text": "(MMP) 農具、巨大な飾り物の剣、派手な変わり種の剣といったもののなかには、単に実戦で使うこと意図しただけでないものもある。"
+          "text": "(MMP) 農具、巨大な装飾用の剣、派手な変わり種の剣といったもののなかには、実戦で使うこと意図したわけでないものもある。"
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
@@ -256,7 +256,7 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Tools",
+          "id": "Tool",
           "text": "道具"
         },
         {
@@ -669,7 +669,7 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "SwordBreaker",
+      "id": "MMPSwordBreaker",
       "name": "ソードブレーカー",
       "description": "その歯で相手のレイピアの刀身を受け止め操ることができるため、もう一方の手で扱う受け流すための短剣。"
     },
@@ -1285,6 +1285,12 @@
       "id": "MMPSpear2Shield",
       "name": "スピアシールド",
       "description": "短い槍の柄に、近接戦で手元を守るもの小盾を取り付けたもの。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPFalchionSpear",
+      "name": "長柄のファルシオン",
+      "description": "長柄の先端にファルシオンの刃を付けたもの。発想は粗雑だがかなり効果的だ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2176,6 +2182,54 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPFlintlockPistol",
+      "name": "フリントロック式ピストル",
+      "description": "火打ち石を火薬に叩きつけて発火させる前装式の火器。撃つ前に銃口から弾をこめて撃鉄を起こす。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPHandCannon",
+      "name": "ハンドカノン",
+      "description": "実用にはあまりに扱いづらい火器のお化け。銃身に火薬と、次いで砲弾を装填する。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBag_BlackPowderCharge",
+      "name": "火薬袋",
+      "description": "黒色火薬とマスケットの銃弾が詰められた紙の薬莢。対応した火器の銃身に入れる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBag_CannonBall",
+      "name": "砲弾袋",
+      "description": "黒色火薬とマスケットの銃弾が詰められた紙の薬莢。対応した火器の銃身に入れる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBag_PaperCartridge",
+      "name": "銃弾袋",
+      "description": "黒色火薬とマスケットの銃弾が詰められた紙の薬莢。対応した火器の銃身に入れる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCannonBallProjectile",
+      "name": "銃弾",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPFlintlockBullet",
+      "name": "銃弾",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPShrapnel",
+      "name": "シャープネル弾",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPCompositeBow",
       "name": "複合弓",
       "description": "平均的な弓と比べより腕力が要求されるが威力のある短弓。"
@@ -2245,6 +2299,24 @@
       "id": "MMPHipQuiver_ArrowSilver",
       "name": "銀の矢筒",
       "description": "銀の鎧通しの矢。魔力を帯びさせるのに適している。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCrossbowBolt",
+      "name": "太矢",
+      "description": "クロスボウ用の重く太い矢。重装甲の兵士にも恐れられた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPHeavyCrossbow",
+      "name": "重いクロスボウ",
+      "description": "弦を固定し簡単に打てるようにした弓の一種。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCrossbow",
+      "name": "Crossbow Test",
+      "description": "A staple of combat since ancient times, the bow is a lethal and effective long range weapon."
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2656,9 +2728,63 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPTrickDagger",
+      "name": "仕込みダガー",
+      "description": "決闘の相手に向けて卑怯な手を用意したダガー。作らせた人間は臆病者か、あるいは狡猾な人間か。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPTrickDaggerProjectile",
+      "name": "仕込みダガーの先端",
+      "description": "決闘の相手に向けて卑怯な手を用意したダガー。作らせた人間は臆病者か、あるいは狡猾な人間か。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBlackJack",
       "name": "ブラックジャック",
       "description": "無防備な相手に相手に致命傷を負わせないことを目的とした、隠し持てる棍棒。敵を容易に気絶させ戦闘不能にさせることができる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBlackPowderCharge",
+      "name": "装薬",
+      "description": "弾を飛ばすために使う発火しやすい黒色火薬の包装。取扱注意！"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCannonBall",
+      "name": "砲弾",
+      "description": "カノン砲で飛ばす硬い鉄の球。飛ばすには大量の火薬が必要。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPPaperCartridge2",
+      "name": "薬莢",
+      "description": "黒色火薬と銃弾の入った紙の薬莢。対応する火器の銃身に入れる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBombClay",
+      "name": "焙烙玉",
+      "description": "紙と粘土で作られた爆弾。発火するとすぐに爆発し全方位に陶片を撒き散らす。非常に危険で予測不能。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCaltropThrowable",
+      "name": "マキビシ",
+      "description": "追跡者の足止めに使う対人用トラップ。時には馬にも有効。踏みつけたら数週間は戦えない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCaltrop",
+      "name": "マキビシ",
+      "description": "追跡者の足止めに使う対人用トラップ。時には馬にも有効。踏みつけたら数週間は戦えない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPLandmine",
+      "name": "自犯炮",
+      "description": "陶器で作られた単純な機械式爆弾。作動させたら人間が上に乗ると爆発する。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
