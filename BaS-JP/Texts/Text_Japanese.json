@@ -3610,6 +3610,111 @@
           "text": "ハイコントラスト",
           "spriteAddress": null,
           "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "CharacterOriginNation",
+          "text": "出自",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "CharacterSelectionUseAllColors",
+          "text": "Use all colors",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "CharacterSelectionPrimaryColor",
+          "text": "メイン",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "CharacterSelectionSecondaryColor",
+          "text": "サブ",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LocationHomeTowersRuins",
+          "text": "塔の廃墟",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LocationHomeHouse",
+          "text": "家",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LocationHomeTravelMap",
+          "text": "ナビゲーションマップ",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LocationHomeBoat",
+          "text": "ボート",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LocationHomeRockyHorn",
+          "text": "岩肌の岬",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LocationHomeOldOutpost",
+          "text": "古い前哨基地",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LocationHomeStoneArch",
+          "text": "石のアーチ",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LocationHomeCaveEntrance01",
+          "text": "洞窟の入り口",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LocationHomeCaveEntrance02",
+          "text": "洞窟の入り口",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LocationHomeOpsildSea",
+          "text": "オプシルド海",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LocationHomeHives",
+          "text": "蜂の巣",
+          "spriteAddress": null,
+          "videoAddress": null
         }
       ]
     },
@@ -3909,6 +4014,13 @@
       "$type": "ThunderRoad.TextData+TextGroup, ThunderRoad",
       "id": "Levels",
       "texts": [
+		{
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Home",
+          "text": "自宅",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Arena",
