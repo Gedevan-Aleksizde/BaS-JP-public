@@ -1,21 +1,21 @@
 {
     //"target": "D:/User/Saved Game/BaS-save/mods/The Outer Rim/The Outer Rim",
     
-    "target": "Origin/BaS/U11.2/bas",
-    "previous": "Origin/BaS/U11.1/bas",
+    "target": "Origin/BaS/U11.3/bas",
+    "previous": "Origin/BaS/U11.2/bas",
     "previous_translation": "BAS-JP/Texts/Text_Japanese.json",
     
-    "target": "Origin/MMP/U11.2",
-    "previous_origin": "Origin/MMP/U11/",
-    "previous_translation": "MMP-JP/Texts/Text_Japanese.json",
+    // "target": "Origin/MMP/U11.2",
+    // "previous_origin": "Origin/MMP/U11/",
+    // "previous_translation": "MMP-JP/Texts/Text_Japanese.json",
 
     // "target": "Origin/KatanaMegaPackR/U11.1",
     // "previous_origin": "Origin/KatanaMegaPackR/U11b4/",
     // "previous_translation": "KatanaMegaPackR-JP/Texts/Text_Japanese.json",
     
-    "target": "Origin/LongswordMegaPack/U11.2.2.2",
-    "previous_origin": "Origin/LongswordMegaPack/U11.1/",
-    "previous_translation": "LongswordMegaPack-JP/Texts/Text_Japanese.json",
+    // "target": "Origin/LongswordMegaPack/U11.2.2.2",
+    // "previous_origin": "Origin/LongswordMegaPack/U11.1/",
+    // "previous_translation": "LongswordMegaPack-JP/Texts/Text_Japanese.json",
     "attrs": {
         "Texts": [
             "$type",
