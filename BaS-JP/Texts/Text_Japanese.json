@@ -4079,6 +4079,13 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Dungeon", // id直せよ…
+          "text": "ダンジョン",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Market",
           "text": "市場",
           "spriteAddress": null,
