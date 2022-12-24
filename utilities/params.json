@@ -5,9 +5,9 @@
     "previous": "Origin/BaS/U11.2/bas",
     "previous_translation": "BAS-JP/Texts/Text_Japanese.json",
     
-    // "target": "Origin/MMP/U11.2",
-    // "previous_origin": "Origin/MMP/U11/",
-    // "previous_translation": "MMP-JP/Texts/Text_Japanese.json",
+    "target": "Origin/MMP/U11.3",
+    "previous_origin": "Origin/MMP/U11.2/",
+    "previous_translation": "MMP-JP/Texts/Text_Japanese.json",
 
     // "target": "Origin/KatanaMegaPackR/U11.1",
     // "previous_origin": "Origin/KatanaMegaPackR/U11b4/",
