@@ -505,42 +505,42 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "TooltipExternalCameraOculusTouch",
-          "text": "[Y]と[B]を同時に押すと、\nまたは[Y]と[A]を同時に押すと外部ビューカメラを固定します。",
+          "text": "[Y]と[B]を同時に押すと、\nまたは[Y]と[A]を同時に押すと外部視点カメラを固定します。",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "TooltipExternalCameraViveWand",
-          "text": "[右タッチパッド]と[左トリガー]を同時に押す、\nまたは[右タッチパッド]と[右トリガー]を同時に押すと外部ビューカメラを固定します。",
+          "text": "[右タッチパッド]と[左トリガー]を同時に押す、\nまたは[右タッチパッド]と[右トリガー]を同時に押すと外部視点カメラを固定します。",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "TooltipExternalCameraWMR",
-          "text": "[左メニュー]と[右メニュー]を同時に押す、\nまたは[右メニュー]と[右トリガー]を同時に押すと外部ビューカメラを固定します。",
+          "text": "[左メニュー]と[右メニュー]を同時に押す、\nまたは[右メニュー]と[右トリガー]を同時に押すと外部視点カメラを固定します。",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "TooltipExternalCameraIndex",
-          "text": "[左B]と[右B]を同時に押す、\nまたは[左B]と[右A]を同時に押すと外部ビューカメラを固定します。",
+          "text": "[左B]と[右B]を同時に押す、\nまたは[左B]と[右A]を同時に押すと外部視点カメラを固定します。",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "TooltipExternalCameraPicoNeo3",
-          "text": "[Y]と[B]を同時に押す、\nまたは[Y]と[A]を同時に押して外部ビューカメラを固定します",
+          "text": "[Y]と[B]を同時に押す、\nまたは[Y]と[A]を同時に押して外部視点カメラを固定します",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "TooltipExternalCameraPico4",
-          "text": "[Y]と[B]を同時に押す、\nまたは[Y]と[A]を同時に押して外部ビューカメラを固定します。",
+          "text": "[Y]と[B]を同時に押す、\nまたは[Y]と[A]を同時に押して外部視点カメラを固定します。",
           "spriteAddress": null,
           "videoAddress": null
         },
