@@ -1056,6 +1056,13 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "EasyDismemberment",
+          "text": "簡単な切断",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "CutThroat",
           "text": "喉裂き",
           "spriteAddress": null,
@@ -1758,6 +1765,13 @@
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Available",
           "text": "有効",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "AvailableFullRelease",
+          "text": "完成版リリース時に解放",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -3647,7 +3661,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "ReturnHomeAreaWarning",
-          "text": "自宅に戻ろうとしています。キャンセルする場合は引き返してください。",
+          "text": "自宅に帰ろうとしています。帰りたくない場合は引き返してください。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -6152,7 +6166,7 @@
     {
       "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
       "id": "KnightSurvive",
-      "title": "生存",
+      "title": "サバイバル",
       "description": "一斉に追ってくる8人の騎士たちとの戦い。君は生き残れるか？"
     },
     {
