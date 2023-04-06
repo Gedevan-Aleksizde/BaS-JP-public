@@ -204,6 +204,18 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPFederSharp",
+      "name": "血文字の剣",
+      "description": "決闘による血の償いのために、刃を磨いだ練習剣。元が真剣ではなく先端も丸めてあるためさほど脅威ではないが、出血させるには十分だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPFederSharpSheath",
+      "name": "血文字の剣",
+      "description": "決闘による血の償いのために、刃を磨いだ練習剣。元が真剣ではなく先端も丸めてあるためさほど脅威ではないが、出血させるには十分だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "LMPGallowglass",
       "name": "ギャロウグラスの剣",
       "description": "傭兵の手によって装飾されたアイルランドの長剣。"      
@@ -397,8 +409,32 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPTheQuintSword",
+      "name": "『クインタ』", // https://www.youtube.com/watch?v=g39a8_GB3FA
+      "description": "長い柄とやや短い刀身を持つドイツの両手剣。このバランスによって大きさに反して速い動きができる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPTheQuintSwordSheath",
+      "name": "『クインタ』",
+      "description": "長い柄とやや短い刀身を持つドイツの両手剣。このバランスによって大きさに反して速い動きができる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPBearingSword",
+      "name": "儀礼用の剣",
+      "description": "富を誇示する巨大な剣。戦場で使う武器としては適さない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "LMPCurvedZwei",
+      "name": "反りのあるツヴァイハンダー",
+      "description": "グロスメッサーを好んださる大貴族が作らせた、反りのある大剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "LMPZweihander",
-      "name": "ツヴァイハンダー",
+      "name": "ツヴァイハンダーシュヴェーアト",
       "description": "ドイツ傭兵を象徴する剣。高い給料で雇われる兵士が使った。"
     },
     {
