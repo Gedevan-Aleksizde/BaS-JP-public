@@ -67,13 +67,13 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "LMPAutumnbrand",
-      "name": "錦秋の刃",
+      "name": "『錦秋の刃』",
       "description": "異なる種類の良質の金属から作られた剣。その名は所有者が一年で最も好む季節にちなむ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "LMPAutumnbrandSheath",
-      "name": "錦秋の刃",
+      "name": "『錦秋の刃』",
       "description": "異なる種類の良質の金属から作られた剣。その名は所有者が一年で最も好む季節にちなむ。"
     },
     {
@@ -205,13 +205,13 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "LMPFederSharp",
-      "name": "血文字の剣",
+      "name": "『血文字の剣』",
       "description": "決闘による血の償いのために、刃を磨いだ練習剣。元が真剣ではなく先端も丸めてあるためさほど脅威ではないが、出血させるには十分だ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "LMPFederSharpSheath",
-      "name": "血文字の剣",
+      "name": "『血文字の剣』",
       "description": "決闘による血の償いのために、刃を磨いだ練習剣。元が真剣ではなく先端も丸めてあるためさほど脅威ではないが、出血させるには十分だ。"
     },
     {
@@ -410,13 +410,13 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "LMPTheQuintSword",
-      "name": "『クインタ』", // https://www.youtube.com/watch?v=g39a8_GB3FA
+      "name": "『クイント』",  //https://www.youtube.com/watch?v=g39a8_GB3FA
       "description": "長い柄とやや短い刀身を持つドイツの両手剣。このバランスによって大きさに反して速い動きができる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "LMPTheQuintSwordSheath",
-      "name": "『クインタ』",
+      "name": "『クイント』",
       "description": "長い柄とやや短い刀身を持つドイツの両手剣。このバランスによって大きさに反して速い動きができる。"
     },
     {
@@ -428,8 +428,8 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "LMPCurvedZwei",
-      "name": "反りのあるツヴァイハンダー",
-      "description": "グロスメッサーを好んださる大貴族が作らせた、反りのある大剣。"
+      "name": "湾曲したツヴァイハンダー",
+      "description": "グロスメッサーを好んださる大貴族が作らせた、刃に反りのある大剣。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
