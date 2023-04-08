@@ -18,12 +18,6 @@
   "items": [
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSangssudo",
-      "name": "サンスドー",
-      "description": "希少な韓国の大剣。戦場で適切に扱うには長期の訓練が必要である。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTantoKo",
       "name": "小短刀",
       "description": "短刀は戦闘用の武器から上流階級の装飾品として進化していった。"
