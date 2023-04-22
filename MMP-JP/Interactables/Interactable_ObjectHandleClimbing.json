@@ -1,5 +1,6 @@
 {
   "$type": "ThunderRoad.HandleData, ThunderRoad",
   "id": "MMPObjectHandleClimbing",
+  "version": 3,
   "highlightDefaultTitle": ""
 }

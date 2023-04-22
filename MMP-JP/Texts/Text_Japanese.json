@@ -317,18 +317,18 @@
       ]
     }
   ],
-  "items": [
+  "items":[
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSgianDubh",
-      "name": "スキーン・ドゥ",
-      "description": "スコットランド人が伝統的な靴下の中に忍ばせている片刃のナイフ。"
+      "id": "MMPDirk",
+      "name": "ディルク",
+      "description": "戦闘でもそれ以外でも多用途に使えるシンプルな短剣。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPDaggerA",
-      "name": "十字形の短剣",
-      "description": "独特の鍔の形状が目立つ広く使われる短剣。"
+      "id": "MMPIberianDagger",
+      "name": "イベリアの短剣",
+      "description": "イベリア帝国時代の使い古された軍用の短剣。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -344,21 +344,27 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPDaggerLand",
-      "name": "ランツクネヒトの短剣",
-      "description": "精兵のために特別に作られた、華やかな意匠の軍用短剣。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBollockDagger",
       "name": "キドニーダガー",
       "description": "全くどう見ても、肝臓の形状を真似たものにしか見えない。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPDaggerC",
-      "name": "剣型鍔の短剣",
-      "description": "剣のような形の鍔がついた汎用的で頑丈な短剣。他の短剣と比べても剣のような性能。"
+      "id": "MMPDaggerD",
+      "name": "投げナイフ",
+      "description": "投擲用に設計された、手元を守るもののないナイフ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPSgianDubh",
+      "name": "スキーン・ドゥ",
+      "description": "スコットランド人が伝統的な靴下の中に忍ばせている片刃のナイフ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPDaggerA",
+      "name": "十字形の短剣",
+      "description": "独特の鍔の形状が目立つ広く使われる短剣。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -374,27 +380,45 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPAnelaceDagger",
+      "name": "アネレース",
+      "description": "紳士が身につけていた高級な長い短剣あるいは短い剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPCinquedea",
       "name": "チンクエディア",
       "description": "主に装着者の裕福さを示すための民間人の短剣。その形状により典型的な短剣と比べ刺突力を犠牲にして切る力を向上させている。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPDirk",
-      "name": "ディルク",
-      "description": "戦闘でもそれ以外でも多用途に使えるシンプルな短剣。"
+      "id": "MMPDaggerLand",
+      "name": "ランツクネヒトの短剣",
+      "description": "精兵のために特別に作られた、華やかな意匠の軍用短剣。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPIberianDagger",
-      "name": "イベリアの短剣",
-      "description": "イベリア帝国時代の使い古された軍用の短剣。"
+      "id": "MMPDaggerC",
+      "name": "剣型鍔の短剣",
+      "description": "剣のような形の鍔がついた汎用的で頑丈な短剣。他の短剣と比べても剣のような性能。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPAnelaceDagger",
-      "name": "アネレース",
-      "description": "紳士が身につけていた高級な長い短剣あるいは短い剣。"
+      "id": "MMPAssassinNeedle",
+      "name": "『ニードル』",
+      "description": "釘のように尖っており、容易に隠し持つことができ暗殺するのに適している。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPRondel2",
+      "name": "円鍔ダガー",
+      "description": "円盤状の鍔と柄頭が特徴の、丈夫な刃を持つ刺突用の短剣。これは突き立てた時に手が滑らないための設計である。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPDaggerB",
+      "name": "三角刃の円鍔ダガー",
+      "description": "円盤状の鍔と柄頭が特徴の、丈夫な刃を持つ刺突用の短剣。鎧の隙間に通すことに特化している。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -404,33 +428,39 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPDaggerB",
-      "name": "三角刃の円鍔短剣",
-      "description": "円盤状の鍔と柄頭が特徴の、丈夫な刃を持つ刺突用の短剣。鎧の隙間に通すことに特化している。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPRondel2",
-      "name": "円鍔短剣",
-      "description": "円盤状の鍔と柄頭が特徴の、丈夫な刃を持つ刺突用の短剣。これは突き立てた時に手が滑らないための設計である。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPAssassinNeedle",
-      "name": "髪留め",
-      "description": "女性がハニートラップ暗殺に用いたと言われる目立たない髪飾り。 (現在は髪に装備できません)."
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPSeaxT1",
       "name": "狩人のナイフ",
       "description": "一般的なサクソン人の兵士が携帯していた汎用的なナイフ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPThrowingKnife",
+      "name": "均整の取れたナイフ",
+      "description": "安上がりだが効果的なナイフ。投擲して命中しやすくなるよう調整している"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPDacianSica",
+      "name": "ダキア人のシーカ",
+      "description": "古代ダキア人が使っていたことで知られている, 相手に向かって湾曲した短い剣。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPSeaxT2",
       "name": "鍛冶師のナイフ",
       "description": "柄のないシンプルなナイフで、道具として使うために作られたがすばらしく手になじむ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPAntennaeSword",
+      "name": "アンテナ剣",
+      "description": "青銅で作られた片刃のケルトの剣。太古の刀鍛冶はとても高い技術を持っており、青銅からでも十分な長さの剣を作る事ができた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPAnthroSword",
+      "name": "ケルトの短剣",
+      "description": "戦士の墓から見つかった、古代ケルトの剣。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -446,12 +476,6 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPArmingSwordC",
-      "name": "騎士の剣",
-      "description": "比較的長いが、肉厚の片手剣。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBasketHilt",
       "name": "スコットランドの幅広剣",
       "description": "細いレイピアの刃から発展させたことからブロードソードと呼ばれる、クレイモアの原点。"
@@ -464,44 +488,26 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPKatzbalger",
-      "name": "カッツバルゲル",
-      "description": "独特のS字型の鍔を持つ頑丈なやや短い剣。高位の兵士が予備武器として好んだ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPShortSword",
       "name": "クーティエの剣",
       "description": "持ち運びやすく多用途な短い剣。持ち運びが容易で下級兵士たちに好まれた。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPJoyeuse",
-      "name": "ジョワイユーズ",
-      "description": "シャルルマーニュが帯びていたと言われる剣。"
+      "id": "MMPArmingSwordC",
+      "name": "騎士の剣",
+      "description": "比較的長いが、肉厚の片手剣。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPAutumnbrand",
-      "name": "錦秋の刃",
-      "description": "異なる種類の良質の金属から作られた剣。その名は所有者が一年で最も好む季節にちなむ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPPallaviciniSword",
-      "name": "パラヴィチーニの剣",
-      "description": "片手でも両手でも扱うことができる特別な柄を持つバスタードソード。"
+      "id": "MMPKatzbalger",
+      "name": "カッツバルゲル",
+      "description": "独特のS字型の鍔を持つ頑丈なやや短い剣。高位の兵士が予備武器として好んだ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBastardSwordA",
       "name": "レノルドの剣",
-      "description": "片手でも両手でも扱うことができる特別な柄を持つバスタードソード。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBastardSwordB",
-      "name": "エカテリーナのバスタードソード",
       "description": "片手でも両手でも扱うことができる特別な柄を持つバスタードソード。"
     },
     {
@@ -512,33 +518,21 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBastardSwordDS",
-      "name": "バスタードソード",
-      "description": "名ばかりのバスタードソード。片手で扱うには少しばかり長過ぎて重い。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBillyroFlammard",
       "name": "フランベルジュ",
       "description": "うねるような刀身のバスタードソード。炎の形に似ている。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCluny",
-      "name": "クリュニーの剣",
-      "description": "軽量で驚くほど均整のとれたバスタードソードで、錆を防ぐための雨よけも付いている。"
+      "id": "MMPBastardSwordB",
+      "name": "エカテリーナのバスタードソード",
+      "description": "片手でも両手でも扱うことができる特別な柄を持つバスタードソード。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPLongswordFluckier",
-      "name": "フラッキァーのバスタードソード",
-      "description": "骨のような形の柄頭を持ち、シンプルだが精巧な造りの剣。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPGalxeyLongsword",
-      "name": "ガリュイールの剣",
-      "description": "極めて良質の鋼から鍛えられた、きらめく刀。"
+      "id": "MMPEspadaRopera",
+      "name": "エスパダ・ロペラ",
+      "description": "レイピアの発明へとつながる、瀟洒な小型の予備武器。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -554,6 +548,12 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPSabreC",
+      "name": "シャーシカ",
+      "description": "ロシアやウクライナのコサックが使うサーベル。鍔がないことで容易に見分けがつく。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPHussarSabre",
       "name": "シャブラ",
       "description": "ハンガリー=ポーランド式のサーベル。手を守る鎖が柄に取り付けられている。"
@@ -566,9 +566,9 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSabreC",
-      "name": "シャーシカ",
-      "description": "ロシアやウクライナのコサックが使うサーベル。鍔がないことで容易に見分けがつく。"
+      "id": "MMPSpadroon",
+      "name": "スパドルーン",
+      "description": "近代的で軽量な、レイピアとサーベルの折衷。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -578,15 +578,15 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPDressSword",
-      "name": "スウェプトヒルトのサーベル",
-      "description": "優雅な曲線の鍔の付いた、中途半端な長さの斬撃と刺突用途の剣。"
+      "id": "MMPDussack",
+      "name": "ドゥサック",
+      "description": "ありふれた農民の道具兼武器。純粋に機能性を追求したその設計を侮ってはいけない。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSwissSaber",
-      "name": "スイスサーベル",
-      "description": "両手でも扱えるように設計された独特な決闘用のサーベル。"
+      "id": "MMPCutlassC",
+      "name": "海軍のカットラス",
+      "description": "シンプルなカットラス。短い刀身のため、しばしば水兵が船上で使用した。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -602,15 +602,15 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCutlassC",
-      "name": "海軍のカットラス",
-      "description": "シンプルなカットラス。短い刀身のため、しばしば水兵が船上で使用した。"
+      "id": "MMPFalxOneHand",
+      "name": "ダキアのファルクス",
+      "description": "ローマ軍と戦ったダキア人が使ったことで有名な武器。前方に反った刃で盾をすり抜け脳天を貫いたり、盾を引き剥がしたりする。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPScimitar",
-      "name": "略奪のシミター",
-      "description": "海賊たちに好まれた、中東のシミターとカットラスの折衷。"
+      "id": "MMPCleaver",
+      "name": "変種のファルシオン",
+      "description": "単純で簡単に製造できる武器。貧乏兵士が貧乏兵士を殺すのに使われた。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -626,9 +626,15 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCleaver",
-      "name": "エスタッツのファルシオン",
-      "description": "単純で簡単に製造できる武器。貧乏兵士が貧乏兵士を殺すのに使われた。"
+      "id": "MMPPiercingFalchion",
+      "name": "ハルバードファルシオン",
+      "description": "ハルバードから穂先の形状を借用した独特のファルシオン。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPMesserC",
+      "name": "軍用メッサー",
+      "description": "ナイフと似た構造の片刃の剣。刃に重心を寄せたことで、突きやすさを犠牲に恐ろしい斬撃力を持つ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -650,9 +656,15 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPPiercingFalchion",
-      "name": "ハルバードファルシオン",
-      "description": "ハルバードから穂先の形状を借用した独特のファルシオン。"
+      "id": "MMPMesserA",
+      "name": "ランゲスメッサー",
+      "description": "ナイフと似た形状の片刃の剣。刃に重心を寄せたことで、突きやすさを犠牲に恐ろしい斬撃力を持つ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPFalx",
+      "name": "大きなファルクス",
+      "description": "湾曲の内側に刃のある、独特な斬撃用の剣。長い柄はまさに剣と長柄武器の折衷である。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -662,21 +674,21 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPMesserA",
-      "name": "ランゲスメッサー",
-      "description": "ナイフと似た形状の片刃の剣。刃に重心を寄せたことで、突きやすさを犠牲に恐ろしい斬撃力を持つ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPMesserB",
       "name": "クリーグスメッサー",
       "description": "より長く、両手で持つタイプのメッサー。普通の剣よりも斬撃で優れる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPMesserC",
-      "name": "軍用メッサー",
-      "description": "ナイフと似た構造の片刃の剣。刃に重心を寄せたことで、突きやすさを犠牲に恐ろしい斬撃力を持つ。"
+      "id": "MMPSwissSaber",
+      "name": "スイスサーベル",
+      "description": "両手でも扱えるように設計された独特な決闘用のサーベル。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPDressSword",
+      "name": "スウェプトヒルトのサーベル",
+      "description": "優雅な曲線の鍔の付いた、中途半端な長さの斬撃と刺突用途の剣。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -693,8 +705,8 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPTridentDagger",
-      "name": "三叉短剣",
-      "description": "通常の短剣よりも簡単に相手のレイピアの刀身を受け止め操ることができるため、もう一方の手で扱う受け流すための短剣。"
+      "name": "三叉ダガー",
+      "description": "通常のダガーよりも簡単に相手のレイピアの刀身を受け止め操ることができるため、もう一方の手で扱う受け流すための短剣。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -712,24 +724,6 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPCourtSword",
       "name": "スパダ・ダ・ラト",
-      "description": "レイピアの発明へとつながる、瀟洒な小型の予備武器。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPEspadaRopera",
-      "name": "エスパダ・ロペラ",
-      "description": "レイピアの発明へとつながる、瀟洒な小型の予備武器。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSmallSword",
-      "name": "サイドソード",
-      "description": "レイピアの発明へとつながる、瀟洒な小型の予備武器。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPWrithenSideSword",
-      "name": "ねじれた鍔のサイドソード",
       "description": "レイピアの発明へとつながる、瀟洒な小型の予備武器。"
     },
     {
@@ -758,12 +752,6 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPKoncerz",
-      "name": "コンツェシュ",
-      "description": "ルネサンス時代に重騎兵フサールが使用した剣。鎧を着た敵に対して突撃槍のように扱うことに特化して設計されている。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPEstocDS",
       "name": "刺突剣",
       "description": "特殊な両手持ちの刺突用の剣。その分厚い刃はほとんどの剣が貫けないような装甲も貫けるが、斬撃はやはり浅くなる。"
@@ -776,7 +764,6 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "version": 4,
       "id": "MMPEstocB",
       "name": "エストック",
       "description": "特殊な両手持ちの刺突用の剣。その分厚い刃はほとんどの剣が貫けないような装甲も貫けるが、斬撃はやはり浅くなる。"
@@ -789,15 +776,9 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSheath",
-      "name": "摂政の剣の鞘",
-      "description": "剣を保護し持ち運ぶための革製の鞘。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPLongSword4",
-      "name": "十字架の長剣",
-      "description": "特別に十字架の彫刻で装飾されたこの剣は、儀礼用に銀との合金で作られている。"
+      "id": "MMPKoncerz",
+      "name": "コンツェシュ",
+      "description": "ルネサンス時代に重騎兵フサールが使用した剣。鎧を着た敵に対して突撃槍のように扱うことに特化して設計されている。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -819,18 +800,6 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCrusadersSword",
-      "name": "チュートンの長剣",
-      "description": "突くのにも斬るのにも使えるバランスの取れた両手持ちの長剣。聖戦士たちの十字軍に使用されていたことが意匠からわかる。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSheathedLongsword",
-      "name": "摂政の剣",
-      "description": "突くのにも斬るのにも使えるバランスの取れた両手持ちの長剣。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPClaymoreA",
       "name": "高地人のクレイモア",
       "description": "幅広い刃を持つスコットランドの長剣の一種。他の大剣よりも使いやすい一方、重量が増したことで強い一撃を打てるようになった。"
@@ -845,12 +814,6 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPClaymoreC",
       "name": "鉄のクレイモア",
-      "description": "幅広い刃を持つスコットランドの長剣の一種。他の大剣よりも使いやすい一方、重量が増したことで強い一撃を打てるようになった。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPNewClaymore",
-      "name": "バスタードクレイモア",
       "description": "幅広い刃を持つスコットランドの長剣の一種。他の大剣よりも使いやすい一方、重量が増したことで強い一撃を打てるようになった。"
     },
     {
@@ -891,12 +854,6 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSpadone",
-      "name": "ドイツのフランベルジュ",
-      "description": "より軽く短い炎のような刃身の両手持ちの大剣。刃のうねりはほとんど美的な理由でつけられているが、優れた職人技である。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPFlamberg",
       "name": "フランベルジュ",
       "description": "炎のような刃の両手剣。波打つ刃はほとんど美的な理由によるものだが、より致命的な切り傷をもたらすことができる。"
@@ -927,9 +884,15 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBattleAxe",
-      "name": "幅広刃の戦斧",
+      "id": "MMPBattleAxeC",
+      "name": "髭斧",
       "description": "安っぽいが効果的な斬撃の武器。どんなときでも鎧を着込んでいない兵士にとっては脅威に違いない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPAxe1",
+      "name": "戦斧",
+      "description": "汎用性を高めるため、刺突用の棘のついた戦斧。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -945,8 +908,14 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBattleAxeC",
-      "name": "髭斧",
+      "id": "MMPBattleAxeD",
+      "name": "投擲斧",
+      "description": "投擲時により刺さりやすくなるよう刃を小さくした特殊な斧。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBattleAxe",
+      "name": "幅広刃の戦斧",
       "description": "安っぽいが効果的な斬撃の武器。どんなときでも鎧を着込んでいない兵士にとっては脅威に違いない。"
     },
     {
@@ -963,50 +932,38 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPAxe1",
-      "name": "戦斧",
-      "description": "汎用性を高めるため、刺突用の棘のついた戦斧。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPAxe8",
       "name": "オルレアンの戦斧",
       "description": "汎用性を高めるため、刺突用の棘のついた強力な鋼鉄の戦斧。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPTemplarAxe",
-      "name": "テンプル騎士団の斧",
-      "description": "重い両刃の斧。扱うのは難しいが、増強した斬撃力はやるべきことをやってくれる。"
+      "id": "MMPAxe8",
+      "name": "騎士の戦斧",
+      "description": "汎用性を高めるため刺突用の棘を付け足した強力な鋼鉄製の戦斧。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPJeddartAxe",
-      "name": "ジェドバラの斧",
-      "description": "スコットランドの斧のような長柄武器で、比較的短いため使い勝手が良い。"
+      "id": "MMPBardicheC",
+      "name": "オーストリアのバルディッシュ",
+      "description": "デーン人の斧から派生した武器で、強力な斬撃はその重さに依存している。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPPollaxe",
-      "name": "騎士の長斧槍",
-      "description": "甲冑騎士同士の戦いのための武器。隊列での使用を意図しておらず、多くの長柄武器に比べ短い。「スイス人軍団の懐刀」である"
+      "id": "MMPBillA",
+      "name": "森のビル",
+      "description": "単純な農具から発展した、鈎状の刃を持つ長柄武器。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPHalberdA",
-      "name": "幅広のハルバード",
-      "description": "斧をベースにしたとても汎用的な長柄武器。他の長柄武器と比べ、槍や長槍とよく戦うことができる。"
+      "id": "MMPBoardingAxe",
+      "name": "接舷用の斧Boarding Axe",
+      "description": "主に船を接舷させ、敵の防備を破るための道具。だがもちろん、厄介な武器としても使える。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPHalberdB",
       "name": "スイスのヴージェ",
-      "description": "斧をベースにしたとても汎用的な長柄武器。他の長柄武器と比べ、槍や長槍とよく戦うことができる。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPHalberdC",
-      "name": "三日月型のハルバード",
       "description": "斧をベースにしたとても汎用的な長柄武器。他の長柄武器と比べ、槍や長槍とよく戦うことができる。"
     },
     {
@@ -1023,27 +980,51 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBardicheC",
-      "name": "オーストリアのバルディッシュ",
-      "description": "デーン人の斧から派生した武器で、強力な斬撃はその重さに依存している。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBillA",
-      "name": "森のビル",
-      "description": "単純な農具から発展した、鈎状の刃を持つ長柄武器。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBillB",
       "name": "イングランドのビル",
       "description": "単純な農具から発展した、鈎状の刃を持つ長柄武器。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPHalberdA",
+      "name": "幅広のハルバード",
+      "description": "斧をベースにしたとても汎用的な長柄武器。他の長柄武器と比べ、槍や長槍とよく戦うことができる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPJeddartAxe",
+      "name": "ジェドバラの斧",
+      "description": "スコットランドの斧のような長柄武器で、比較的短いため使い勝手が良い。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPTemplarAxe",
+      "name": "テンプル騎士団の斧",
+      "description": "重い両刃の斧。扱うのは難しいが、増強した斬撃力はやるべきことをやってくれる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBillC",
       "name": "ロンチェ",
       "description": "単純な農具から発展した、鈎状の刃を持つ長柄武器。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPHalberdC",
+      "name": "三日月型のハルバード",
+      "description": "斧をベースにしたとても汎用的な長柄武器。他の長柄武器と比べ、槍や長槍とよく戦うことができる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPPollaxe",
+      "name": "騎士のポールアクス",
+      "description": "甲冑騎士同士の戦いのための武器。隊列での使用を意図しておらず、多くの長柄武器に比べ短い。「スイス人軍団の懐刀」である。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPPollaxe2",
+      "name": "王家のポールアクス",
+      "description": "甲冑騎士同士の戦いのための武器。隊列での使用を意図しておらず、多くの長柄武器に比べ短い。「スイス人軍団の懐刀」である。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1054,7 +1035,7 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPClubA",
-      "name": "軍用棍棒",
+      "name": "棘付きの棍棒",
       "description": "原始的な木製の棍棒に殺傷力を秘めた卑劣な棘をつけたもの。"
     },
     {
@@ -1089,9 +1070,21 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBrassMace",
+      "name": "真鍮のメイス",
+      "description": "An old and forgotten mace smithed out of brass alloy. Still quite reliable."
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPMaceC",
       "name": "シェストピョール",
       "description": "特に装甲を貫くために作られた強力なメイス"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPNormanMace",
+      "name": "ノルマンのメイス",
+      "description": "ノルマンディー起源の硬く簡素な鉄のメイス。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1179,6 +1172,30 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPGoedendag",
+      "name": "ゴーデンダーク",
+      "description": "先端に刺突用の棘がついた大きな木製の棍棒。安っぽいが効果的な武器だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPGnarledGreatclub",
+      "name": "ごつごつした大棍棒",
+      "description": "でたらめに釘を打ち込んだ棍棒。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPHussiteClub",
+      "name": "フス派の棘付き棍棒",
+      "description": "比較的柔らかい防具を貫通する目的で作られた恐ろしい棘付き棍棒。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPStuddedBat",
+      "name": "鋲付きのバット",
+      "description": "ホームラン狙いに最適。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBecDeCorbin",
       "name": "ベク・ド・コルバン",
       "description": "古いフランス語で「カラスのくちばし」を意味する。汎用的な、ピックとハンマーを合成したような短い武器。"
@@ -1221,18 +1238,6 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPGoedendag",
-      "name": "ゴーデンダーク",
-      "description": "先端に刺突用の棘がついた大きな木製の棍棒。安っぽいが効果的な武器だ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPGrandMace",
-      "name": "グランドメイス",
-      "description": "長い柄と羽のついたメイス。騎士と騎士の戦いに最もよく合った武器だ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPMaceB",
       "name": "満月の鎚",
       "description": "珍しい両手用のメイス。盾を持てなくなるため、普通は騎士が鎧を着た相手同士で戦うためのもの。"
@@ -1240,14 +1245,14 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPMorningStarPole",
-      "name": "長柄のモーニングスター",
+      "name": "大モーニングスター",
       "description": "珍しい両手用のメイス。盾を持てなくなるため、普通は騎士が鎧を着た相手同士で戦うためのもの。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPStuddedBat",
-      "name": "鋲付きのバット",
-      "description": "ホームラン狙いに最適。"
+      "id": "MMPBatteringRam",
+      "name": "破城槌",
+      "description": "重く、鉄で補強された扉を破るために、二人一組で使う道具。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1269,21 +1274,45 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBrokenSpearShaft",
+      "name": "壊れた槍",
+      "description": "少しでも負荷がかかれば折れそうな、壊れかけの槍。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBrokenSpearTip",
+      "name": "壊れた槍",
+      "description": "戦闘でのダメージにより真っ二つに折れた槍。まだダガーのように使うことができるかもしれない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBrokenSpearWhole",
+      "name": "壊れた槍",
+      "description": "少しでも負荷がかかれば折れそうな、壊れかけの槍。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPFireLance",
       "name": "梨火槍",
       "description": "火を撒き散らす爆発物が取り付けられた槍。使用できるのは一度限りだが破壊力抜群で、普通の槍としても使える。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSpearA",
-      "name": "狩猟槍",
-      "description": "羽状の突起のある軽量な槍。近接戦で両手で扱うのにも、盾とともに片手で扱うにも十分な短さ。"
+      "id": "MMPSpear7",
+      "name": "尖った棒",
+      "description": "マシュマロを炙るのに最適。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSpearB",
-      "name": "長槍",
-      "description": "普通は隊列を組んで使うとても長い槍。片手で使うには長すぎる。"
+      "id": "MMPAhlspeiss",
+      "name": "オウルパイク",
+      "description": "遠い間合いから強い突きを出すことに特化した長いパイク。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPMilitaryFork",
+      "name": "軍用熊手",
+      "description": "農具を改造した長柄武器。簡単に使用できてとても効果的。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1293,69 +1322,15 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPSpearD",
+      "name": "投擲槍",
+      "description": "投擲用の短い槍だが、近接武器の代わりにもなる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPHewingSpear",
       "name": "ヒューイングスピア",
       "description": "幅広の両刃の穂先の槍で、効果的かつ容易な斬撃に特化している。北方の槍の設計思想を受け継いでいる。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPPartisan",
-      "name": "パルチザン",
-      "description": "長柄武器を持った相手と有利に戦うために受け流すためのフックのついた幅広の刃を持つ槍。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPWingedWarSpear",
-      "name": "羽槍",
-      "description": "敵が槍の合間を掻い潜るのを防ぐための出っ張りのある、戦争用の槍。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSwordSpearA",
-      "name": "スヴァルドスタヴ",
-      "description": "剣と槍を連結したスカンジナビアの長柄武器。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSpear2Shield",
-      "name": "スピアシールド",
-      "description": "短い槍の柄に、近接戦で手元を守るもの小盾を取り付けたもの。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPFalchionSpear",
-      "name": "長柄のファルシオン",
-      "description": "長柄の先端にファルシオンの刃を付けたもの。発想は粗雑だがかなり効果的だ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPGlaiveA",
-      "name": "グレイヴ・ギサーム",
-      "description": "相手の長柄武器を絡め取り押さえつける長いグレイヴ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPGlaiveB",
-      "name": "フォシャール",
-      "description": "巨大な斬撃用の刃を持った鎌のような長柄武器。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPGlaiveC",
-      "name": "グレイヴ",
-      "description": "要するに棒の先に包丁が付いているやつ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPWarScythe",
-      "name": "軍用大鎌",
-      "description": "普通の農具から着想を得た、恐ろしい戦場用の武器。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPLanceA",
-      "name": "重騎兵槍",
-      "description": "中世でドライブバイ攻撃に使う武器。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1371,9 +1346,75 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSpear7",
-      "name": "尖った棒",
-      "description": "マシュマロを炙るのに最適。"
+      "id": "MMPSpear2Shield",
+      "name": "スピアシールド",
+      "description": "短い槍の柄に、近接戦で手元を守るもの小盾を取り付けたもの。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPSpearA",
+      "name": "狩猟槍",
+      "description": "羽状の突起のある軽量な槍。近接戦で両手で扱うのにも、盾とともに片手で扱うにも十分な短さ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPSwordSpearA",
+      "name": "スヴァルドスタヴ",
+      "description": "剣と槍を連結したスカンジナビアの長柄武器。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPWingedWarSpear",
+      "name": "羽槍",
+      "description": "敵が槍の合間を掻い潜るのを防ぐための出っ張りのある、戦争用の槍。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPPartisan",
+      "name": "パルチザン",
+      "description": "長柄武器を持った相手と有利に戦うために受け流すためのフックのついた幅広の刃を持つ槍。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPSpearB",
+      "name": "長槍",
+      "description": "普通は隊列を組んで使うとても長い槍。片手で使うには長すぎる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPGlaiveB",
+      "name": "フォシャール",
+      "description": "巨大な斬撃用の刃を持った鎌のような長柄武器。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPGlaiveC",
+      "name": "グレイヴ",
+      "description": "要するに棒の先に包丁がついたようなもの!"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPGlaiveA",
+      "name": "グレイヴ・ギサーム",
+      "description": "相手の長柄武器を絡め取り押さえつける長いグレイヴ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPFalchionSpear",
+      "name": "長柄のファルシオン",
+      "description": "長柄の先端にファルシオンの刃を付けたもの。発想は粗雑だがかなり効果的だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPWarScythe",
+      "name": "軍用大鎌",
+      "description": "普通の農具から着想を得た、恐ろしい戦場用の武器。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPIsihlangu",
+      "name": "イシラング",
+      "description": "ングニ族が牛の皮を張って作った盾"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1425,6 +1466,12 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPKnobkerrie",
+      "name": "ノブケリー",
+      "description": "南アフリカの木製の棍棒。簡素な見た目に反して戦争・狩猟・投擲・儀礼用のオブジェとしても使われる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPEpsilonAxe",
       "name": "イプシロン型の斧",
       "description": "古代エジプトの戦斧。一般的な歩兵が使用していた。"
@@ -1440,6 +1487,12 @@
       "id": "MMPMambele",
       "name": "マンベレ",
       "description": "装飾されたスーダンの武器で、現地の投擲武器を元にした踊りに使う杖に似ている。しかし投げつけるには高価すぎる!"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPNzappaZap",
+      "name": "ンザッパザップ",
+      "description": "コンゴ人が使う斧の刃がついた木製の棍棒のような武器。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1557,6 +1610,18 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPIgorotAxe",
+      "name": "イゴロットの首刈り斧",
+      "description": "肉も骨も破壊する設計のフィリピンの戦斧。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPIgorotGreatAxe",
+      "name": "首刈りの大斧",
+      "description": "肉も骨も破壊する設計のフィリピンの戦斧。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPEscrima",
       "name": "バストン",
       "description": "フィリピン武術で使う戦闘用の棒で、しばしば二刀流で扱われる。"
@@ -1590,12 +1655,6 @@
       "id": "MMPHookSword",
       "name": "双鈎",
       "description": "正しく使うには熟練を要する鈎状の剣。高度な武術を想定した設計のようだ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPJiDaoLian",
-      "name": "鶏刀鎌",
-      "description": "「鶏の鉤爪のサーベル」という意味。攻撃的なスタイルの中国武術の剣。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1653,15 +1712,15 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPGuandao",
-      "name": "関刀",
-      "description": "様々な流派の武術で使用される、中国のやや短い長柄武器。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPTiebian",
       "name": "鉄鞭",
       "description": "中国の、剣のような形で節目のある棒状のメイス。精鋭部隊が使い、メイスとしてはとても使い勝手が良い。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPGuandao",
+      "name": "関刀",
+      "description": "様々な流派の武術で使用される、中国のやや短い長柄武器。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1696,7 +1755,7 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPCaestus",
-      "name": "セスタス",
+      "name": "カエストゥス",
       "description": "しばしば競技戦に使われた戦闘用の手袋。普通の拳骨で可能なレベルよりはるかに硬いパンチを放つことを可能にしている。"
     },
     {
@@ -1725,9 +1784,9 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPFalxOneHand",
-      "name": "ダキアのファルクス",
-      "description": "ローマ軍と戦ったダキア人が使ったことで有名な武器。前方に反った刃で盾をすり抜け脳天を貫いたり、盾を引き剥がしたりする。"
+      "id": "MMPGladiatorialSica",
+      "name": "剣闘士のシーカ",
+      "description": "ダキア人のシーカに着想を得た、剣闘士の剣。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1749,21 +1808,15 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPMyceneanSword",
-      "name": "ミュケナイの剣",
-      "description": "古代ギリシャの、グリフィンの姿で装飾した黄金と青銅の剣。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPSpatha",
       "name": "スパタ",
       "description": "ローマのグラディウスの長い変種。暗黒時代とヴァイキングの時代を予期させる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPFalx",
-      "name": "大きなファルクス",
-      "description": "湾曲の内側に刃のある、独特な斬撃用の剣。長い柄はまさに剣と長柄武器の折衷である。"
+      "id": "MMPLabrys",
+      "name": "ラブリス",
+      "description": "太古のクレタ文明の失われた武器。多くの文明で象徴的に扱われた。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1785,27 +1838,21 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPTrident",
-      "name": "レティアリウスの三叉槍",
-      "description": "漁師に似た装備の剣闘士、レティアリウスの使用した武器。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPTridentGold",
-      "name": "青銅の三叉槍",
-      "description": "漁師に似た装備の剣闘士、レティアリウスの使用した武器。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPAdyaKatti",
-      "name": "アユダ・カッティ",
-      "description": "前方に湾曲した頑丈な刃物。主に下生えを刈るのに使用された。"
+      "id": "MMPRetiariusTrident",
+      "name": "レーティアーリウスの三叉槍",
+      "description": "漁師の姿を真似た剣闘士であるレーティアーリウスが使った剣闘のための武器。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBichaq",
       "name": "ビチャク",
       "description": "ヤタガンの設計を元にした、オスマンの装飾されたナイフ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPChakram",
+      "name": "チャクラム",
+      "description": "インド発祥の投擲武器で、シーク教徒が衣装に仕込んでいた。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1852,8 +1899,8 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBaladayScimitar",
-      "name": "バラデーのシミター",
-      "description": "ダマスカス鋼から作られた重いシミター。驚くほど強力で長持ちする斬撃力をもたらす。"
+      "name": "サラセンの剣",
+      "description": "十字軍に対抗して使われたことで知られる、短く、極端に湾曲した刃。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1863,9 +1910,15 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPPala",
+      "name": "パラ",
+      "description": "強い反りのあるオスマンのサーベル。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPRamDao",
       "name": "ラム・ダオ",
-      "description": "ヒンドゥーの生贄用の剣。刃に刻まれた眼は供物を見つめるカーリー神の眼を象徴している。"
+      "description": "ヒンドゥーの生贄儀式用の剣。刃に刻まれた眼は供物を見つめるカーリー神の眼を象徴している。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1905,6 +1958,12 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPGurz",
+      "name": "グルツ",
+      "description": "インドの棘付きのメイス。軽装の相手なら容易に突き抜けることができる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPLohangiKatti",
       "name": "ロハンギのカッティ",
       "description": "インドの重い両手用メイス。うまく振るには筋力が必要なのでしばしばウエイトトレーニングに使われる。"
@@ -1926,12 +1985,6 @@
       "id": "MMPOxMace",
       "name": "牛頭のメイス",
       "description": "誰かと牛肉を食べるときに。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSpikedGreatMace",
-      "name": "グルツ",
-      "description": "インドの恐るべき棘の付き球形メイス。棘は軽装鎧を貫くことを意図している。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1959,12 +2012,6 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBambooKatanaScabbard",
-      "name": "刀の鞘",
-      "description": "刀を保護し運搬するための鞘。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPGunsen",
       "name": "軍扇",
       "description": "あおいで涼むだけでなく、味方の軍隊に指示を送るのにも使う戦争用の扇。魔法スキルを増幅する。"
@@ -1980,12 +2027,6 @@
       "id": "MMPTessenClosed",
       "name": "鉄扇",
       "description": "あおいで涼むだけでなく、味方の軍隊に指示を送るのにも使う戦争用の扇。魔法スキルを増幅する。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPShukou",
-      "name": "手鉤",
-      "description": "手鉤は日本の諜報員が主に登攀の補助に用いたが、緊急時にはニンジャ道具のように武器にも使えた。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2049,12 +2090,6 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPTanto",
-      "name": "懐刀",
-      "description": "サムライやその妻が携帯した日本の短剣。女性が喉を突くことで自害するのにも使われた。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPKen",
       "name": "直剣",
       "description": "より近代的な刀が発明される以前に、中国から設計を取り入れた古代日本の直剣。"
@@ -2076,12 +2111,6 @@
       "id": "MMPUchigatana",
       "name": "打刀",
       "description": "長柄武器の予備として扱いやすく小さな武器として、太刀を模して作られた刀の原型。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBambooKatana",
-      "name": "刀",
-      "description": "日本発祥の、両手持ちの湾曲した短い剣。素早く抜き放てるように片刃を上に向けて携帯されていた。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2121,12 +2150,6 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPOnaSuYari",
-      "name": "斧素槍",
-      "description": "独特な日本のサムライの武器。槍と斧を一つの戦争の道具に合成している。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPShunteiOno",
       "name": "鉞",
       "description": "常人離れした筋力を持つ英雄が使った、日本の伝説的な斧。"
@@ -2142,12 +2165,6 @@
       "id": "MMPBo",
       "name": "棒",
       "description": "単純だがよく作り込まれた戦闘用の棒。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBokken",
-      "name": "木剣",
-      "description": "刀に似せて作られた、日本の木製の練習剣。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2313,39 +2330,9 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPFirearmHandbook",
-      "name": "火器の取り扱い書",
-      "description": "火器の扱い方が描かれた数ページの書物。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPArquebus",
-      "name": "アーキバス",
-      "description": "前装式の火器で、発射の前に導火線に点火する必要がある。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBlunderbuss",
-      "name": "ブランダーバス",
-      "description": "銃口の広がっているフリントロック銃。通常は一度の射撃で複数の弾体を飛ばして使う。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPFlintlockPistol",
-      "name": "フリントロック式ピストル",
-      "description": "火打ち石を火薬に叩きつけて発火させる前装式の火器。撃つ前に銃口から弾をこめて撃鉄を起こす。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPFlintlockRifle",
-      "name": "フリントロック式ライフル",
-      "description": "火打ち石を火薬に叩きつけて発火させる前装式の火器。撃つ前に銃口から弾をこめて撃鉄を起こす。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPHandCannon",
-      "name": "ハンドカノン",
-      "description": "実用にはあまりに扱いづらい火器のお化け。銃身に火薬と、次いで砲弾を装填する。"
+      "id": "MMPBag_PaperCartridge",
+      "name": "銃弾袋",
+      "description": "黒色火薬とマスケットの銃弾が詰められた紙の薬莢。対応した火器の銃身に入れる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2361,99 +2348,15 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBag_PaperCartridge",
-      "name": "銃弾袋",
-      "description": "黒色火薬とマスケットの銃弾が詰められた紙の薬莢。対応した火器の銃身に入れる。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBag_ShotCartridge",
       "name": "散弾袋",
       "description": "黒色火薬と散弾の入った紙製の実包。対応する火器の重心に挿入して使う。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCannonBallProjectile",
-      "name": "銃弾",
-      "description": ""
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPFlintlockBullet",
-      "name": "銃弾",
-      "description": ""
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCannonBallProjectile",
-      "name": "放たれた砲弾",
-      "description": ""
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPShotBullet",
-      "name": "放たれた銃弾",
-      "description": ""
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPShrapnel",
-      "name": "シャープネル弾",
-      "description": ""
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCompositeBow",
-      "name": "複合弓",
-      "description": "平均的な弓と比べより腕力が要求されるが威力のある短弓。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPHankyu",
-      "name": "丸木弓",
-      "description": "日本の短弓。小さく軽く、市街地や白兵戦でも使いやすいが、特に馬上で使われる。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPLongbow",
-      "name": "戦弓",
-      "description": "戦場で非常に長距離から射撃するための弓。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPYumi",
-      "name": "大弓",
-      "description": "日本の戦場で使われた弓。非対称な設計が独特である。2つの木材を合わせて作られる。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBigQuiver_ArrowBlunt",
-      "name": "気絶の矢筒",
-      "description": "盗賊が標的の注意をそらしたり気絶させたりするために好まれた。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPArrowExplosive",
-      "name": "爆発矢",
-      "description": "爆発物が取り付けられた矢。まず点火し、そして忘れずに発射すること。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBigQuiver_ArrowBodkin",
-      "name": "鎧通しの矢筒",
-      "description": "軽装の鎧を貫くために設計された矢。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBigQuiver_ArrowCut",
-      "name": "大きな矢じりの矢筒",
-      "description": "矢じりの大きい矢。貧弱な鎧の敵に非常に大きなダメージを与えられる。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBigQuiver_ArrowSilver",
-      "name": "銀の矢の矢筒",
-      "description": "銀の鎧通しの矢。魔力を帯びさせるのに適している。"
+      "id": "MMPBag_ArrowExplosive",
+      "name": "爆発矢の束",
+      "description": "持ち運びやすいよう大量の爆発矢を束ねた。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2481,39 +2384,9 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCrossbowBolt",
-      "name": "太矢",
-      "description": "クロスボウ用の重く太い矢。重装甲の兵士にも恐れられた。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBag_ArrowExplosive",
-      "name": "爆発矢の束",
-      "description": "持ち運びやすいよう大量の爆発矢を束ねた。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPHeavyCrossbow",
-      "name": "重いクロスボウ",
-      "description": "弦を固定し簡単に打てるようにした弓の一種。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCrossbow",
-      "name": "Crossbow Test",
-      "description": "A staple of combat since ancient times, the bow is a lethal and effective long range weapon."
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCrossbow",
-      "name": "クロスボウ",
-      "description": "弦を固定できる弓の一種で、発射しやすくなっている。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBlowgun",
-      "name": "吹き矢",
-      "description": "竹製の笛に偽装した吹き矢。矢を装填し、口を持ってくるだけで発射できる。"
+      "id": "MMPQuiver_CrossbowBolt",
+      "name": "クロスボウの矢筒",
+      "description": "重厚で重いクロスボウの太矢。重装備の兵士にとっても脅威になる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2523,27 +2396,15 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBag_BombClay",
-      "name": "焙烙玉の鞄",
-      "description": "焙烙玉の入った持ち運びやすい鞄。"
+      "id": "MMPBag_BattleAxeD",
+      "name": "投擲斧のホルスター",
+      "description": "投擲斧の詰まった持ち運びやすい鞄。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBag_DaggerD",
       "name": "ダガー袋",
       "description": "投擲ダガーの詰まった持ち運びやすい鞄"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBag_ThrowingKnife",
-      "name": "ナイフ袋",
-      "description": "投げナイフの詰まった持ち運びやすい鞄。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBag_BattleAxeD",
-      "name": "投擲斧のホルスター",
-      "description": "投擲斧の詰まった持ち運びやすい鞄。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2559,9 +2420,135 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBag_ThrowingKnife",
+      "name": "ナイフ袋",
+      "description": "投げナイフの詰まった持ち運びやすい鞄。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBag_BombClay",
+      "name": "焙烙玉の鞄",
+      "description": "焙烙玉の入った持ち運びやすい鞄。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBag_BombGreekFire",
+      "name": "ギリシャ火の袋",
+      "description": "可燃性の液体の詰まった陶器の爆弾。点火して投げつければ、液体の付くもの全てに引火する。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPFirearmHandbook",
+      "name": "火器の取り扱い書",
+      "description": "火器の扱い方が描かれた数ページの書物。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPFlintlockPistol",
+      "name": "フリントロック式ピストル",
+      "description": "火打ち石を火薬に叩きつけて発火させる前装式の火器。撃つ前に銃口から弾をこめて撃鉄を起こす。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPWheellockPistol",
+      "name": "ホイールロック式ピストル",
+      "description": "回転した車輪の火花で黒色火薬に点火するという、複雑な機構の火器。火縄銃よりは発展的だが、使用の難しさからあまり生産されなかった。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPArquebus",
+      "name": "アーキバス",
+      "description": "前装式の火器で、発射の前に導火線に点火する必要がある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBlunderbuss",
+      "name": "ブランダーバス",
+      "description": "銃口の広がっているフリントロック銃。通常は一度の射撃で複数の弾体を飛ばして使う。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPFlintlockRifle",
+      "name": "開拓者のマスケット",
+      "description": "火打ち石を火薬に叩きつけて発火させる前装式の火器。撃つ前に銃口から弾をこめて撃鉄を起こす。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPHandCannon",
+      "name": "ハンドカノン",
+      "description": "実用にはあまりに扱いづらい火器のお化け。銃身に火薬と、次いで砲弾を装填する。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPInfantryMusket",
+      "name": "歩兵のマスケット",
+      "description": "火打ち石を火薬に叩きつけて発火させる前装式の火器。撃つ前に銃口から弾をこめて撃鉄を起こす。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCompositeBow",
+      "name": "複合弓",
+      "description": "平均的な弓と比べより腕力が要求されるが威力のある短弓。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPHankyu",
+      "name": "丸木弓",
+      "description": "日本の短弓。小さく軽く、市街地や白兵戦でも使いやすいが、特に馬上で使われる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPLongbow",
+      "name": "戦弓",
+      "description": "戦場で非常に長距離から射撃するための弓。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPYumi",
+      "name": "大弓",
+      "description": "日本の戦場で使われた弓。非対称な設計が独特である。2つの木材を合わせて作られる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCrossbow",
+      "name": "クロスボウ (開発中)",
+      "description": "[問題の修正にはゲーム本体のさらなる更新が必要です。現状狙いをつける際に不具合があります。また、利き手でクロスボウを持っているときのみ矢を装填できます。]"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCrossbow",
+      "name": "クロスボウ (開発中)",
+      "description": "[問題の修正にはゲーム本体のさらなる更新が必要です。現状狙いをつける際に不具合があります。また、利き手でクロスボウを持っているときのみ矢を装填できます。]"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBlowgun",
+      "name": "吹き矢",
+      "description": "竹製の笛に偽装した吹き矢。矢を装填し、口を持ってくるだけで発射できる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBlowgun",
+      "name": "吹き矢",
+      "description": "竹製の笛に偽装した吹き矢。矢を装填し、口を持ってくるだけで発射できる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBlowgun",
+      "name": "吹き矢",
+      "description": "竹製の笛に偽装した吹き矢。矢を装填し、口を持ってくるだけで発射できる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPArrowBodkin",
       "name": "鎧通しの矢",
       "description": "軽装の鎧を貫くように設計されたシンプルな矢。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPArrowExplosive",
+      "name": "爆発矢",
+      "description": "爆発物が取り付けられた矢。まず点火し、そして忘れずに発射すること。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2583,21 +2570,39 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPDaggerD",
-      "name": "投げナイフ",
-      "description": "投擲用に設計された、手元を守るもののないナイフ。"
+      "id": "MMPCannonBallProjectile",
+      "name": "銃弾",
+      "description": ""
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPThrowingKnife",
-      "name": "均整の取れたナイフ",
-      "description": "安上がりだが効果的なナイフ。投擲して命中しやすくなるよう調整している"
+      "id": "MMPCannonBallProjectile",
+      "name": "放たれた砲弾",
+      "description": ""
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBattleAxeD",
-      "name": "投擲斧",
-      "description": "投擲時により刺さりやすくなるよう刃を小さくした特殊な斧。"
+      "id": "MMPFlintlockBullet",
+      "name": "放たれた銃弾",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPRifleBullet",
+      "name": "放たれた銃弾",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPShotBullet",
+      "name": "放たれた銃弾",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPShrapnel",
+      "name": "シャープネル弾",
+      "description": ""
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2607,21 +2612,9 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSpearD",
-      "name": "投擲槍",
-      "description": "投擲用の短い槍だが、近接武器の代わりにもなる。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPArrowSword",
-      "name": "投擲剣",
-      "description": "すこし使いづらく、一風変わった方法で使用されるものだが...、まぎれもない剣である。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPStone",
-      "name": "石",
-      "description": "この石を人に投げようというのなら、汝が罪なき者であることを願う。"
+      "id": "MMPCrossbowBolt",
+      "name": "太矢",
+      "description": "クロスボウ用の重く太い矢。重装甲の兵士にも恐れられた。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2646,6 +2639,12 @@
       "id": "MMPTalhofferBuckler",
       "name": "タールホーファーの小盾",
       "description": "剣の達人が使用していた、装飾の施された盾。ヒイラギの葉の形に似ている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPOvalShield",
+      "name": "ダキア人の盾",
+      "description": "ダキア人に好まれた木製の簡素な楕円形の盾。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2715,6 +2714,12 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPPavise",
+      "name": "パヴィス",
+      "description": "地面に自立させられる巨大な歩兵用の盾。反撃から身を隠せるのでクロスボウ兵に好まれた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPLantern",
       "name": "ランタン",
       "description": "鯨油を注がれたシンプルなランタン。"
@@ -2733,9 +2738,129 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBlacksmithHammer",
-      "name": "鍛冶師のハンマー",
-      "description": "金属を叩き直すための道具だが、時には間違えて脳天を叩き直したりもする。"
+      "id": "MMPShukou",
+      "name": "手鉤",
+      "description": "手鉤は日本の諜報員が主に登攀の補助に用いたが、緊急時にはニンジャ道具のように武器にも使えた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBlackJack",
+      "name": "ブラックジャック",
+      "description": "無防備な相手に相手に致命傷を負わせないことを目的とした、隠し持てる棍棒。敵を容易に気絶させ戦闘不能にさせることができる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBlackPowderCharge",
+      "name": "装薬",
+      "description": "弾を飛ばすために使う発火しやすい黒色火薬の包装。取扱注意！"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCannonBall",
+      "name": "砲弾",
+      "description": "カノン砲で飛ばす硬い鉄の球。飛ばすには大量の火薬が必要。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPPaperCartridge2",
+      "name": "薬莢",
+      "description": "黒色火薬と銃弾の入った紙の薬莢。対応する火器の銃身に入れる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPShotCartridge",
+      "name": "散弾",
+      "description": "黒色火薬と散弾の詰められた紙の薬莢。対応する火器の重心に挿入して使う。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBlowgunDart_Projectile",
+      "name": "吹き矢針",
+      "description": "吹き矢の針。猛毒が塗られているが、せいぜい肌に刺さる程度の威力しかない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBombClay",
+      "name": "焙烙玉",
+      "description": "紙と粘土で作られた爆弾。発火するとすぐに爆発し全方位に陶片を撒き散らす。非常に危険で予測不能。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBombGreekFire",
+      "name": "ギリシャ火",
+      "description": "可燃性の液体の詰まった陶器の爆弾。点火して投げつければ、液体の付くもの全てに引火する。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCaltropThrowable",
+      "name": "マキビシ",
+      "description": "追跡者の足止めに使う対人用トラップ。時には馬にも有効。踏みつけたら数週間は戦えない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCaltrop",
+      "name": "マキビシ",
+      "description": "追跡者の足止めに使う対人用トラップ。時には馬にも有効。踏みつけたら数週間は戦えない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPLandmine",
+      "name": "自犯炮",
+      "description": "陶器で作られた単純な機械式爆弾。作動させたら人間が上に乗ると爆発する。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCheese",
+      "name": "チーズ",
+      "description": "一切れのスイス式チーズ。ホールチーズから切りたてで新鮮。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPHardtack",
+      "name": "パン",
+      "description": "少し古くなったパン。ちょっとしたエネルギー補給にはいいがそれ以上のものではない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPOnigiri",
+      "name": "オニギリ",
+      "description": "ウメボシを入れ、海藻を巻き付けた日本のライスボール。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPPemmican",
+      "name": "ペミカン",
+      "description": "バイソンの肉・脂身・ベリーなどから作られた極めて腐敗に強い食品。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPSausageCooked",
+      "name": "炙りソーセージ",
+      "description": "神秘的な肉のソーセージ。火で炙られている。棒もいつか使うかもしれない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPSausageEat",
+      "name": "串",
+      "description": "焼肉用の串。あらゆる種類の生物の肉に対して有効。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPShroom",
+      "name": "カラカサタケ",
+      "description": "「蛇の帽子」と呼ばれることもある、食べられるキノコ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPShroomEat",
+      "name": "カラカサタケ",
+      "description": "「蛇の帽子」と呼ばれることもある、食べられるキノコ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPSweetroll",
+      "name": "スウィートロール",
+      "description": "砂糖をまぶした、たいへん美味な焼き菓子。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2751,15 +2876,15 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPMeatHook",
-      "name": "肉屋のフック",
-      "description": "屠った獲物を吊り下げ解体するのに使うフック。"
+      "id": "MMPIcePick",
+      "name": "アイスピック",
+      "description": "氷の割れ目に突き立てるための道具で、時には誰かを殺すのにも便利な武器でもある。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPNail",
-      "name": "釘",
-      "description": "鍛冶屋が作ったただの釘。やけくそになったか創造力のある戦士のみが武器として使おうと思い立つだろう。"
+      "id": "MMPMeatHook",
+      "name": "肉屋のフック",
+      "description": "屠った獲物を吊り下げ解体するのに使うフック。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2819,13 +2944,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPWarhammer6",
       "name": "鉛のモール",
-      "description": "鉛で作られた建設用の鎚。正確には武器ではないが、貧乏人は選り好みできない。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPAnvil",
-      "name": "金床",
-      "description": "敵の頭上に落とすと特に効果的だ。"
+      "description": "鉛で作られた建設用の鎚。本来は武器ではないが、貧乏人は選り好みできない。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2856,12 +2975,6 @@
       "id": "MMPMiseryWhip",
       "name": "二人用のノコギリ",
       "description": "とても硬い丸太を二人がかりで切るためのノコギリ。マンパワーに頼った使用法から「ミザリーウィップ」の名でも知られる。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPLadder",
-      "name": "はしご",
-      "description": "これで城壁に阻まれることはない。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2932,7 +3045,7 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPTrickSword",
-      "name": "トリックソード",
+      "name": "改造された剣",
       "description": "一見すればまっとうな剣に見えるが、柄頭が簡単に外れ、破壊的な効率性で敵にとどめを刺すことができる。"
     },
     {
@@ -2958,120 +3071,6 @@
       "id": "MMPTrickDaggerProjectile",
       "name": "仕込みダガーの先端",
       "description": "決闘の相手に向けて卑怯な手を用意したダガー。作らせた人間は臆病者か、あるいは狡猾な人間か。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBlackJack",
-      "name": "ブラックジャック",
-      "description": "無防備な相手に相手に致命傷を負わせないことを目的とした、隠し持てる棍棒。敵を容易に気絶させ戦闘不能にさせることができる。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBlackPowderCharge",
-      "name": "装薬",
-      "description": "弾を飛ばすために使う発火しやすい黒色火薬の包装。取扱注意！"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCannonBall",
-      "name": "砲弾",
-      "description": "カノン砲で飛ばす硬い鉄の球。飛ばすには大量の火薬が必要。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPPaperCartridge2",
-      "name": "薬莢",
-      "description": "黒色火薬と銃弾の入った紙の薬莢。対応する火器の銃身に入れる。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPShotCartridge",
-      "name": "散弾",
-      "description": "黒色火薬と散弾の詰められた紙の薬莢。対応する火器の重心に挿入して使う。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBlowgunDart_Projectile",
-      "name": "吹き矢針",
-      "description": "吹き矢の針。猛毒が塗られているが、せいぜい肌に刺さる程度の威力しかない。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPBombClay",
-      "name": "焙烙玉",
-      "description": "紙と粘土で作られた爆弾。発火するとすぐに爆発し全方位に陶片を撒き散らす。非常に危険で予測不能。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCaltropThrowable",
-      "name": "マキビシ",
-      "description": "追跡者の足止めに使う対人用トラップ。時には馬にも有効。踏みつけたら数週間は戦えない。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCaltrop",
-      "name": "マキビシ",
-      "description": "追跡者の足止めに使う対人用トラップ。時には馬にも有効。踏みつけたら数週間は戦えない。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPLandmine",
-      "name": "自犯炮",
-      "description": "陶器で作られた単純な機械式爆弾。作動させたら人間が上に乗ると爆発する。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCheese",
-      "name": "チーズ",
-      "description": "一切れのスイス式チーズ。ホールチーズから切りたてで新鮮。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPHardtack",
-      "name": "ハードタック",
-      "description": "数年にわたって保存できるよう乾燥させたビスケット。これは偉大なるサバイバルレーションであるが、ほとんど無味でとても硬い。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPOnigiri",
-      "name": "オニギリ",
-      "description": "ウメボシを入れ、海藻を巻き付けた日本のライスボール。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPPoisonedApple",
-      "name": "毒リンゴ (まだ動作しません)",
-      "description": "普通の見た目だが致死量の毒が含まれている。間違えないように"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSausageCooked",
-      "name": "炙りソーセージ",
-      "description": "神秘的な肉のソーセージ。火で炙られている。棒もいつか使うかもしれない。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSausageEat",
-      "name": "串",
-      "description": "焼肉用の串。あらゆる種類の生物の肉に対して有効。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPShroom",
-      "name": "カラカサタケ",
-      "description": "「蛇の帽子」と呼ばれることもある、食べられるキノコ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPShroomEat",
-      "name": "カラカサタケ",
-      "description": "「蛇の帽子」と呼ばれることもある、食べられるキノコ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPSweetroll",
-      "name": "スウィートロール",
-      "description": "砂糖をまぶした、たいへん美味な焼き菓子。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
