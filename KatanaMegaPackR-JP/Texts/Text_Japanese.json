@@ -24,12 +24,6 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "KMPTantoKoSaya",
-      "name": "小短刀",
-      "description": "短刀は戦闘用の武器から上流階級の装飾品として進化していった。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTantoKo2",
       "name": "懐剣",
       "description": "懐剣は侍やその妻が携帯した。日常生活に利用するため、そして虜囚の身とならぬよう喉を突いて自決するために。"
@@ -39,6 +33,12 @@
       "id": "KMPTantoKo2Saya",
       "name": "懐剣",
       "description": "懐剣は侍やその妻が携帯した。日常生活に利用するため、そして虜囚の身とならぬよう喉を突いて自決するために。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPTantoKoSaya",
+      "name": "小短刀",
+      "description": "短刀は戦闘用の武器から上流階級の装飾品として進化していった。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -150,14 +150,12 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "version": 4,
       "id": "KMPNinjato",
       "name": "忍者剣",
       "description": "人目につかないシノビの剣。刀と異なり真っ直ぐであり、暗殺のための刺突能力が増している。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "version": 4,
       "id": "KMPNinjatoSaya",
       "name": "忍者剣",
       "description": "人目につかないシノビの剣。刀と異なり真っ直ぐであり、暗殺のための刺突能力が増している。"
@@ -214,13 +212,13 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaOren",
       "name": "オーレンの白鞘",
-      "description": "黒い白鞘に収納した服部半蔵の希少な剣。オーレンが所持し桜の花で装飾されている。極めて上質な剣のためめったに使われない。"
+      "description": "黒い白鞘に収納した服部半蔵の希少な剣。オーレンが所持し桜の花で装飾されている。極めて上質な出来のため、めったに使われない。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaOrenSaya",
       "name": "オーレンの白鞘",
-      "description": "刀というよりは木の容器に保管した刀の刃であり、武器としての使用は想定していない。"
+      "description": "黒い白鞘に収納した服部半蔵の希少な剣。オーレンが所持し桜の花で装飾されている。極めて上質な出来のため、めったに使われない。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -233,6 +231,18 @@
       "id": "KMPKatanaShirasayaSaya",
       "name": "白鞘",
       "description": "刀というよりは木の容器に保管した刀の刃であり、武器としての使用は想定していない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaSueBizen",
+      "name": "末備前刀",
+      "description": "文明年間の日本の末備前派の傑出した刀工の手による業物の刃。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KMPKatanaSueBizenSaya",
+      "name": "末備前の鞘",
+      "description": "文明年間の日本の末備前派の傑出した刀工の手による業物の刃。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -512,14 +522,12 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "version": 4,
       "id": "KMPSangssudo",
       "name": "サンスドー",
       "description": "高度な技術を持つ兵士によって防御的な技に扱われる珍しい韓国の大剣。非常に長い柄が特徴。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "version": 4,
       "id": "KMPSangssudoSheath",
       "name": "サンスドー",
       "description": "高度な技術を持つ兵士によって防御的な技に扱われる珍しい韓国の大剣。非常に長い柄が特徴。"
@@ -529,12 +537,6 @@
       "id": "KMPKatanaUnfinished",
       "name": "刀の刃",
       "description": "茎に刀鍛冶の名が刻まれた刀の刃。この状態では戦闘に向かない。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "KMPDaisho",
-      "name": "大小",
-      "description": "注意: このアイテムは諸事情によりうまく動作しないため隠しています。解決法がわかる方は教えてください。侍が携行していた一組の剣であり、彼の誉れを表していた。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
