@@ -4077,6 +4077,83 @@
           "text": "無料",
           "spriteAddress": null,
           "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "InvalidEmail",
+          "text": "メールアドレスが無効です！",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "InvalidEmailDescription",
+          "text": "送信されたメールアドレスは無効です！",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "SendingAuthCode",
+          "text": "メールアドレスに認証コードを送信",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "ModIoEnterAuthCode",
+          "text": "認証コードを入力してください",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "ModIoEnterAuthCodeDescription",
+          "text": "メールを確認してください。mod.ioの招待コードは受信トレイまたはスパムフォルダにあるかもしれません。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "ShowSpellNames",
+          "text": "呪文の名前を表示",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "ReportBug",
+          "text": "バグ報告する",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Timeout",
+          "text": "タイムアウト",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "TimeoutDescription",
+          "text": "現在Mod.ioサーバーが混雑しています。しばらくお待ちください。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "NotEnoughStorage",
+          "text": "このmodをインストールするために十分なディスク容量がありません。", // ディスク容量て
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "MusicStingerVolume",
+          "text": "スティンガー音楽の音量",
+          "spriteAddress": null,
+          "videoAddress": null
         }
       ]
     },
@@ -5908,6 +5985,24 @@
       "id": "Urn",
       "name": "骨壺",
       "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SpellFire",
+      "name": "火炎",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SpellGravity",
+      "name": "重力",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SpellLightning",
+      "name": "雷撃",
+      "description": null
     }
   ],
   "waves": [
