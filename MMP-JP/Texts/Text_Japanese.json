@@ -446,6 +446,12 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPHuntingCleaver",
+      "name": "狩猟者の大包丁",
+      "description": "傷ついた動物にとどめを刺したり、皮を剥いだりするための大型のナイフ。人間に対しても同じ使い方ができる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPSeaxT2",
       "name": "鍛冶師のナイフ",
       "description": "柄のないシンプルなナイフで、道具として使うために作られたがすばらしく手になじむ。"
@@ -453,8 +459,8 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPAntennaeSword",
-      "name": "アンテナ剣",
-      "description": "青銅で作られた片刃のケルトの剣。太古の刀鍛冶はとても高い技術を持っており、青銅からでも十分な長さの剣を作る事ができた。"
+      "name": "アンテナ型の剣",
+      "description": "青銅で作られた片刃のケルトの剣。太古の刀鍛冶はとても高い技術を持っており、青銅からでも十分な長さの剣を作製できた。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -602,6 +608,12 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPDuelingSickle",
+      "name": "決闘用の鎌",
+      "description": "農業用の鎌を改造した、武術の練習に用いるものだ。しかしこれはよく研がれ威力がある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPFalxOneHand",
       "name": "ダキアのファルクス",
       "description": "ローマ軍と戦ったダキア人が使ったことで有名な武器。前方に反った刃で盾をすり抜け脳天を貫いたり、盾を引き剥がしたりする。"
@@ -629,6 +641,12 @@
       "id": "MMPPiercingFalchion",
       "name": "ハルバードファルシオン",
       "description": "ハルバードから穂先の形状を借用した独特のファルシオン。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPFaussart",
+      "name": "フォサール",
+      "description": "十字軍の騎兵たちが好んだ斬撃用の長い武器。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -944,6 +962,18 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPAxe8",
+      "name": "オルレアンの戦斧",
+      "description": "汎用性を高めるため、刺突用の棘のついた強力な鋼鉄の戦斧。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPAxe8",
+      "name": "騎士の戦斧",
+      "description": "汎用性を高めるため刺突用の棘を付け足した強力な鋼鉄製の戦斧。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBardicheC",
       "name": "オーストリアのバルディッシュ",
       "description": "デーン人の斧から派生した武器で、強力な斬撃はその重さに依存している。"
@@ -957,7 +987,7 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBoardingAxe",
-      "name": "接舷用の斧Boarding Axe",
+      "name": "接舷戦の斧",
       "description": "主に船を接舷させ、敵の防備を破るための道具。だがもちろん、厄介な武器としても使える。"
     },
     {
@@ -1838,9 +1868,21 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPCeremonialTrident",
+      "name": "儀礼用の三叉槍",
+      "description": "重く偏った青銅製の三叉槍。引退した有名な剣闘士のために作られた。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPRetiariusTrident",
       "name": "レーティアーリウスの三叉槍",
       "description": "漁師の姿を真似た剣闘士であるレーティアーリウスが使った剣闘のための武器。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPShieldSpikedDhal",
+      "name": "ダル",
+      "description": "棘の付いたインドの軽量な小型盾。攻撃をそらしたり、攻撃的な使い方に対してより応用が効く。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -1977,7 +2019,7 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPTabarShishpar",
-      "name": "タバル=シシュパー",
+      "name": "タバルシシュパー",
       "description": "斧と連結した珍しいメイス。両方とも使いこなすのは少々難しい。"
     },
     {
@@ -1997,6 +2039,12 @@
       "id": "MMPBarcha",
       "name": "バルチャ",
       "description": "インドで歩兵に広く使われる槍。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPGreatZaghnal",
+      "name": "大ザグナル",
+      "description": "カラスのくちばしを意味する名前のインドの戦鎚。その名前の通り装甲を貫くのにとても良い。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2438,6 +2486,12 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBag_BombStun",
+      "name": "鳥の子の袋",
+      "description": "鳥の子の詰まった持ち運びできる袋。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPFirearmHandbook",
       "name": "火器の取り扱い書",
       "description": "火器の扱い方が描かれた数ページの書物。"
@@ -2511,14 +2565,44 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPCrossbow",
-      "name": "クロスボウ (開発中)",
-      "description": "[問題の修正にはゲーム本体のさらなる更新が必要です。現状狙いをつける際に不具合があります。また、利き手でクロスボウを持っているときのみ矢を装填できます。]"
+      "name": "クロスボウ",
+      "description": "弦を固定し、より簡単に発射できるようにした弓の一種。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPCrossbow",
-      "name": "クロスボウ (開発中)",
-      "description": "[問題の修正にはゲーム本体のさらなる更新が必要です。現状狙いをつける際に不具合があります。また、利き手でクロスボウを持っているときのみ矢を装填できます。]"
+      "id": "MMPBlowgun",
+      "name": "吹き矢",
+      "description": "竹製の笛に偽装した吹き矢。矢を装填し、口を持ってくるだけで発射できる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBlowgun",
+      "name": "吹き矢",
+      "description": "竹製の笛に偽装した吹き矢。矢を装填し、口を持ってくるだけで発射できる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBlowgun",
+      "name": "吹き矢",
+      "description": "竹製の笛に偽装した吹き矢。矢を装填し、口を持ってくるだけで発射できる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBlowgun",
+      "name": "吹き矢",
+      "description": "竹製の笛に偽装した吹き矢。矢を装填し、口を持ってくるだけで発射できる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBlowgun",
+      "name": "吹き矢",
+      "description": "竹製の笛に偽装した吹き矢。矢を装填し、口を持ってくるだけで発射できる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBlowgun",
+      "name": "吹き矢",
+      "description": "竹製の笛に偽装した吹き矢。矢を装填し、口を持ってくるだけで発射できる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2750,9 +2834,21 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPSconceSmall",
+      "name": "壁掛け燭台",
+      "description": "壁の金具に設置する小型の金属製の松明だが、道を照らすために持ち運ぶこともできる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBlackPowderCharge",
       "name": "装薬",
       "description": "弾を飛ばすために使う発火しやすい黒色火薬の包装。取扱注意！"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPBombStun",
+      "name": "鳥の子",
+      "description": "火薬を詰めて和紙で丸めたもの。致死性の威力はないが、脳震盪を起こす威力と発生する煙は不利な状況から脱出する手段として理想的だ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -2936,6 +3032,12 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MMPSconceStanding",
+      "name": "棒燭台",
+      "description": "地面に設置するために便利な棘を付けた燭台。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPFarmingShovel",
       "name": "シャベル",
       "description": "死体を片付けるのにも、死体を作るのにも使える。"
@@ -3097,7 +3199,7 @@
       "id": "MMPTrainer",
       "version": 2,
       "title": "1v1 剣の練習",
-      "description": "兵士たちが練習用の剣で 相手をしてくれるようです。"
+      "description": "兵士たちが練習用の剣で相手をしてくれるようです。"
     },
     {
       "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
@@ -3111,14 +3213,14 @@
       "id": "MMPRen",
       "version": 2,
       "title": "1v1 決闘者",
-      "description": "ルネサンスの決闘者たちが 刺突武器や二刀流武器を持ち出してくる。"
+      "description": "ルネサンスの決闘者たちが刺突武器や二刀流武器を持ち出してくる。"
     },
     {
       "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
       "id": "MMPSabre",
       "version": 2,
       "title": "1v1 サーベル剣士",
-      "description": "さまざまな文化圏の サーベル型の武器を持ち込んだ決闘者たち。"
+      "description": "さまざまな文化圏のサーベル型の武器を持ち込んだ決闘者たち。"
     },
     {
       "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
@@ -3139,7 +3241,7 @@
       "id": "MMPDagger",
       "version": 2,
       "title": "短剣使い",
-      "description": "様々な短剣を装備した ストリートファイターたち。"
+      "description": "様々な短剣を装備したストリートファイターたち。"
     },
     {
       "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
@@ -3167,7 +3269,7 @@
       "id": "MMPCaestusEnemy",
       "version": 2,
       "title": "セスタス",
-      "description": "腕に格闘武器であるセスタスを装備した ローマ闘技場の拳闘士たち。"
+      "description": "腕に格闘武器であるセスタスを装備したローマ闘技場の拳闘士たち。"
     },
     {
       "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
