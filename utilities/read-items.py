@@ -26,6 +26,7 @@ parser.add_argument('--previous-translation', type=Path)
 parser.add_argument('--previous-origin', type=Path)
 parser.add_argument('--overwrite', action='store_true')
 parser.add_argument('-v', '--verbose', action='store_true', default=False)
+# parser.add_argument('--original', action='store_true', default=False)
 
 with Path().cwd().joinpath('utilities/params.json') as fp:
     if fp.exists():
@@ -76,7 +77,8 @@ if __name__ == '__main__':
             for fp in entries[version]['path'].joinpath(f'{folder}').rglob('*.json'):
                 if folder != "Texts" or fp.name == f"Text_{params.general['lang']}.json":
                     if fp.exists():
-                        print(fp)
+                        if params.verbose:
+                            print(f"""READING {fp}""")
                         with fp.open('r', encoding='utf-8') as f:
                             item = json5.load(f, encoding='utf-8')
                         if params.verbose:
@@ -86,8 +88,9 @@ if __name__ == '__main__':
                     item = {k:v for k, v in item.items() if k in params.attrs[folder]}
                     entries[version]['text'][folder] += [item]
         if len(entries[version]['text']['Texts']) != 0:
-            entries[version]['text']['Texts'] = [x['texts'] for x in entries[version]['text']['Texts'][0]['textGroups'] if x['id'] == 'Tips'][0]
-    
+            print([x["id"] for x in entries[version]['text']['Texts'][0]['textGroups']])
+            entries[version]['text']['Texts'] = [x['texts'] for x in entries[version]['text']['Texts'][0]['textGroups'] if x['id'] in ['LoadingTips', 'Tooltips']][0]
+
     if previous_translation_exists:
         with Path(params.previous_translation) as fp:
             entries['previous_translation'] = {
@@ -106,7 +109,8 @@ if __name__ == '__main__':
                     entries['previous_translation']['text']['Waves'] = tmp['waves']
     
     # merge and update
-    print('--- merging with previous translation text ---')
+    if previous_translation_exists:
+        print('--- merging with previous translation text ---')
     for folder in entries['new']['text'].keys():
         print(f'processing {folder}...')
         tmp_fields = vars(params)['attrs'][folder]
