@@ -120,8 +120,10 @@ if __name__ == '__main__':
         
         if previous_origin_exists and len(entries['previous_origin']['text'][folder]) != 0:
             print('reading previous original text')
+            prev_tmp = pd.DataFrame(entries['previous_origin']['text'][folder])
+            prev_tmp['$type'] = prev_tmp['$type'].str.replace('Assembly-CSharp$', 'ThunderRoad', regex=True)
             d = d.merge(
-                pd.DataFrame(entries['previous_origin']['text'][folder]),
+                prev_tmp,
                 on=[x for x in ['$type', 'id'] if x in d.columns],
                 how='left'
             ).assign(
@@ -132,7 +134,7 @@ if __name__ == '__main__':
             ).drop(
                 columns=[elm for sub in [[f'{field}_x', f'{field}_y'] for field in d.columns] for elm in sub], errors='ignore')
         else:
-            print('new text entries found')
+            print(f'new text entries found in {folder}')
             for field in [x for x in tmp_fields if x not in ['$type', 'id']]:
                 d[f'UPDATED_{field}'] = True
         # grrrr....
