@@ -962,18 +962,6 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPAxe8",
-      "name": "オルレアンの戦斧",
-      "description": "汎用性を高めるため、刺突用の棘のついた強力な鋼鉄の戦斧。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "MMPAxe8",
-      "name": "騎士の戦斧",
-      "description": "汎用性を高めるため刺突用の棘を付け足した強力な鋼鉄製の戦斧。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MMPBardicheC",
       "name": "オーストリアのバルディッシュ",
       "description": "デーン人の斧から派生した武器で、強力な斬撃はその重さに依存している。"
