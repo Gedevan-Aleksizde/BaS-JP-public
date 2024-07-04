@@ -2968,7 +2968,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "FallOnly",
-          "text": "落下のみ",
+          "text": "落下ダメージのみ",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -2982,7 +2982,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "AllExceptFall",
-          "text": "落下以外全部",
+          "text": "落下ダメージ以外全て",
           "spriteAddress": null,
           "videoAddress": null
         },
