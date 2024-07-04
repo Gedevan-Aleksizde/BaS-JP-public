@@ -19,500 +19,417 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTantoKoRusty",
-      "name": "錆びた短刀",
-      "description": "The steel used in katanas was prone to rust, a process greatly accelerated if the blood was not cleaned from it."
+      "name": "錆びた短刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTanto2",
-      "name": "足軽の短刀",
-      "description": "A footsoldier's dagger, commonly used for utility rather than combat."
+      "name": "足軽の短刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTanto",
-      "name": "短刀",
-      "description": "The tanto was often carried by samurai, often paired with a tachi."
+      "name": "短刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPWakizashi",
-      "name": "脇差",
-      "description": "A companion weapon worn with the katana, used to behead corpses as well as for ritual suicide via disembowelment."
+      "name": "脇差"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaGenericSaya",
-      "name": "脇差",
-      "description": "A longer than average katana. While longer katanas were slightly more difficult to draw, they made up for it with reach."
+      "name": "脇差"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPWakizashiBohi",
-      "name": "新刀脇差",
-      "description": "Being smaller and swifter than the katana, the wakizashi was sometimes used for indoor combat."
+      "name": "新刀脇差"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPWakizashiBohiSaya",
-      "name": "新刀脇差",
-      "description": "Being smaller and swifter than the katana, the wakizashi was sometimes used for indoor combat."
+      "name": "新刀脇差"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTantoKo",
-      "name": "小短刀",
-      "description": "The tanto evolved as a combat weapon to become a more ornate decoration worn by the higher class."
+      "name": "小短刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTantoKo2",
-      "name": "懐剣",
-      "description": "A 'pocket sword' often carried by samurai or their wives for daily use, as well as suicide by cutting the throat to avoid capture."
+      "name": "懐剣"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTantoAikuchi",
-      "name": "合口",
-      "description": "The tanto was very useful in combat against armored enemies, where within grapple distance, it could be used as a finishing weapon."
+      "name": "合口"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPWakizashiKoSaya",
-      "name": "小脇差",
-      "description": "Unlike other weapons, the wakizashi was only permitted to be worn by samurai alongside a katana, as the pair represented high status."
+      "name": "小脇差"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPWakizashiKoGeneric",
-      "name": "小脇差",
-      "description": "Forged by Kagemitsu and worn extensively by warlord Uesugi Kenshin. The characters on the blade read 'Chichibu Daibosatsu,' referring to the shrine it was offered to."
+      "name": "小脇差"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoKagemitsu",
-      "name": "謙信景光",
-      "description": "Forged by Kagemitsu and worn extensively by warlord Uesugi Kenshin. The characters on the blade read 'Chichibu Daibosatsu,' referring to the shrine it was offered to."
+      "name": "謙信景光"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoSadamune",
-      "name": "物吉貞宗",
-      "description": "A well crafted wakizashi forged by Sadamune with his signatured marked on the blade."
+      "name": "物吉貞宗"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaRusty",
-      "name": "錆びた刀",
-      "description": "The steel used in katanas was prone to rust, a process greatly accelerated if the blood was not cleaned from it."
+      "name": "錆びた刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaRustySaya",
-      "name": "錆びた刀",
-      "description": "The steel used in katanas was prone to rust, a process greatly accelerated if the blood was not cleaned from it."
+      "name": "錆びた刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPUchigatana1",
-      "name": "抜き打ち刀",
-      "description": "An uchigatana shortened to assist in iaido, the art of drawing and striking in the same motion."
+      "name": "抜き打ち刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPUchigatana1Saya",
-      "name": "抜刀打刀",
-      "description": "An uchigatana shortened to assist in iaido, the art of drawing and striking in the same motion."
+      "name": "抜刀打刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPUchigatana3",
-      "name": "足軽打刀",
-      "description": "A footsoldier's sword, preferred over the tachi as a smaller, cheaper but still formitable sword."
+      "name": "足軽打刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPUchigatana3Saya",
-      "name": "足軽打刀",
-      "description": "A footsoldier's sword, preferred over the tachi as a smaller, cheaper but still formitable sword."
+      "name": "足軽打刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaKo",
-      "name": "小さ刀",
-      "description": "A shorter than average sword, making the draw speed incredibly fast in exchange for reach. Some shorter swordsmen prefered the length."
+      "name": "小さ刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaKoSaya",
-      "name": "小さ刀",
-      "description": "A shorter than average sword, making the draw speed incredibly fast in exchange for reach. Some shorter swordsmen prefered the length."
+      "name": "小さ刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaBohi",
-      "name": "新刀",
-      "description": "A modern katana with a bo-hi or fuller, decreasing the weight of the blade without compromising integrity."
+      "name": "新刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaBohiSaya",
-      "name": "新刀",
-      "description": "A modern katana with a bo-hi or fuller, decreasing the weight of the blade without compromising integrity."
+      "name": "新刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaShirasaya",
-      "name": "白鞘の刃",
-      "description": "Not a katana but a katana blade stored within a wooden case, and thus, was not meant to be used as a weapon."
+      "name": "白鞘の刃"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaShirasayaSaya",
-      "name": "白鞘",
-      "description": "Not a katana but a katana blade stored within a wooden case, and thus, was not meant to be used as a weapon."
+      "name": "白鞘"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaKeiun",
-      "name": "関の刀",
-      "description": "A katana forged in Seki, Mine province. With a more shallow curve than the uchigatana, the katana is suited well for both thrusting and slashing."
+      "name": "関の刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaKeiunSaya",
-      "name": "関の刀",
-      "description": "A katana forged in Seki, Mine province. With a more shallow curve than the uchigatana, the katana is suited well for both thrusting and slashing."
+      "name": "関の刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaMokko",
-      "name": "モッコー・カタナ",
-      "description": "A katana with a high quality blade tempered to last longer through wear and tear."
+      "name": "モッコー・カタナ"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaMokkoSaya",
-      "name": "モッコー・カタナ",
-      "description": "A katana with a high quality blade tempered to last longer through wear and tear."
+      "name": "モッコー・カタナ"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaMusashi",
-      "name": "武蔵の大刀",
-      "description": "A katana with a tsuba made to copy the design conceived by Miyamoto Musashi."
+      "name": "武蔵の大刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaMusashiSaya",
-      "name": "武蔵の大刀",
-      "description": "A katana with a tsuba made to copy the design conceived by Miyamoto Musashi."
+      "name": "武蔵の大刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaGeneric",
-      "name": "古大刀",
-      "description": "A longer than average katana. While longer katanas were slightly more difficult to draw, they made up for it with reach."
+      "name": "古大刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaGenericSaya",
-      "name": "古大刀",
-      "description": "A longer than average katana. While longer katanas were slightly more difficult to draw, they made up for it with reach."
+      "name": "古大刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPNinjato",
-      "name": "忍者剣",
-      "description": "A shinobi sword with an unmarked blade. Unlike the katana, it's straightened to improve stabbing ability for assassinations."
+      "name": "忍者剣"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPNinjatoSaya",
-      "name": "忍者剣",
-      "description": "A shinobi sword with an unmarked blade. Unlike the katana, it's straightened to improve stabbing ability for assassinations."
+      "name": "忍者剣"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPUchigatana2",
-      "name": "腰刀",
-      "description": "A footsoldier's sword, preferred over the tachi as smaller, cheaper but still formitable sword."
+      "name": "腰刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPUchigatana2Saya",
-      "name": "腰刀",
-      "description": "A footsoldier's sword, preferred over the tachi as smaller, cheaper but still formitable sword."
+      "name": "腰刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoHoneBami",
-      "name": "骨喰藤四郎",
-      "description": "A ko-katana famously worm by Ashikaga Takauji. The name translates to 'Bone Feaster' as its strikes were said to easily cut through bone."
+      "name": "骨喰藤四郎"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoHoneBamiSaya",
-      "name": "骨喰藤四郎",
-      "description": "A ko-katana famously worn by Ashikaga Takauji. The name translates to 'Bone Cleaver' as its strikes were said to easily cut through bone."
+      "name": "骨喰藤四郎"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoMuramasa",
-      "name": "勢州桑名住村正",
-      "description": "A legendary sword forged by the master swordsmith Senji Muramasa from Kuwana in Ise Province."
+      "name": "勢州桑名住村正"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoMuramasaSaya",
-      "name": "勢州桑名住村正",
-      "description": "A legendary sword forged by the master swordsmith Senji Muramasa from Kuwana in Ise Province."
+      "name": "勢州桑名住村正"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaOren",
-      "name": "オーレンの白鞘",
-      "description": "A rare Hattori Hanzo blade preserved in a black shirasaya. Owned by O-Ren and decorated with sakura blossoms, it was rarely used due to the extremely high quality."
+      "name": "オーレンの白鞘"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaOrenSaya",
-      "name": "オーレンの白鞘",
-      "description": "A rare Hattori Hanzo blade preserved in a black shirasaya. Owned by O-Ren and decorated with sakura blossoms, it was rarely used due to the extremely high quality."
+      "name": "オーレンの白鞘"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaSueBizen",
-      "name": "末備前刀",
-      "description": "A masterwork blade with astonishing craftmanship from school of Sue Bizen, created in the Bunmei era of Japan."
+      "name": "末備前刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaSueBizenSaya",
-      "name": "末備前刀",
-      "description": "A masterwork blade with astonishing craftmanship from school of Sue Bizen, created in the Bunmei era of Japan."
+      "name": "末備前刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoKasen",
-      "name": "歌仙兼定",
-      "description": "Forged by Kanesada and owned by a cruel warlord Hosokawa Tadaoki, this sword was said to have executed 36 of his vassals."
+      "name": "歌仙兼定"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoKasenSaya",
-      "name": "歌仙兼定",
-      "description": "Forged by Kanesada and owned by a cruel warlord Hosokawa Tadaoki, this sword was said to have executed 36 of his vassals."
+      "name": "歌仙兼定"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaBridesSword",
-      "name": "ザ・ブライドの剣",
-      "description": "The sword owned by Beatrix Kiddo and forged by Hattori Hanzo as his greatest creation."
+      "name": "ザ・ブライドの剣"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaBridesSwordSaya",
-      "name": "ザ・ブライドの剣",
-      "description": "The sword owned by Beatrix Kiddo and forged by Hattori Hanzo as his greatest creation."
+      "name": "ザ・ブライドの剣"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaSakabato",
-      "name": "逆刃刀",
-      "description": "A legendary sword with the edge forged on the reverse side of the blade. Considered to be a weapon of peace as it's not well suited for killing."
+      "name": "逆刃刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaSakabatoSaya",
-      "name": "逆刃刀",
-      "description": "A legendary sword with the edge forged on the reverse side of the blade. Considered to be a weapon of peace as it's not well suited for killing."
+      "name": "逆刃刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoSamonji",
-      "name": "江雪左文字",
-      "description": "An exceptional blade forged by master swordsmith Samonji, handed down through generations of Shoguns. Though the blade was forged as a tachi, the mounting and handle is that of a katana."
+      "name": "江雪左文字"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoSamonjiSaya",
-      "name": "江雪左文字",
-      "description": "An exceptional blade forged by master swordsmith Samonji, handed down through generations of Shoguns. Though the blade was forged as a tachi, the mounting and handle is that of a katana."
+      "name": "江雪左文字"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPNodachiRusty",
-      "name": "錆びた野太刀",
-      "description": "The steel used in katanas was prone to rust, a process greatly accelerated if the blood was not cleaned from it."
+      "name": "錆びた野太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPNodachiRustySaya",
-      "name": "錆びた野太刀",
-      "description": "The steel used in katanas was prone to rust, a process greatly accelerated if the blood was not cleaned from it."
+      "name": "錆びた野太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTachi",
-      "name": "大和の太刀",
-      "description": "The tachi was the predacessor to the katana, mostly used by horsemen as a backup weapon to their bow."
+      "name": "大和の太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTachiSaya",
-      "name": "大和の太刀",
-      "description": "The tachi was the predacessor to the katana, mostly used by horsemen as a backup weapon to their bow."
+      "name": "大和の太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPNagamaki",
-      "name": "長巻",
-      "description": "A cross between a polearm and a sword, used in long sweeping strokes. The saya must be unequipped to draw it."
+      "name": "長巻"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPNagamakiSaya",
-      "name": "長巻",
-      "description": "A cross between a polearm and a sword, used in long sweeping strokes. The saya must be unequipped to draw it."
+      "name": "長巻"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPNodachi",
-      "name": "野太刀",
-      "description": "A 'field sword' difficult to carry and mainly used on the battlefield. The saya must be unequipped to draw it."
+      "name": "野太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPNodachiSaya",
-      "name": "野太刀",
-      "description": "A 'field sword' difficult to carry and mainly used on the battlefield. The saya must be unequipped to draw it."
+      "name": "野太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPNodachi2",
-      "name": "関の野太刀",
-      "description": "A 'field sword' difficult to carry and mainly used on the battlefield. The saya must be unequipped to draw it."
+      "name": "関の野太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPNodachi2Saya",
-      "name": "関の野太刀",
-      "description": "A 'field sword' difficult to carry and mainly used on the battlefield. The saya must be unequipped to draw it."
+      "name": "関の野太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTachi1",
-      "name": "千手院の太刀",
-      "description": "Longer than a katana, it was worn blade downward to make drawing its curved blade easier, especially on horseback."
+      "name": "千手院の太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTachi1Saya",
-      "name": "千手院の太刀",
-      "description": "Longer than a katana, it was worn blade downward to make drawing its curved blade easier, especially on horseback."
+      "name": "千手院の太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPSangssudo",
-      "name": "Sangssudo",
-      "description": "A rare Korean greatsword used defensively by incredibly skilled soldiers. Notable for its very long grip."
+      "name": "Sangssudo"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPSangssudoSaya",
-      "name": "Sangssudo",
-      "description": "A rare Korean greatsword used defensively by incredibly skilled soldiers. Notable for its very long grip."
+      "name": "Sangssudo"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTachi2",
-      "name": "備前の太刀",
-      "description": "With a strong curve in the blade, the tachi was ideal for downward strikes and use on horseback."
+      "name": "備前の太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTachi2Saya",
-      "name": "備前の太刀",
-      "description": "With a strong curve in the blade, the tachi was ideal for downward strikes and use on horseback."
+      "name": "備前の太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPOdachi",
-      "name": "大太刀",
-      "description": "A Japanese great sword. Being difficult to wield, many were offered to shrines. The saya must be unequipped to draw it."
+      "name": "大太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPOdachiSaya",
-      "name": "大太刀",
-      "description": "A Japanese great sword. Being difficult to wield, many were offered to shrines. The saya must be unequipped to draw it."
+      "name": "大太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoShishio",
-      "name": "獅子王",
-      "description": "A slim-bladed tachi without a signature, said to be given to Minamoto Yorimasa by the emperor for the slaying of a demon."
+      "name": "獅子王"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoShishioSaya",
-      "name": "獅子王",
-      "description": "A slim-bladed tachi without a signature, said to be given to Minamoto Yorimasa by the emperor for the slaying of a demon."
+      "name": "獅子王"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoMunechika",
-      "name": "三日月宗近",
-      "description": "A 1000 year old blade kept in perfect condition, forged by Sanjo Munechika and named after the crescent moon."
+      "name": "三日月宗近"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPMeitoMunechikaSaya",
-      "name": "三日月宗近",
-      "description": "A 1000 year old blade kept in perfect condition, forged by Sanjo Munechika and named after the crescent moon."
+      "name": "三日月宗近"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTachiDojigiri",
-      "name": "童子切安綱",
-      "description": "Considered Japan's greatest sword, the life work of Yasutsuna - inventor of the katana. Named after a great demon the sword had slain."
+      "name": "童子切安綱"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPTachiDojigiriSaya",
-      "name": "童子切安綱",
-      "description": "Considered Japan's greatest sword, the life work of Yasutsuna - inventor of the katana. Named after a great demon the sword had slain."
+      "name": "童子切安綱"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPOdachiTaroTachi",
-      "name": "太郎太刀",
-      "description": "A massive shrine sword belonging to Makara Naotaka, a samurai famed for his talent with the odachi."
+      "name": "太郎太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPOdachiTaroTachiSaya",
-      "name": "太郎太刀",
-      "description": "A massive shrine sword belonging to Makara Naotaka, a samurai famed for his talent with the odachi."
+      "name": "太郎太刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPBokuto",
-      "name": "木刀",
-      "description": "A stiff wooden sword fashioned directly in the proportions of a katana. While a safe training alternative, it can still be quite lethal."
+      "name": "木刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPBokuto",
-      "name": "木刀",
-      "description": "A stiff wooden sword fashioned directly in the proportions of a katana. While a safe training alternative, it can still be quite lethal."
+      "name": "木刀"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "KMPKatanaUnfinished",
-      "name": "刀の刃",
-      "description": "A katana blade with the blacksmith's name etched into the tang. Not well suited for combat in this state."
+      "name": "刀の刃"
     }
   ]
 }
