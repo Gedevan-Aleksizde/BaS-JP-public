@@ -1,8 +1,8 @@
 {
-  "Name": "BaS JP (U12.3)",
+  "Name": "BaS JP",
   "Description": "Proofreading of Japanese localization text for U12",
   "Author": "S-Katagiri",
-  "ModVersion": "0.8.0",
-  "GameVersion": "0.12.0.0",
+  "ModVersion": "1.0.0",
+  "GameVersion": "1.0.0.0",
   "Thumbnail": ""
 }
