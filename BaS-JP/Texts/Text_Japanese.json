@@ -1072,7 +1072,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Spawn",
-          "text": "出現",
+          "text": "生成",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -1898,14 +1898,14 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "WaistTrackerSetup",
-          "text": "– 腰マーカー –\n腰のトラッカーをここへ移動する",
+          "text": "腰マーカー\n腰のトラッカーをここへ移動する",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "FeetTrackersSetup",
-          "text": "– 足マーカー –\n足のトラッカーを移動する",
+          "text": "足マーカー\n足のトラッカーを移動する",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -2906,7 +2906,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Stop",
-          "text": "止まる",
+          "text": "停止",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -8552,7 +8552,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "GravityDescriptionImbue",
-          "text": "一部の武器は一定時間魔法をかざすことで魔力を与えることができる。重力魔法を込めた武器は敵をしばらく浮遊させる。",
+          "text": "一部の武器には、魔法を一定時間かざして魔力を与えられる。重力魔法を込めた武器は敵をしばらく浮遊させる。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -8594,14 +8594,14 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "LightningDescriptionImbue",
-          "text": "雷光魔法を込めた武器は、短い時間敵を感電させたり気絶させることができる。",
+          "text": "雷光魔法を込めた武器は、短い時間敵を感電させたり気絶させたりできる。",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "LightningDescriptionSlam",
-          "text": "雷光魔法を込めた杖で地面を叩くと、周辺の敵を感電させることができる。",
+          "text": "雷光魔法を込めた杖で地面を叩くと、周辺の敵を感電させたりできる。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -14437,7 +14437,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "Warbow",
       "name": "戦弓",
-      "description": "一般的な弓よりも大きな力で矢を放つことができる複合弓だ。戦争に適していて、遠くの敵を一瞬で仕留めるのに役立つ。"
+      "description": "一般的な弓よりも大きな力で矢を放てる複合弓だ。戦闘に適していて、遠くの敵を一瞬で仕留めるのに役立つ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -14473,13 +14473,13 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "ShieldKite",
       "name": "カイトシールド",
-      "description": "大型の重厚な盾で、矢に対して非常に高い防御力を発揮する。使い勝手はさほど良くないが、敵を押し戻して間合いを作ることができる。"
+      "description": "大型の重厚な盾で、矢に対して非常に高い防御力を発揮する。使い勝手はさほど良くないが、敵を押し戻して間合いを取れる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "ShieldRound",
       "name": "ラウンドシールド",
-      "description": "矢をはじき、武器攻撃を楽に防げる戦線構築の盾だ。甲冑よりも安価に調達できる。"
+      "description": "矢をはじき、武器攻撃を楽に防げる戦線構築の盾だ。甲冑よりも安価で調達できる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -14581,7 +14581,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "MaceLongBecDeCorbin",
       "name": "ベクドコバン",
-      "description": "鎧を着た兵士を倒すことに特化した軍用ピックだ。このピックはどんな鎧も難なく突き刺すことができるが、長い柄をコントロールして急所を突くには高い技能が必要とされる。"
+      "description": "鎧を着た兵士を倒すことに特化した軍用ピックだ。このピックはどんな鎧も難なく突き刺せるが、長い柄をコントロールして急所を突くには高い技能が必要とされる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -14641,7 +14641,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "SwordLongCommon",
       "name": "ロングソード",
-      "description": "両手用の長い柄のおかげで、機敏に剣をさばくことができる。王国でもっとも万能な剣のひとつだ。"
+      "description": "両手用の長い柄のおかげで、機敏に剣をさばける。王国でもっとも万能な剣のひとつだ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -14659,7 +14659,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "WristBlade",
       "name": "手甲剣",
-      "description": "ハル゠ティブの暗殺用の剣だ。手首に固定した刃は、通常よりも力を込めて刺すことができる。"
+      "description": "ハル゠ティブの暗殺用の剣だ。手首に固定した刃は、通常よりも力を込めて刺せる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -14719,7 +14719,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "SpearBladed",
       "name": "歩哨の槍",
-      "description": "近衛兵が使用する剣のような刃のついた両手槍だ。両手武器ではあるものの、接近戦で使えるほど短く、多くの敵を寄せ付けない。"
+      "description": "近衛兵が使用する剣のような刃のついた両手槍だ。両手武器ではあるが、近距離で使えるほど短く、多くの敵を寄せ付けない。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -14749,13 +14749,13 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "StaffWizard",
       "name": "魔術師の杖",
-      "description": "魔術師が使えば、驚異的な効率でクリスタルから力を呼び寄せることができる頑強な杖だ。エラデン人が忌み嫌う道具である。"
+      "description": "魔術師が使えば、驚異的な効率でクリスタルから力を引き出せる頑強な杖だ。エラデン人が忌み嫌う道具である。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "SwordGreatAntique",
       "name": "儀式の剣",
-      "description": "遺跡から発掘された古代の部族の剣だ。重くて武器としては使いづらいため、本来の用途は戦闘用ではなく伝統的なものと考えられている。"
+      "description": "遺跡から発掘された古代の部族の剣だ。重くて武器としては使いづらいため、本来の用途は戦闘用ではなく儀式的なものと考えられている。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -14773,13 +14773,13 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "SwordGreatExecution",
       "name": "処刑用の剣",
-      "description": "錆びたまま放置されている第一帝国時代初期の処刑用の剣だ。凶器として再利用されるが、血で腐食した刃の切れ味はだいぶ鈍っている。"
+      "description": "錆びたまま放置されていた、第一帝国時代初期の処刑用の剣だ。まだなんとか武器として利用できるが、血で腐食した刃の切れ味はだいぶ鈍っている。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "SwordGreatFine",
       "name": "貴人のグレートソード",
-      "description": "重装甲の前線守備兵に授けられた大きな剣だ。盾を必要としない彼らは、この怪物のような剣を振るうために両手を使える。"
+      "description": "重装甲の前線守備兵に授けられた大きな剣だ。彼らは盾を必要としないため、両手を使ってこの怪物のような剣を振り回せる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -14827,7 +14827,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "ThrowablesDagger",
       "name": "投擲ナイフ",
-      "description": "小さく安い剣。投擲用に調整されている。"
+      "description": "小型で安上がりな刃物で、投擲するのに最も適したバランスだ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -14839,13 +14839,13 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "DaggerQuiver",
       "name": "投擲ナイフの鞄",
-      "description": "小さく安い剣。投てき用に調整されている。"
+      "description": "小型で安上がりな刃物で、投擲するのに最も適したバランスだ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "QuiverLarge",
       "name": "ボドキンアローの矢筒",
-      "description": "戦争用の矢で鎧を貫通する。少々高価ではあるが、迫りくる軍勢の足を止めるには必要な出費だ。"
+      "description": "戦闘用の矢で、防具を貫通する。少々高価ではあるが、迫りくる軍勢の足を止めるには必要な出費だ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -14857,7 +14857,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "BoatOar",
       "name": "オール",
-      "description": "手漕ぎ船にあった古いオール。"
+      "description": "手漕ぎボートの中にあった古いオールだ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -14923,19 +14923,19 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "BanditBoots",
       "name": "革のブーツ",
-      "description": "革のすね当てで最低限の補強が施された丈夫な旅行用のブーツだ。機動性と防御力を程よく併せ持つ。"
+      "description": "革のすね当てで最低限の補強が施された丈夫な旅行用のブーツだ。機動性と防御力を程よく併せ持っている。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "BanditGloveLeft",
       "name": "革の左手用ブレーサー",
-      "description": "革の前腕防具だ。弓術の補助としてよく使われるが、戦闘では手首を守ってくれる。"
+      "description": "革製の前腕防具だ。弓術の補助としてよく使われるが、戦闘では手首を守ってくれる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "BanditGloveRight",
       "name": "革の右手用ブレーサー",
-      "description": "革の前腕防具だ。弓術の補助としてよく使われるが、戦闘では手首を守ってくれる。"
+      "description": "革製の前腕防具だ。弓術の補助としてよく使われるが、戦闘では手首を守ってくれる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
