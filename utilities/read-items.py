@@ -17,32 +17,402 @@ import argparse
 import pandas as pd
 import numpy as np
 import warnings
+from typing import Callable, Dict, TypedDict, List
+import re
+
+RENAME_MAP = {
+    'name': 'name_transl',
+    'description': 'description_transl'
+}
+
+DF_TRANSLATION_BLANK = pd.DataFrame(
+    [('', '', '', '', '', '')],
+    columns=['CATEGORY', 'CATEGORYSUB', 'loc_id', 'name_transl', 'descritpion_transl', 'language']
+)
+
+WAVETEXT = TypedDict(
+    'WAVETEXT',
+    {
+        '$type': str,
+        'id': str,
+        'title': str,
+        'descroption':str
+    }
+)
+
+WAVEENTRY = TypedDict(
+    'WAVEENTRY',
+    {
+        '$type': str,
+        'localizationId': str,
+        'displayName': str,
+        'descroption':str
+    }
+)
 
 
-parser = argparse.ArgumentParser()
-parser.add_argument('--target', type=Path)
-parser.add_argument('--out-dir', type=Path, default=Path().cwd())
-parser.add_argument('--previous-translation', type=Path)
-parser.add_argument('--previous-origin', type=Path)
-parser.add_argument('--overwrite', action='store_true')
-parser.add_argument('-v', '--verbose', action='store_true', default=False)
-# parser.add_argument('--original', action='store_true', default=False)
+ITEMTEXT = TypedDict(
+    'ITEMTEXT',
+    {
+        '$type': str,
+        'id': str,
+        'name': str,
+        'descroption':str
+    }
+)
 
-with Path().cwd().joinpath('utilities/params.json') as fp:
-    if fp.exists():
-        with fp.open('r', encoding='utf-8') as f:
-            params = json5.load(f, encoding='utf-8')
+
+ITEMENTRY = TypedDict(
+    'ITEMENTRY',
+    {
+        '$type': str,
+        'localizationId': str,
+        'displayName': str,
+        'descroption':str
+    }
+)
+
+TGTEXT = TypedDict(
+    'TGTEXT',
+    {
+        "$type": str,
+        "id": str,
+        "name": str,
+        "description": str,
+        "spriteAddress": str,
+        "videoAddress": str
+    }
+)
+
+TEXTGROUP = TypedDict(
+    'TEXTGROUP',
+    {
+        '$type': str,
+        'id': str,
+        'texts': List[TGTEXT]
+    }
+)
+
+TEXTJSON = TypedDict(
+    'TEXTJSON',
+    {
+        '$type': str,
+        'id': str,
+        'textGroups': List[TEXTGROUP],
+        'items': List[ITEMTEXT],
+        'waves': List[WAVETEXT]
+    }
+
+)
+
+
+def main(params: argparse.Namespace):
+    assert params.target is not None, "???"
+    df = search_all_files(params.target, params.language)
+    df_transl = parse_translation(params.previous_translation)
+    df = merge_user_translation(df, df_transl)
+    to_text_json(df, params.language, params.output_path)
+
+def read_translation(json: Dict) -> pd.DataFrame:
+    """
+    既に作っておいた言語ファイルのDictを読み込む
+    """
+    d = read_any_from_text_file(json).rename(columns=RENAME_MAP)
+    if 'CATEGORYSUB' not in d.columns:
+        d['CATEGORYSUB'] = None
+    d = d.drop_duplicates()
+    return d
+
+
+def parse_translation(fpath: Path) -> pd.DataFrame:
+    """
+    既に作っておいた言語ファイルのJSONを読み込む
+    """
+    json = json5.load(fpath.open('r', encoding='utf-8'))
+    if 'ThunderRoad.TextData' in json.get('$type'):
+        return read_translation(json)
+    return DF_TRANSLATION_BLANK
+
+
+def search_all_files(fpath: Path, language:str, verbose: bool=False) -> pd.DataFrame:
+    """
+    全JSONを検索してDFにする
+    """
+    _dats = []
+    _dats_text = []
+    for jsonfp in fpath.rglob('*.json'):
+        j = json5.load(jsonfp.open('r', encoding='utf-8'), encoding='utf-8')
+        if verbose:
+            print(f'reading {jsonfp}')
+        if 'ThunderRoad.WaveData' in j.get('$type'):
+            _dats += [read_wave_entry(j)]
+        elif 'ThunderRoad.ItemData' in j.get('$type'):
+            _dats += [read_item_entry(j)]
+        elif 'ThunderRoad.TextData' in j.get('$type'):
+            if j.get('id') in (language, 'English'):
+                _dats_text += [
+                    read_any_from_text_file(j).assign(language=j.get('id'))
+                ]
+    df_entry = pd.concat(_dats) if len(_dats) > 0 else pd.DataFrame({}, columns=['CATEGORY', 'CATEGORYSUB', 'loc_id', 'name', 'description'])
+    if 'CATEGORYSUB' not in df_entry.columns:
+        df_entry['CATEGORYSUB'] = None
+    df_text = pd.concat(_dats_text) if len(_dats_text) > 0 else DF_TRANSLATION_BLANK
+    if 'CATEGORYSUB' not in df_text.columns:
+        df_text['CATEGORYSUB'] = None
+    df_entry = merge_data(df_entry, df_text, language)
+    return df_entry
+
+
+def merge_user_translation(df_entry: pd.DataFrame, df_translation: pd.DataFrame) -> pd.DataFrame:
+    df_entry = df_entry.set_index(['CATEGORY', 'CATEGORYSUB', 'loc_id'])
+    df_entry.update(df_translation.set_index(['CATEGORY', 'CATEGORYSUB', 'loc_id']))
+    return df_entry.reset_index()
+
+
+
+def merge_data(df_entry: pd.DataFrame, df_text: pd.DataFrame, language: str) -> pd.DataFrame:
+    """
+    TextDataとそれ以外の*Dataをマージする
+    """
+    df_text_en = df_text.loc[lambda d: d['language'] == 'English'].drop(columns='language')
+    df_text_transl = df_text.loc[lambda d: d['language'] == language].drop(columns='language')
+    df_entry = df_entry.set_index(['CATEGORY', 'CATEGORYSUB', 'loc_id'])
+    df_entry.update(df_text_en.set_index(['CATEGORY', 'CATEGORYSUB', 'loc_id']))   # なんで構文統一できないの?
+    df_entry = df_entry.reset_index()
+    
+    df_entry.merge(df_text_transl.rename(columns=RENAME_MAP), on=['CATEGORY', 'CATEGORYSUB', 'loc_id'])
+    return df_entry
+    
+
+
+
+def read_jsons_folder(fpath: Path, func: Callable, verbose=False) -> pd.DataFrame:
+    dat_ = []
+    for jsonpath in fpath.glob('*.json'):
+        if verbose:
+            print(f""""reading {jsonpath}""")
+        dat = func(jsonpath)
+        dat_ += [dat]
+    if len(dat_) > 0:
+        return pd.concat(dat_)
+    if verbose:
+        print('no item json found...')
+    return pd.DataFrame(columns=['loc_id', 'name', 'description', 'CATEGORY'])
+
+
+def parse_item_entry(fpath: Path) -> pd.DataFrame:
+    j = json5.load(fpath.open('r', encoding='utf-8'), encoding='utf-8')
+    return read_item_entry(j)
+
+
+def read_item_entry(json: ITEMENTRY):
+    return pd.DataFrame(
+        [(json.get('localizationId'), json.get('displayName'), json.get('description'))],
+        columns=['loc_id', 'name', 'description']
+    ).assign(
+        CATEGORY='items'
+    )
+
+
+def read_wave_entry(json: WAVEENTRY) -> pd.DataFrame:
+    return pd.DataFrame(
+        [(json.get('localizationId'), json.get('title'), json.get('description'))],
+        columns=['loc_id', 'name', 'description']
+    ).assign(
+        CATEGORY='waves'
+    )
+
+
+def parse_wave_entry(fpath: Path) -> pd.DataFrame:
+    j = json5.load(fpath.open('r', encoding='utf-8'), encoding='utf-8')
+    return read_wave_entry(j)
+
+
+def parse_items_from_text_json(fpath: Path) -> pd.DataFrame:
+    """
+    itemsテキストだけDFにする
+    """
+    j = json5.load(fpath.open('r', encoding='utf-8'), encoding='utf-8')
+    if 'items' in j.keys():
+        return read_items_from_text_json(j['items'])
+    return pd.DataFrame({}, columns=['type', 'loc_id', 'name', 'description', 'CATEGORY'])
+
+
+def parse_waves_from_text_json(fpath: Path) -> pd.DataFrame:
+    """
+    waveテキストだけDFにする
+    """
+    j = json5.load(fpath.open('r', encoding='utf-8'), encoding='utf-8')
+    if 'waves' in j.keys():
+        return read_waves_from_text_json(j['waves'])
+    return pd.DataFrame({}, columns=['type', 'loc_id', 'name', 'description', 'CATEGORY'])
+
+
+def parse_tgs_from_text_json(fpath: Path) -> pd.DataFrame:
+    """
+    textGroupsだけDFにする
+    """
+    j = json5.load(fpath.open('r', encoding='utf-8'), encoding='utf-8')
+    if 'textGroups' in j.keys():
+        return read_tgs_from_text_json(j['textGroups'])
+    return pd.DataFrame({}, columns=['type', 'loc_id', 'name', 'description', 'CATEGORY', 'CATEGORYSUB'])
+
+
+def read_any_from_text_file(json: TEXTJSON) -> pd.DataFrame:
+    """
+    text_*.jsonから全て取得する
+    """
+    _dats = []
+    if 'textGroups' in json.keys():
+        _dats += [read_tgs_from_text_json(json['textGroups'])]
+    elif 'waves' in json.keys():
+         _dats += [read_waves_from_text_json(json['waves'])]
+    elif 'items' in json.keys():
+        _dats += [read_items_from_text_json(json['items'])]
+    
+    return pd.concat(_dats)
+
+
+
+def read_items_from_text_json(json: List[ITEMTEXT]) -> pd.DataFrame:
+    return pd.DataFrame(
+        [
+            (v['$type'], v.get('id'), v.get('name'), v.get('description')) for v in json],
+            columns=['type', 'loc_id', 'name', 'description'
+        ]
+    ).assign(CATEGORY = 'items')
+
+
+def read_waves_from_text_json(json: List[WAVETEXT]) -> pd.DataFrame:
+    return pd.DataFrame(
+        [
+            (v['$type'], v.get('id'), v.get('title'), v.get('description')) for v in json
+        ],
+        columns=['type', 'loc_id', 'name', 'description']
+    ).assign(
+        CATEGORY = 'waves'
+    )
+
+
+def read_tgs_from_text_json(jsons: List[TEXTGROUP]) -> pd.DataFrame:
+    d_ = []
+    for tg in jsons:
+        d_ += [
+            pd.DataFrame(
+                [
+                    (
+                        entry.get('$type'),
+                        entry.get('id'),
+                        entry.get('title'),
+                        entry.get('description'),
+                        entry.get('spriteAddress'),
+                        entry.get('videoAddress')
+                    ) for entry in tg['texts']], columns=['type', 'loc_id', 'name', 'description', 'spriteAddress', 'videoAddress']
+            ).assign(
+                CATEGORY='textGroups',
+                CATEGORYSUB=tg.get('id')
+            )
+        ]
+    return pd.concat(d_)
+
+
+def to_text_json(data: pd.DataFrame, language: str, output_path: Path) -> bool:
+    output_json = {
+          '$type': "ThunderRoad.TextData, ThunderRoad",
+          'id': language,
+          'sensitiveContent': 'None',
+          'sensitiveFilterBehaviour': 'Discard',
+          'version': 1,
+    }
+    d_tgs = data.loc[lambda d: d['CATEGORY'] == 'textGroups']
+    if d_tgs.shape[0] > 0:
+        output_json['textGroups'] = to_textgroups_text_json(d_tgs)
+    d_items = data.loc[lambda d: d['CATEGORY'] == 'items']
+    if d_items.shape[0] > 0:
+        output_json['items'] = to_item_text_json(d_items) 
+    d_waves = data.loc[lambda d: d['CATEGORY'] == 'waves']
+    if d_waves.shape[0] > 0:
+        output_json['waves'] =  to_wave_text_json(d_waves)
+    output_json['groupPath'] = 'null'
+    json5.dump(output_json, output_path.open('w', encoding='utf-8'), indent=2, quote_keys=True, trailing_commas=False, ensure_ascii=False)
+    return True
+
+
+def to_wave_text_json(dat: pd.DataFrame) -> List[WAVETEXT]:
+    json = []
+    for _, r in dat.iterrows():
+        json += [
+            {
+                "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
+                "id": r['loc_id'],
+                "title": r['name'],
+                "description": r['description']
+            }
+        ]
+    return json
+
+
+def to_item_text_json(dat: pd.DataFrame) -> List[ITEMTEXT]:
+    json = []
+    for _, r in dat.iterrows():
+        json += [
+            {
+                "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+                "id": r['loc_id'],
+                "name": r['name'],
+                "description": r['description']
+            }
+        ]
+    return json
+
+
+def to_textgroups_text_json(dat: pd.DataFrame) -> List[TEXTGROUP]:
+    json = []
+    cats = dat['CATEGORYSUB'].unique()
+    for cat in cats:
+        json_tg = {
+            "$type": "ThunderRoad.TextData+TextGroup, ThunderRoad",
+            "id": cat,
+            'texts': []
+        }
+        for _, r in dat.loc[lambda d: d['CATEGORYSUB'] == cat].iterrows():
+            json_tg['texts'] += [
+                {
+                    "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+                    "id": r['loc_id'],
+                    "name": r['name'],
+                    "description": r['description'],
+                    "spriteAddress": r['spriteAddress'],
+                    "videoAddress": r['videoAddress']
+                }
+            ]
+        json += [json_tg]
+    return json
+
+
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--target', type=Path)
+    parser.add_argument('--language', type=str)
+    parser.add_argument('--out-dir', type=Path, default=Path().cwd())
+    parser.add_argument('--previous-translation', type=Path)
+    parser.add_argument('--previous-origin', type=Path)
+    parser.add_argument('--overwrite', action='store_true')
+    parser.add_argument('-v', '--verbose', action='store_true', default=False)
+    # parser.add_argument('--original', action='store_true', default=False)
+
+    fp_params = Path().cwd().joinpath('utilities/params.json')
+    if fp_params.exists():
+        params = json5.load(fp_params.open('r', encoding='utf-8'), encoding='utf-8')
 
     args = parser.parse_args()
-    with (Path(__file__).parent if '__file__' in locals() else Path('utilities')).joinpath('params.json') as fp:
-        if fp.exists():
-            params = json5.load(fp.open('r', encoding='utf-8'), encoding='utf-8')
-            params['target'] = Path(params.get('target'))
-        
-        else:
-            params = {}
+    fp_params2 = (Path(__file__).parent if '__file__' in locals() else Path('utilities')).joinpath('params.json')
+    if fp_params2.exists():
+        params = json5.load(fp_params2.open('r', encoding='utf-8'), encoding='utf-8')
+        params['target'] = Path(params.get('target'))    
+    else:
+        params = {}
     
     params.update({k: v for k, v in vars(args).items() if v is not None})
     params = argparse.Namespace(**params)
@@ -55,120 +425,10 @@ if __name__ == '__main__':
     
     previous_origin_exists =  'previous_origin' in vars(params).keys()
     previous_translation_exists = 'previous_translation' in vars(params).keys()
-    entries = {
-        'new': {
-            'path': Path(params.target),
-            'text': {}
-        }
-    }
-    for f in params.attrs.keys():
-        entries['new']['text'][f] = []
-    if previous_origin_exists:
-        entries['previous_origin'] = {
-            'path': Path(params.previous_origin),
-            'text': {}
-        }
-        for f in params.attrs.keys():
-            entries['previous_origin']['text'][f] = []
 
-    # read each json
-    for version in entries.keys():
-        for folder in entries[version]['text'].keys():
-            for fp in entries[version]['path'].joinpath(f'{folder}').rglob('*.json'):
-                if folder != "Texts" or fp.name == f"Text_{params.general['lang']}.json":
-                    if fp.exists():
-                        if params.verbose:
-                            print(f"""READING {fp}""")
-                        with fp.open('r', encoding='utf-8') as f:
-                            item = json5.load(f, encoding='utf-8')
-                        if params.verbose:
-                            print(f"{fp} loaded.")
-                    else:
-                        warnings.warning(f'{fp} not exists!')
-                    item = {k:v for k, v in item.items() if k in params.attrs[folder]}
-                    entries[version]['text'][folder] += [item]
-        if len(entries[version]['text']['Texts']) != 0:
-            print([x["id"] for x in entries[version]['text']['Texts'][0]['textGroups']])
-            entries[version]['text']['Texts'] = [x['texts'] for x in entries[version]['text']['Texts'][0]['textGroups'] if x['id'] in ['LoadingTips', 'Tooltips']][0]
+    params.previous_translation = Path(params.previous_translation)
+    params.output_path = Path(params.output_path)
 
-    if previous_translation_exists:
-        with Path(params.previous_translation) as fp:
-            entries['previous_translation'] = {
-                'path': fp
-            }
-            with fp.open('r', encoding='utf-8') as f:
-                tmp =  json5.load(f, encoding='utf-8')
-                entries['previous_translation']['text'] = {}
-                if 'items' in tmp.keys():
-                    entries['previous_translation']['text']['Items'] = tmp['items']
-                if 'textGroups' in tmp.keys():
-                    textGroupDefault = [x for x in tmp['textGroups'] if x.get('id') == 'Default']
-                    if len(textGroupDefault) > 0:
-                        entries['previous_translation']['text']['Texts'] = textGroupDefault
-                if 'waves' in tmp.keys():
-                    entries['previous_translation']['text']['Waves'] = tmp['waves']
-    
-    # merge and update
-    if previous_translation_exists:
-        print('--- merging with previous translation text ---')
-    for folder in entries['new']['text'].keys():
-        print(f'processing {folder}...')
-        tmp_fields = vars(params)['attrs'][folder]
-        d = pd.DataFrame(entries['new']['text'][folder])
-        if folder == 'Texts':
-            tmp_fields = ['$type','id', 'text']  # TODO: very UGLY implementation
-        
-        if previous_origin_exists and len(entries['previous_origin']['text'][folder]) != 0:
-            print('reading previous original text')
-            prev_tmp = pd.DataFrame(entries['previous_origin']['text'][folder])
-            prev_tmp['$type'] = prev_tmp['$type'].str.replace('Assembly-CSharp$', 'ThunderRoad', regex=True)
-            d = d.merge(
-                prev_tmp,
-                on=[x for x in ['$type', 'id'] if x in d.columns],
-                how='left'
-            ).assign(
-                **{f'UPDATED_{field}': (lambda x: lambda d: d[f'{x}_x'] != d[f'{x}_y'])(field) for field in tmp_fields if field not in ['$type', 'id'] and field in d.columns}
-            ).rename(
-                columns={f'{field}_x': field for field in tmp_fields if field not in ['$type', 'id']},
-                errors='ignore'
-            ).drop(
-                columns=[elm for sub in [[f'{field}_x', f'{field}_y'] for field in d.columns] for elm in sub], errors='ignore')
-        else:
-            print(f'new text entries found in {folder}')
-            for field in [x for x in tmp_fields if x not in ['$type', 'id']]:
-                d[f'UPDATED_{field}'] = True
-        # grrrr....
-        if folder in ["Items", "Waves"]:
-            if d.shape[0] > 0:
-                d['$type'] = f'ThunderRoad.TextData+{folder.title()[:-1]}, ThunderRoad'
-                d = d.drop(columns=['id']).rename(columns=rename_table)
-                tmp_fields = set([rename_table.get(x, x) for x in tmp_fields])
-        if previous_translation_exists and folder in entries['previous_translation']['text'].keys() and folder != 'Texts': # TODO: なんか更新でjsonの構造がややこしくなったので一旦手動で
-            tmp_prev_translation = pd.DataFrame(
-                entries['previous_translation']['text'][folder]
-            )
-            tmp_prev_translation = tmp_prev_translation[[c for c in tmp_fields if c in tmp_prev_translation.columns]]
-            if d.shape[0] > 0:
-                d = d.merge(
-                    tmp_prev_translation,
-                    on=[x for x in ['$type', 'id'] if x in d.columns],
-                    how='left'
-                ).assign(
-                    **{f'{field}': (lambda x: lambda d: np.where(
-                        d[f'UPDATED_{x}'],
-                        d[f'{x}_x'],
-                        d[f'{x}_y'].combine_first(d[f'{x}_x'])))(field) for field in tmp_fields if field not in ['$type', 'id', 'version']
-                    }
-                ).drop(
-                    columns=[elm for sub in [[f'{field}_x', f'{field}_y'] for field in tmp_fields] for elm in sub], errors='ignore'
-                )
-    
-        with params.out_dir.joinpath(f'Text-{folder}.json') as fp_out:
-            if fp_out.exists() and not params.overwrite:
-                print(f'{fp_out} already exists! This file skipped.')
-        
-            with fp_out.open('w', encoding='utf-8') as f:
-                items = [{k: v for k, v in x[1].items() if v != False} for x in d.iterrows()]
-                json5.dump(items, f, indent=2, quote_keys=True, trailing_commas=False, ensure_ascii=False)
-        
-    print("FINISHED")
+    print(params)
+
+    main(params)
