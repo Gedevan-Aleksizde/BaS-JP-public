@@ -848,7 +848,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "IntroText",
-          "text": "我々への応援に感謝します!\n\nWarpfrogは独立系スタジオであり、あなたのようなファンの皆さんからの熱い応援がなければここまで辿り着けなかったでしょう。\n\n我々の完全な物理シミュレーターであるブレードアンドソーサリーはいまだ開発中で、将来のアップデートでいくつかの未完成の機能や要素を追加することになります。我々は現在、2023年の完成版リリースに向けて、クリスタルハントモード製作の最後の段階にあります。\n\nより詳細なロードマップは、RedditやSteamや我々のDiscordチャンネルを見てください。\n\nKospY・バロン・そしてWarpflogチーム一同より",
+          "text": "我々への応援に感謝します!\n\nWarpfrogは独立系スタジオであり、あなたのようなファンの皆さんからの熱い応援がなければここまで辿り着けなかったでしょう。\n\n我々の完全な物理シミュレーターであるブレードアンドソーサリーはいまだ開発中で、将来のアップデートでいくつかの未完成の機能や要素を追加することになります。我々は現在、2023年の完成版リリースに向けて、クリスタルハントモード製作の最後の段階にあります。\n\nより詳細なロードマップは、RedditやSteamや我々のDiscordチャンネルを見てください。\n\nKospY・バロンとWarpflogチーム一同より",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -6301,14 +6301,14 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "EmptyBuy",
-          "text": "買うアイテムをここに入れる",
+          "text": "買うアイテムをここに置け",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "EmptySell",
-          "text": "売るアイテムをここに入れる",
+          "text": "売るアイテムをここに置け",
           "spriteAddress": null,
           "videoAddress": null
         }
@@ -13487,7 +13487,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "WildfolkOutpostDesc",
-          "text": "ワイルドフォークが占拠する前哨基地だ。戦士と魔法使いからなる有能な古代の部族勢力。",
+          "text": "ワイルドフォークが占拠する前哨基地だ。彼らは戦士と魔法使いからなる有能な古代から続く部族の集団だ。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -14466,7 +14466,7 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "BucklerRound",
-      "name": "木製バックラー",
+      "name": "木のバックラー",
       "description": "シンプルな木製の盾だ。持ち運びやすく戦いで役に立つ。小さいため、受け身の防御よりは積極的に攻めるために使うべきだろう。"
     },
     {
@@ -14556,7 +14556,7 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "DaggerFine",
-      "name": "軍用ナイフ",
+      "name": "兵士のナイフ",
       "description": "ほとんどの短剣は使いやすさが優先されるのに対し、この短剣には強力な柄頭と大きな鍔が付いており、白兵戦での使用を想定している。"
     },
     {
@@ -14629,13 +14629,13 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "SwordShortLarge",
       "name": "乗馬兵の剣",
-      "description": "片手での取り回しの良さと、使い勝手がいいことから馬に乗る兵士たちが好んで使う優れた短めの剣だ。"
+      "description": "片手で扱いやすいことから乗馬して戦う兵士たちに好まれている、短めの高性能な剣だ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "SwordLongReverend",
-      "name": "埋葬用の剣",
-      "description": "第一帝国時代の墓から出土したたくさんの剣のうちのひとつだ。保存状態が良かったからか、今でも十分使える。"
+      "name": "埋葬剣",
+      "description": "第一帝国時代の墓から出土した無数の剣のうちのひとつだ。保存状態が良かったからか、今でも十分使える。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -14653,7 +14653,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "ViennoiseSword",
       "name": "ラ・バゲット",
-      "description": "民話にしか登場しない伝説のパン屋「コスパイ」がオーブンで鍛えたものだ。"
+      "description": "昔話に登場する伝説のパン屋「コスパイ」がパン焼き窯の中で鍛えたものだ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -16189,7 +16189,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "SmallShieldT1",
       "name": "木のタージ",
-      "description": "手を守るための小さな戦闘の盾だ。"
+      "description": "手を守る小さな戦闘用の盾だ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -16201,7 +16201,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "SmallShieldT3",
       "name": "決闘者のバックラー",
-      "description": "一対一の戦闘用に作られた盾だ。丈夫でかつ軽量だ。"
+      "description": "一対一の戦闘用に作られた盾だ。丈夫かつ軽量だ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -16467,7 +16467,7 @@
       "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
       "id": "CultistSimple",
       "title": "簡素",
-      "description": "この派閥内の一般的な種類の敵と戦います。魔法使いや重装備の敵が少ない。"
+      "description": "この派閥内の一般的な種類の敵と戦う。魔法使いや重装備の敵が少ない。"
     },
     {
       "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
