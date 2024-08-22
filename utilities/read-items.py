@@ -17,12 +17,16 @@ import argparse
 import pandas as pd
 import numpy as np
 import warnings
-from typing import Callable, Dict, TypedDict, List
+from typing import Callable, Dict, TypedDict, List, Hashable
 import re
 
 RENAME_MAP = {
     'name': 'name_transl',
     'description': 'description_transl'
+}
+RENAME_MAP_INV = {
+    'name_transl': 'name',
+    'description_transl': 'description'
 }
 
 DF_TRANSLATION_BLANK = pd.DataFrame(
@@ -106,14 +110,15 @@ TEXTJSON = TypedDict(
 )
 
 
-def main(params: argparse.Namespace):
+def main(params: argparse.Namespace) -> None:
     assert params.target is not None, "???"
     df = search_all_files(params.target, params.language)
     df_transl = parse_translation(params.previous_translation)
-    df = merge_user_translation(df, df_transl)
-    to_text_json(df, params.language, params.output_path)
+    df = merge_user_translation(df, df_transl, params.output_full)
+    to_text_json(df, params.language, params.output_path, params.output_full)
 
-def read_translation(json: Dict) -> pd.DataFrame:
+
+def read_translation(json: TEXTJSON) -> pd.DataFrame:
     """
     既に作っておいた言語ファイルのDictを読み込む
     """
@@ -121,6 +126,7 @@ def read_translation(json: Dict) -> pd.DataFrame:
     if 'CATEGORYSUB' not in d.columns:
         d['CATEGORYSUB'] = None
     d = d.drop_duplicates()
+    d = d.reset_index(drop=True)
     return d
 
 
@@ -160,12 +166,32 @@ def search_all_files(fpath: Path, language:str, verbose: bool=False) -> pd.DataF
     if 'CATEGORYSUB' not in df_text.columns:
         df_text['CATEGORYSUB'] = None
     df_entry = merge_data(df_entry, df_text, language)
-    return df_entry
+    return df_entry.reset_index(drop=True)
 
 
-def merge_user_translation(df_entry: pd.DataFrame, df_translation: pd.DataFrame) -> pd.DataFrame:
-    df_entry = df_entry.set_index(['CATEGORY', 'CATEGORYSUB', 'loc_id'])
-    df_entry.update(df_translation.set_index(['CATEGORY', 'CATEGORYSUB', 'loc_id']))
+def merge_user_translation(df_entry: pd.DataFrame, df_translation: pd.DataFrame, output_full: bool) -> pd.DataFrame:
+    key_columns = ['CATEGORY', 'CATEGORYSUB', 'loc_id']
+    if check_duplication(df_entry, key_columns):
+        pass
+        # df_entry = df_entry.set_index(key_columns).drop_duplicates(subset=key_columns, ignore_index=True)
+    if check_duplication(df_translation, key_columns):
+        pass
+        # df_translation = df_translation.drop_duplicates(subset=key_columns, ignore_index=True)
+        # なぜか何もしてくれない...
+    df_entry = (
+        df_entry
+        .set_index(key_columns)
+        .loc[lambda d: ~d.index.duplicated()]
+    )
+    df_translation = (
+        df_translation
+        .set_index(key_columns)
+        .loc[lambda d: ~d.index.duplicated()]
+    )
+    if output_full:
+        df_entry = df_entry.join(df_translation, how='left')
+    else:
+        df_entry.update(df_translation)
     return df_entry.reset_index()
 
 
@@ -179,11 +205,8 @@ def merge_data(df_entry: pd.DataFrame, df_text: pd.DataFrame, language: str) -> 
     df_entry = df_entry.set_index(['CATEGORY', 'CATEGORYSUB', 'loc_id'])
     df_entry.update(df_text_en.set_index(['CATEGORY', 'CATEGORYSUB', 'loc_id']))   # なんで構文統一できないの?
     df_entry = df_entry.reset_index()
-    
     df_entry.merge(df_text_transl.rename(columns=RENAME_MAP), on=['CATEGORY', 'CATEGORYSUB', 'loc_id'])
     return df_entry
-    
-
 
 
 def read_jsons_folder(fpath: Path, func: Callable, verbose=False) -> pd.DataFrame:
@@ -265,11 +288,10 @@ def read_any_from_text_file(json: TEXTJSON) -> pd.DataFrame:
     _dats = []
     if 'textGroups' in json.keys():
         _dats += [read_tgs_from_text_json(json['textGroups'])]
-    elif 'waves' in json.keys():
+    if 'waves' in json.keys():
          _dats += [read_waves_from_text_json(json['waves'])]
-    elif 'items' in json.keys():
+    if 'items' in json.keys():
         _dats += [read_items_from_text_json(json['items'])]
-    
     return pd.concat(_dats)
 
 
@@ -316,7 +338,7 @@ def read_tgs_from_text_json(jsons: List[TEXTGROUP]) -> pd.DataFrame:
     return pd.concat(d_)
 
 
-def to_text_json(data: pd.DataFrame, language: str, output_path: Path) -> bool:
+def to_text_json(data: pd.DataFrame, language: str, output_path: Path, output_full: bool) -> bool:
     output_json = {
           '$type': "ThunderRoad.TextData, ThunderRoad",
           'id': language,
@@ -326,47 +348,73 @@ def to_text_json(data: pd.DataFrame, language: str, output_path: Path) -> bool:
     }
     d_tgs = data.loc[lambda d: d['CATEGORY'] == 'textGroups']
     if d_tgs.shape[0] > 0:
-        output_json['textGroups'] = to_textgroups_text_json(d_tgs)
+        output_json['textGroups'] = to_textgroups_text_json(d_tgs, output_full)
     d_items = data.loc[lambda d: d['CATEGORY'] == 'items']
     if d_items.shape[0] > 0:
-        output_json['items'] = to_item_text_json(d_items) 
+        output_json['items'] = to_item_text_json(d_items, output_full)
     d_waves = data.loc[lambda d: d['CATEGORY'] == 'waves']
     if d_waves.shape[0] > 0:
-        output_json['waves'] =  to_wave_text_json(d_waves)
+        output_json['waves'] =  to_wave_text_json(d_waves, output_full)
     output_json['groupPath'] = 'null'
     json5.dump(output_json, output_path.open('w', encoding='utf-8'), indent=2, quote_keys=True, trailing_commas=False, ensure_ascii=False)
     return True
 
 
-def to_wave_text_json(dat: pd.DataFrame) -> List[WAVETEXT]:
+def to_wave_text_json(dat: pd.DataFrame, output_full: bool) -> List[WAVETEXT]:
     json = []
-    for _, r in dat.iterrows():
-        json += [
-            {
-                "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
-                "id": r['loc_id'],
-                "title": r['name'],
-                "description": r['description']
-            }
-        ]
+    if output_full:
+        for _, r in dat.iterrows():
+            json += [
+                {
+                    "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
+                    "id": r['loc_id'],
+                    "title": r['name_transl'],
+                    "title_ORIGINAL": r['name'],
+                    "description": r['description_transl'],
+                    "description_ORIGINAL": r['description']
+                }
+            ]
+    else:
+        for _, r in dat.iterrows():
+            json += [
+                {
+                    "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
+                    "id": r['loc_id'],
+                    "title": r['name'],
+                    "description": r['description']
+                }
+            ]
     return json
 
 
-def to_item_text_json(dat: pd.DataFrame) -> List[ITEMTEXT]:
+def to_item_text_json(dat: pd.DataFrame, output_full: bool) -> List[ITEMTEXT]:
     json = []
-    for _, r in dat.iterrows():
-        json += [
-            {
-                "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-                "id": r['loc_id'],
-                "name": r['name'],
-                "description": r['description']
-            }
-        ]
+    if output_full:
+        for _, r in dat.iterrows():
+            json += [
+                {
+                    "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+                    "id": r['loc_id'],
+                    "name": r['name_transl'],
+                    "name_ORIGINAL": r['name'],
+                    "description": r['description_transl'],
+                    "description_ORIGINAL": r['description']
+                }
+            ]
+    else:
+        for _, r in dat.iterrows():
+            json += [
+                {
+                    "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+                    "id": r['loc_id'],
+                    "name": r['name'],
+                    "description": r['description']
+                }
+            ]
     return json
 
 
-def to_textgroups_text_json(dat: pd.DataFrame) -> List[TEXTGROUP]:
+def to_textgroups_text_json(dat: pd.DataFrame, output_full: bool) -> List[TEXTGROUP]:
     json = []
     cats = dat['CATEGORYSUB'].unique()
     for cat in cats:
@@ -375,20 +423,46 @@ def to_textgroups_text_json(dat: pd.DataFrame) -> List[TEXTGROUP]:
             "id": cat,
             'texts': []
         }
-        for _, r in dat.loc[lambda d: d['CATEGORYSUB'] == cat].iterrows():
-            json_tg['texts'] += [
-                {
-                    "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-                    "id": r['loc_id'],
-                    "name": r['name'],
-                    "description": r['description'],
-                    "spriteAddress": r['spriteAddress'],
-                    "videoAddress": r['videoAddress']
-                }
-            ]
+        if output_full:
+            for _, r in dat.loc[lambda d: d['CATEGORYSUB'] == cat].iterrows():
+                json_tg['texts'] += [
+                    {
+                        "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+                        "id": r['loc_id'],
+                        "name": r['text_transl'],
+                        "name_ORIGINAL": r['text'],
+                        "description": r['description_transl'],
+                        "description_ORIGINAL": r['description'],
+                        "spriteAddress": r['spriteAddress'],
+                        "videoAddress": r['videoAddress']
+                    }
+                ]
+        else:
+            for _, r in dat.loc[lambda d: d['CATEGORYSUB'] == cat].iterrows():
+                json_tg['texts'] += [
+                    {
+                        "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+                        "id": r['loc_id'],
+                        "name": r['text'],
+                        "description": r['description'],
+                        "spriteAddress": r['spriteAddress'],
+                        "videoAddress": r['videoAddress']
+                    }
+                ]
         json += [json_tg]
     return json
 
+
+def check_duplication(data: pd.DataFrame, on: List[str]) -> bool:
+    """
+    重複があったら内容を標準出力してTrueを返す
+    """
+    duplications = data.set_index(on)
+    duplications = duplications[duplications.index.duplicated()]
+    if duplications.shape[0] > 0:
+        print(f'--- {duplications.shape[0]} duplicated entries found! ---')
+        print(duplications.reset_index())
+    return False
 
 
 if __name__ == '__main__':
@@ -398,6 +472,7 @@ if __name__ == '__main__':
     parser.add_argument('--out-dir', type=Path, default=Path().cwd())
     parser.add_argument('--previous-translation', type=Path)
     parser.add_argument('--previous-origin', type=Path)
+    parser.add_argument('--output-full', action='store_true')
     parser.add_argument('--overwrite', action='store_true')
     parser.add_argument('-v', '--verbose', action='store_true', default=False)
     # parser.add_argument('--original', action='store_true', default=False)
@@ -407,10 +482,13 @@ if __name__ == '__main__':
         params = json5.load(fp_params.open('r', encoding='utf-8'), encoding='utf-8')
 
     args = parser.parse_args()
+    if not args.output_full:
+        args.output_full = None
     fp_params2 = (Path(__file__).parent if '__file__' in locals() else Path('utilities')).joinpath('params.json')
     if fp_params2.exists():
         params = json5.load(fp_params2.open('r', encoding='utf-8'), encoding='utf-8')
-        params['target'] = Path(params.get('target'))    
+        params['target'] = Path(params.get('target'))
+        params['output_full'] = params['output_full'] == 'True'
     else:
         params = {}
     
