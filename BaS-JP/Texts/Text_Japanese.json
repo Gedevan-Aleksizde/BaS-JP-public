@@ -33,7 +33,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Move",
-          "text": "左サムスティックで移動し、右サムスティックで方向転換する。",
+          "text": "左スティックで移動し、右スティックで方向転換する。",
           "spriteAddress": "Bas.Input.{Controller}.Move",
           "videoAddress": null
         },
@@ -68,7 +68,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Jump",
-          "text": "右サムスティックまたはタッチパッドを押す、あるいはサムスティックを上に倒すとジャンプできる。\n長く押すほど高く飛べる。",
+          "text": "右スティックまたはタッチパッドを押す、あるいはスティックを上に倒すとジャンプできる。\n長く押すほど高く飛べる。",
           "spriteAddress": "Bas.Input.{Controller}.Jump",
           "videoAddress": null
         },
@@ -177,14 +177,48 @@
           "spriteAddress": null,
           "videoAddress": "Bas.Video.SlideZipline"
         },
-        
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Stash",
-          "text": "ステージを離れるとき、インベントリから取り出しているものでも、あなたの所有アイテムはすべてインベントリに返される。インベントリの全てのアイテムは、自宅のスポーンブックで取り出したり装備したりできる。",
+          "text": "アイテムブックには2つのタブがある。1つは、購入あるいは獲得したアイテムを全て表示する「保管庫」タブだ。ここからアイテムをいつでも取り出せる。「自宅」タブは自宅マップのどこかに置かれているアイテム全てを表示している。いつでもこれらを「保管庫」へ移動できるだろう。",
           "spriteAddress": null,
+          "videoAddress": "Bas.Video.Stash"
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "OpenSpellWheel",
+          "text": "コントローラの呪文ホイールボタンを押し続けて、自分の使える呪文を確認しよう。",
+          "spriteAddress": "Bas.Input.{Controller}.SpellMenu",
           "videoAddress": null
         },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "UseSpells",
+          "text": "目的の呪文に手を乗せた状態で呪文ホイールボタンを離すことで、呪文を選択できる。呪文選択を解除するには、何もない空間に手をかざしてからボタンを離す。",
+          "spriteAddress": null,
+          "videoAddress": "Bas.Video.SpellWheel"
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Mirror",
+          "text": "鏡に向き合っている時は、服や鎧を装備できる。鏡は店や自宅で見つかるだろう。",
+          "spriteAddress": null,
+          "videoAddress": "Bas.Video.Mirror"
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Armor",
+          "text": "服や鎧を装備するには、鏡に向かい合った状態で、装備を掴んで身体の適切な部位に持ってくる。身体の部位が強調表示されたら、掴みボタンを話して装備する。同じ要領で、すでに身に着けている装備の交換もできる。",
+          "spriteAddress": null,
+          "videoAddress": "Bas.Video.Armor"
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Quiver",
+          "text": "矢筒を外すには、手をかざしたままトリガーを押してから、掴むボタンを押すと矢筒をつかめる。",
+          "spriteAddress": null,
+          "videoAddress": "Bas.Video.Quiver"
+        }
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "EquipSpell",
@@ -647,7 +681,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "46",
-          "text": "敵の口をつかんで口を塞げば、仲間に知らせようとするのを防げる。",
+          "text": "敵の口を掴むと、口をふさいで声を上げるのを防ぎ、仲間に知らせられるのを防げる。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -848,7 +882,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "IntroText",
-          "text": "我々への応援に感謝します!\n\nWarpfrogは独立系スタジオであり、あなたのようなファンの皆さんからの熱い応援がなければここまで辿り着けなかったでしょう。\n\n我々の完全な物理シミュレーターであるブレードアンドソーサリーはいまだ開発中で、将来のアップデートでいくつかの未完成の機能や要素を追加することになります。我々は現在、2023年の完成版リリースに向けて、クリスタルハントモード製作の最後の段階にあります。\n\nより詳細なロードマップは、RedditやSteamや我々のDiscordチャンネルを見てください。\n\nKospY・バロンとWarpflogチーム一同より",
+          "text": "我々への応援に感謝します!\n\nWarpfrogは独立系スタジオであり、あなたのようなファンの皆さんからの熱い応援がなければここまで辿り着けなかったでしょう。\n\n我々の完全な物理シミュレーターであるブレードアンドソーサリーはいまだ開発中で、将来のアップデートでいくつかの未完成の機能や要素を追加することになります。我々は現在、2023年の完成版リリースに向けて、クリスタルハントモード製作の最後の段階にあります。\n\nより詳細なロードマップは、RedditやSteamや我々のDiscordチャンネルを見てください。\n\nKospY・バロン・Warpflogチーム一同より",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -1576,7 +1610,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "SelectWave",
-          "text": "戦いを開始する敵集団を選べ。\nタッチパッド・サムスティックで上下にスクロールできる。",
+          "text": "戦いを開始する敵集団を選べ。\nタッチパッド・スティックで上下にスクロールできる。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -2262,7 +2296,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "ThumbstickJump",
-          "text": "サムスティックでジャンプ",
+          "text": "スティックでジャンプ",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -2283,14 +2317,14 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "ThumbstickPressJump",
-          "text": "サムスティックを押してジャンプ",
+          "text": "スティックを押してジャンプ",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "ThumbstickCrouchMode",
-          "text": "サムスティックでしゃがむ",
+          "text": "スティックでしゃがむ",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -2640,7 +2674,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "InfiniteFocus",
-          "text": "フォーカス無限",
+          "text": "集中力無限",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -4950,7 +4984,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "CombatDummy",
-          "text": "ダミーと戦う",
+          "text": "戦闘用ダミー",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -5133,6 +5167,13 @@
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "CrystalHunt",
           "text": "クリスタル争奪戦",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LODBias",
+          "text": "LODバイアス",
           "spriteAddress": null,
           "videoAddress": null
         }
@@ -6601,7 +6642,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "DoctorObservationJournal9",
-          "text": "オルリーン医師 / 無法者たち医療救援活動日誌 / 42日目\n\t昨日、また欠片を摂取した。\n\t医学実験のためにごく少量を摂取するつもりだ。そもそも大した量ではないのだからもう少し増やしたところで問題はないはずだった。\n\tやがて、何度も口にしてる自分に気づいた。これ以上摂取しないようにしているが、我慢することが難しい。\n\t無法者たちたちの苦悩がやっとわかった。 彼らは実に大変な人生を送っている。この段階でさえ、再び力を手に入れたいという気持ちを抑えるのに必死なのだから。",
+          "text": "オルリーン医師 / 無法者たち医療救援活動日誌 / 42日目\n\t昨日、また欠片を摂取した。\n\t医学実験のためにごく少量を摂取するつもりだ。そもそも大した量ではないのだからもう少し増やしたところで問題はないはずだった。\n\tやがて、何度も口にしてる自分に気づいた。これ以上摂取しないようにしているが、我慢するのが難しい。\n\t無法者たちたちの苦悩がやっとわかった。 彼らは実に大変な人生を送っている。この段階でさえ、再び力を手に入れたいという気持ちを抑えるのに必死なのだから。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -7153,7 +7194,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "DevsaldTravelNoteTheEye3_1",
-          "text": "\tそれを理解したクランは、鬨の声を上げた。\n\t我らの奇襲はかなりの数の魔法使いを排除することができた。しかし、まもなく撤退を余儀なくされた。\n\t手足をバターのように切り落とし…重量系の兵士ですら空へ投げ飛ばすことのできる魔力を込めた武器を持っていた。\n\tエルグファレンは斧から放たれた稲妻に撃たれて全焼した。彼の手足が火の剣で切り落とされる前、まるでコンダラリム自身が金属の核に宿っているかのようだった。それらの遺物は我らの知らない古代の金属で造られているようだ。\n\tもしかすると、我々が今住んでいる遺跡には、そうした武器を作る力が眠っているのかもしれない。それらを手に入れ、やつらの秘密を暴く方法を見つけなければ。",
+          "text": "\tそれを理解したクランは、鬨の声を上げた。\n\t我らの奇襲はかなりの数の魔法使いを排除できた。しかし、まもなく撤退を余儀なくされた。\n\t手足をバターのように切り落とし…重量系の兵士ですら空へ投げ飛ばすことのできる魔力を込めた武器を持っていた。\n\tエルグファレンは斧から放たれた稲妻に撃たれて全焼した。彼の手足が火の剣で切り落とされる前、まるでコンダラリム自身が金属の核に宿っているかのようだった。それらの遺物は我らの知らない古代の金属で造られているようだ。\n\tもしかすると、我々が今住んでいる遺跡には、そうした武器を作る力が眠っているのかもしれない。それらを手に入れ、やつらの秘密を暴く方法を見つけなければ。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -8936,7 +8977,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "ArmorProtection",
-          "text": "防具の防御力",
+          "text": "防具による防御力",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -8999,7 +9040,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "ArmorModifiers",
-          "text": "防御力補正",
+          "text": "防具による補正",
           "spriteAddress": null,
           "videoAddress": null
         }
@@ -9103,7 +9144,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "DalgarianPreservationSocietyArcheologistletter",
-          "text": "アフェレンへ、\n\tどう言えばうまく伝わるかわからないけど、とにかく伝えておく。純潔生誕祭の日は家に帰らない。\n\t母さんにとっては大事なことだろうけど。母さんには本当に帰りたかったと伝えて。でもちゃんとした理由があるの!\n\tダルガリア保全協会全体が沸き立っているわ – 少なくとも私は確実に。ダルガリア魔法マーカーがすべて急に動き出したことで、驚くべき発見をすることができたの。アミニラ・ナル・カヨスヴァムを見つけたかもしれない。そこは、ダルガリア人が彼らの予言者と救世主であるヘメネトの再誕を目撃した寺院よ!\n\t本の虫だって馬鹿にするだろうけど、今回だけは言わせて。これが私にとってどんなに大切かわかるでしょ。\n<align=\"right\">（1/2）",
+          "text": "アフェレンへ、\n\tどう言えばうまく伝わるかわからないけど、とにかく伝えておく。純潔生誕祭の日は家に帰らない。\n\t母さんにとっては大事なことだろうけど。母さんには本当に帰りたかったと伝えて。でもちゃんとした理由があるの!\n\tダルガリア保全協会全体が沸き立っているわ – 少なくとも私は確実に。ダルガリア魔法マーカーがすべて急に動き出したことで、驚くべき発見があったの。アミニラ・ナル・カヨスヴァムを見つけたかもしれない。そこは、ダルガリア人が彼らの予言者と救世主であるヘメネトの再誕を目撃した寺院よ!\n\t本の虫だって馬鹿にするだろうけど、今回だけは言わせて。これが私にとってどんなに大切かわかるでしょ。\n<align=\"right\">（1/2）",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -10103,7 +10144,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "DalgarianRealistLeaderMeetingRevealsecondimbue_2",
-          "text": "ここを見ろ：手順は無視して、直接素手で3本の緩衝室ヒューズにコンダラリムを適用するんだ。それで1時間は作業時間を節約できる。俺に感謝しろよ!\n– これをどう解釈すればいいかわからないが、とりあえず技術スタッフに伝えておく。きっと重宝すると思う。\n– 要は、PMN炉心を予定よりかなり早く停止することができるってことだ。これで仕事が簡単になるはずだ。\n– なるほど。君の協力に感謝する。 真実は必ず勝つ。\n<align=\"right\">（3/4）",
+          "text": "ここを見ろ：手順は無視して、直接素手で3本の緩衝室ヒューズにコンダラリムを適用するんだ。それで1時間は作業時間を節約できる。俺に感謝しろよ!\n– これをどう解釈すればいいかわからないが、とりあえず技術スタッフに伝えておく。きっと重宝すると思う。\n– 要は、PMN炉心を予定よりかなり早く停止できるってことだ。これで仕事が簡単になるはずだ。\n– なるほど。君の協力に感謝する。 真実は必ず勝つ。\n<align=\"right\">（3/4）",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -10837,7 +10878,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "StoryOfAldaric3",
-          "text": "起源の研究 – 最初の清き者（3/6）\n\tヘメネトは強力な魔法の剣「ナーの剣」を装備できる唯一の存在と考えられていた。その神秘の武器を見つけることができれば、国中の魔法を自由に支配することができるというものだ。\n\t当然、最も腐敗したものが、自分こそがヘメネトだと信じてその剣を探し求めた。これが大きな紛争へ発展し、国に絶え間ない脅威をもたらしたが、この大混乱は大陸全体に広まったのかもしれない。\n\t長年にわたり発掘してきた数々のダルガリア聖典をもとに、ダルガリア保全協会ではこの剣が本当に存在すると考えている。アルダリク王にとって、この剣は脅威だった。それが純粋な悪の遺物で、触れる者すべてを腐敗させると考えていたからだ。",
+          "text": "起源の研究 – 最初の清き者（3/6）\n\tヘメネトは強力な魔法の剣「ナーの剣」を装備できる唯一の存在と考えられていた。その神秘の武器を見つけることができれば、国中の魔法を自由に支配できるというものだ。\n\t当然、最も腐敗したものが、自分こそがヘメネトだと信じてその剣を探し求めた。これが大きな紛争へ発展し、国に絶え間ない脅威をもたらしたが、この大混乱は大陸全体に広まったのかもしれない。\n\t長年にわたり発掘してきた数々のダルガリア聖典をもとに、ダルガリア保全協会ではこの剣が本当に存在すると考えている。アルダリク王にとって、この剣は脅威だった。それが純粋な悪の遺物で、触れる者すべてを腐敗させると考えていたからだ。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -14394,7 +14435,7 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "Jug",
-      "name": "ジョッキ",
+      "name": "水瓶",
       "description": ""
     },
     {
@@ -14527,7 +14568,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "AxeLongHalberd",
       "name": "近衛兵のハルバード",
-      "description": "エラデン王国の近衛兵だけに与えられる斧だ。スパイクと背面には刃が追加されており、極めて優れた防御力と攻撃力を発揮する。"
+      "description": "エラデン王国の近衛兵だけに与えられる斧だ。スパイクと背面の刃が追加されており、極めて優れた防御力と攻撃力を発揮する。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -15846,25 +15887,25 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "Dalg_Canope",
-      "name": "水瓶",
+      "name": "カノプス",
       "description": ""
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "Dalg_Canope_Lid",
-      "name": "水瓶の蓋",
+      "name": "カノプスの蓋",
       "description": ""
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "Dalg_Pottery_Cup",
-      "name": "金属のコップ",
+      "name": "金属のカップ",
       "description": ""
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "Dalg_Bowl",
-      "name": "陶器の椀",
+      "name": "ギザギザ模様のボウル",
       "description": ""
     },
     {
@@ -16074,7 +16115,7 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "OfficerShoulders02",
-      "name": "黒塗り肩当て",
+      "name": "黒塗りの肩当て",
       "description": "鉄板を成形して作った肩の防具で、様々なダメージに対して高い防御力を発揮する。"
     },
     {
@@ -16295,6 +16336,18 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelImprovisedLeatherFeet",
+      "name": "革の脚巻き",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelImprovisedLeatherTorso",
+      "name": "革の胸当て",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "DalgarianLoot",
       "name": "ダルガリアの遺物",
       "description": "長い年月の間忘れ去られた目的不明の遺物だ。考古学者にとって非常に価値があるかもしれない。"
@@ -16388,13 +16441,13 @@
     {
       "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
       "id": "SpecialGauntletMelee",
-      "title": "勝ち抜き型のガントレット(近接戦)",
+      "title": "勝ち抜き型の乱戦(近接戦)",
       "description": "段階的に強くなる各派閥の近接敵による大規模攻勢だ。彼らはあなただけを狙ってくる。"
     },
     {
       "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
       "id": "SpecialGauntlet",
-      "title": "勝ち抜き型のガントレット",
+      "title": "勝ち抜き型の乱戦",
       "description": "段階的に強くなる各派閥からの60名の大規模攻勢だ。彼らはあなただけを狙ってくる。"
     },
     {
