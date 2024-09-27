@@ -218,7 +218,7 @@
           "text": "矢筒を外すには、手をかざしたままトリガーを押してから、掴むボタンを押すと矢筒をつかめる。",
           "spriteAddress": null,
           "videoAddress": "Bas.Video.Quiver"
-        }
+        },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "EquipSpell",
@@ -15677,7 +15677,7 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "DaggerAntic",
-      "name": "古いナイフ", // タイポ?
+      "name": "古いナイフ",
       "description": "修復された第一帝国時代の古い短剣だ。当時のものとしてはとても優れており、現代でも十分使える。"
     },
     {
