@@ -14333,7 +14333,7 @@
       "id": "Quiver",
       "name": "矢筒",
       "description": "よくできた汎用的な矢だ。柔らかい標的を遠くから攻撃する際にとても効果的だが、一部の鎧も貫通する汎用性を持つ。"
-    }
+    },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "AxeLongLumberaxe",
@@ -14404,7 +14404,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "DaggerCommon",
       "name": "エラデンの短剣",
-      "description": "軽量かつ多目的に使用でき、その便利さから補助武器としてよく用いられる。戦場に赴く兵士なら必携の武器と心得よ。エラデン全体で広く使える設計だ。"
+      "description": "軽量かつ多目的に使用でき、その便利さから補助武器としてよく用いられる。戦場に赴く兵士なら必携の武器と考えられる。エラデン全土で広く使える設計だ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -14500,7 +14500,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "SwordLongReinforced",
       "name": "ウォーソード",
-      "description": "戦場用での使用を想定して作られた大きなロングソードだ。その長さと機敏さのおかげで、高い威力と汎用性を発揮する。"
+      "description": "戦場用での使用を想定して作られた大きなロングソードだ。その長さと機敏さによって、高い威力と汎用性を発揮する。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
