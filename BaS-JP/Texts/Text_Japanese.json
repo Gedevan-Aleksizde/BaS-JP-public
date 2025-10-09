@@ -40,31 +40,10 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "TelekinesisGrab",
-          "text": "あなたは念動力の魔法を使える。\n武器に向けて手を伸ばし、強調アイコンが現れたら「掴む」ボタンで持ち上げられる。",
+          "id": "Sick",
+          "text": "早く動くと画面酔いする場合がある。\n酔う場合には、定期的に休憩するようにしよう：\nVRに慣れれば、こうした症状もなくなるだろう。",
           "spriteAddress": null,
-          "videoAddress": "Bas.Video.TelekinesisGrab"
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "TelekinesisPull",
-          "text": "では、トリガーを押して武器を引き寄せよう。",
-          "spriteAddress": "Bas.Input.{Controller}.TelekinesisPull",
           "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Fighting",
-          "text": "万物は物理現象によって運動する。\n残虐にいくか、緻密にいくか、好みのスタイルで敵を倒そう。どちらを選んでもいいだろう。",
-          "spriteAddress": "Bas.Input.{Controller}.TelekinesisPull",
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Run",
-          "text": "両手で走るジェスチャーをしながら前進すると走る。",
-          "spriteAddress": null,
-          "videoAddress": "Bas.Video.Running"
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
@@ -82,17 +61,10 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "JumpSick",
-          "text": "飛び降りても、歩いて下りてもいい。\n飛び降りる方が早いが、少し酔うかもしれない。",
+          "id": "Run",
+          "text": "両手で走るジェスチャーをしながら前進すると走る。",
           "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Sick",
-          "text": "早く動くと画面酔いする場合がある。\n酔う場合には、定期的に休憩するようにしよう：\nVRに慣れれば、こうした症状もなくなるだろう。",
-          "spriteAddress": null,
-          "videoAddress": null
+          "videoAddress": "Bas.Video.Running"
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
@@ -100,6 +72,13 @@
           "text": "壁を掴みながら飛びたい方向を向いてジャンプボタンを押せば、壁を蹴ってジャンプできる。",
           "spriteAddress": null,
           "videoAddress": "Bas.Video.WallJump"
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "TelekinesisGrab",
+          "text": "あなたは念動力の魔法を使える。\n武器に向けて手を伸ばし、強調アイコンが現れたら「掴む」ボタンで持ち上げられる。",
+          "spriteAddress": null,
+          "videoAddress": "Bas.Video.TelekinesisGrab"
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
@@ -117,27 +96,6 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Inventory",
-          "text": "インベントリを開くには、手を胸に近づけてトリガーを握る。",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "InventoryStore",
-          "text": "アイテムや戦利品をインベントリに入れたければ、自分の胸に持っていって手放すだけだ。",
-          "spriteAddress": null,
-          "videoAddress": "Bas.Video.InventoryStoring"
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "InventoryTake",
-          "text": "あなたの胸元にある無限の収容力を持つダルガリアの装置に、獲得したアイテムを収納できる。自分の手でつかんでインベントリを開ける。",
-          "spriteAddress": null,
-          "videoAddress": "Bas.Video.InventoryRetrieving"
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "SwimmingMessage",
           "text": "水中を進むには、両腕で泳ぐジェスチャーをしよう。",
           "spriteAddress": null,
@@ -145,22 +103,29 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "ClimbingOverLedge",
-          "text": "崖を登る際に、崖の縁を掴んんでる時にジャンプを長押ししながら前進すると、自分の身体を持ち上げられる。さらにこのとき、腕を下方向へ押し出せば持ち上がる距離が増加する。",
+          "id": "Inventory",
+          "text": "インベントリを開くには、手を胸に近づけてトリガーを握る。",
           "spriteAddress": null,
+          "videoAddress": "Bas.Video.InventoryOpening"
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "TelekinesisPull",
+          "text": "では、トリガーを押して武器を引き寄せよう。",
+          "spriteAddress": "Bas.Input.{Controller}.TelekinesisPull",
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Stealth",
-          "text": "方向転換スティックを下に倒すとしゃがむ。しゃがんでいるときは静かに移動できるので、敵に気づかれずにすり抜けたり、隠密攻撃をしかけることもできる。",
-          "spriteAddress": null,
+          "id": "Fighting",
+          "text": "万物は物理現象によって運動する。\n残虐にいくか、緻密にいくか、好みのスタイルで敵を倒そう。どちらを選んでもいいだろう。",
+          "spriteAddress": "Bas.Input.{Controller}.TelekinesisPull",
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "TelekinesisRepel",
-          "text": "「押す」ボタンを押せば、念動力で掴んでいる物体を押し出せる。この能力を使って上の落とし戸を開こう。",
+          "id": "JumpSick",
+          "text": "飛び降りても、歩いて下りてもいい。\n飛び降りる方が早いが、少し酔うかもしれない。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -177,6 +142,41 @@
           "text": "ジップラインや、その他のぶら下がれる紐のようなものならなんでも、滑車を使って滑降できる。",
           "spriteAddress": null,
           "videoAddress": "Bas.Video.SlideZipline"
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "InventoryStore",
+          "text": "アイテムや戦利品をインベントリに入れたければ、自分の胸に持っていって手放すだけだ。",
+          "spriteAddress": null,
+          "videoAddress": "Bas.Video.InventoryStoring"
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "ClimbingOverLedge",
+          "text": "崖を登る際に、崖の縁を掴んんでる時にジャンプを長押ししながら前進すると、自分の身体を持ち上げられる。さらにこのとき、腕を下方向へ押し出せば持ち上がる距離が増加する。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+         {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Stealth",
+          "text": "方向転換スティックを下に倒すとしゃがむ。しゃがんでいるときは静かに移動できるので、敵に気づかれずにすり抜けたり、隠密攻撃をしかけることもできる。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+         {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "TelekinesisRepel",
+          "text": "「押す」ボタンを押せば、念動力で掴んでいる物体を押し出せる。この能力を使って上の落とし戸を開こう。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "InventoryTake",
+          "text": "あなたの胸元にある無限の収容力を持つダルガリアの装置に、獲得したアイテムを収納できる。自分の手でつかんでインベントリを開ける。",
+          "spriteAddress": null,
+          "videoAddress": "Bas.Video.InventoryRetrieving"
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
@@ -482,39 +482,11 @@
           "text": "短剣の威力は弱いが、突き刺すことで柔らかい防具を楽に貫通し、相手の弱点を簡単に狙える。投げればさらに大きなダメージを与えられるだろう!",
           "spriteAddress": null,
           "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "18",
-          "text": "メイスは革や鎖の鎧などの柔らかい防具に対して弱いが、素肌やプレートアーマーに対してはかなり効果的だ。",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "19",
-          "text": "敵は多くの矢を持たないが、あなたが購入する矢筒にはたくさん入れられる。よりティアの高い矢筒はさらにたくさんの矢が入る。",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "20",
-          "text": "防具を装備すると、防御力と引き換えに集中力の回復・魔法の詠唱スピード・走る速さに悪影響を与える。",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
+        },       
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "21",
           "text": "ほとんどの場合、布製の服を着ても、または一糸纏わぬ姿でも、特にメリットもペナルティもない。ただし、魔法使いの服は魔法の詠唱スピードを早めるが、集中力回復のペナルティも発生する。防具を選ぶときは自分の戦闘スタイルを慎重に考えよう!",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "22",
-          "text": "盾や投擲ナイフなどの一部のアイテムは、持っているほうの手で魔力を込められる。同様に、弓手で矢に魔力を込められる。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -550,13 +522,6 @@
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "27",
           "text": "『眼』は、つかみどころのない謎めいた集団で、魔法の実践を全面的に受け入れ、太古の栄光の時代の魔法を取り戻そうとしている。",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "28",
-          "text": "魔力を込めた杖は、もう片方の手の魔法のチャージ速度や効果を高められる。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -641,6 +606,41 @@
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "41:Fire=3",
           "text": "「烈火」「火炎爆破」と「延焼」の組み合わせてで、全ての敵を燃やそう。それから、「爆発連弾」の出す追尾火炎球で滅却しよう!",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+         {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "18",
+          "text": "メイスは革や鎖の鎧などの柔らかい防具に対して弱いが、素肌やプレートアーマーに対してはかなり効果的だ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "19",
+          "text": "敵は多くの矢を持たないが、あなたが購入する矢筒にはたくさん入れられる。よりティアの高い矢筒はさらにたくさんの矢が入る。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "20",
+          "text": "防具を装備すると、防御力と引き換えに集中力の回復・魔法の詠唱スピード・走る速さに悪影響を与える。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+                {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "22",
+          "text": "盾や投擲ナイフなどの一部のアイテムは、持っているほうの手で魔力を込められる。同様に、弓手で矢に魔力を込められる。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "28",
+          "text": "魔力を込めた杖は、もう片方の手の魔法のチャージ速度や効果を高められる。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -845,6 +845,13 @@
           "text": "警告:0.5未満にすると物理現象に問題が発生します。",
           "spriteAddress": null,
           "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "TooltipSeatedMode",
+          "text": "アバターに合わせて身長を調整するために、このオプションを有効にしてください",
+          "spriteAddress": null,
+          "videoAddress": null
         }
       ]
     },
@@ -889,13 +896,6 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Home",
-          "text": "自宅",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Matches",
           "text": "対戦",
           "spriteAddress": null,
@@ -905,13 +905,6 @@
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "MapTravel",
           "text": "移動",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "ReturnToHouse",
-          "text": "家に戻る",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -1905,7 +1898,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "MotionTrackers",
-          "text": "トラッカー",
+          "text": "モーショントラッカー",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -1919,21 +1912,21 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "TrackerCalibrationHelp",
-          "text": "較正するには、足と腰をマーカーのある位置にそろえてから、トリガーボタンを押してください。\n\nアバターの身長を適切に設定することも忘れないでください!",
+          "text": "両足と腰を対応するマーカーの位置にそろえて、トリガーボタンを引いてカリブレートしてください\n\nアバターの身長が適切弐設定されていることも確認してください",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Calibrate",
-          "text": "較正する",
+          "text": "較正",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "ClearCalibration",
-          "text": "較正をリセットする",
+          "text": "較正のリセット",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -2045,7 +2038,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "InstalledModsWarning",
-          "text": "クリスタル争奪戦モードをプレイしようとしていますが、MODを検出しました。\nMODの追加によりゲームバランスが変わる可能性があります。本来のプレイを体験するためにも、少なくとも初回はMODなしでクリスタルハントをプレイすることをおすすめします。",
+          "text": "MODを検出した状態でクリスタル争奪戦モードを初めようとしています。\nMODの追加によりゲームバランスが変わる可能性があります。本来のプレイを体験するためにも、少なくとも初回はMODなしでクリスタルハントをプレイすることをおすすめします。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -2716,8 +2709,15 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "FreeClimb",
+          "text": "フリークライム",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "ArmorDetection",
-          "text": "防具の当たり判定",
+          "text": "防具のコリジョン判定",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -2835,13 +2835,6 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "AzureStar",
-          "text": "空の星",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Clouds",
           "text": "雲",
           "spriteAddress": null,
@@ -2863,13 +2856,6 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Oron",
-          "text": "オロン",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "SelfCollision",
           "text": "セルフコリジョン",
           "spriteAddress": null,
@@ -2885,14 +2871,14 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "PositionSpringMultiplier",
-          "text": "位置ばね係数",
+          "text": "移動ばね係数",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "PositionDamperMultiplier",
-          "text": "位置ダンパー係数",
+          "text": "移動ダンパー係数",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -3696,13 +3682,6 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "PermaDeathMessage",
-          "text": "あなたは死んだ。\nあなたの冒険はここで終わりだ",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "SlowMotionVolume",
           "text": "スローモーション音量",
           "spriteAddress": null,
@@ -3712,13 +3691,6 @@
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "CleanVisibleDroppedItems",
           "text": "見えているアイテムを消去",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "Reward",
-          "text": "報酬",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -3922,13 +3894,6 @@
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "LocationHomeTravelMap",
           "text": "移動",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "LocationHomeYouAreHere",
-          "text": "現在地",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -4578,6 +4543,69 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "CHSpoilerWarning",
+          "text": "まだクリスタルハントモードをプレイしていない場合、サンドボックスが本来の進行モードの体験を損なうようなネタバレになってしまう可能性があります。\nそれでも大丈夫な場合は、どうぞお楽しみください!",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "FSR1",
+          "text": "AMD FSR 1.0",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Home",
+          "text": "自宅",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "ReturnToHouse",
+          "text": "家に戻る",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "AzureStar",
+          "text": "アズールスター",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Oron",
+          "text": "オロン",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+         {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "PermaDeathMessage",
+          "text": "あなたは死んだ。\nあなたの冒険はここで終わりだ",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Reward",
+          "text": "報酬",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LocationHomeYouAreHere",
+          "text": "現在地",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "FastCast",
           "text": "高速詠唱",
           "spriteAddress": null,
@@ -4783,13 +4811,6 @@
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "PlayerDamageMultiplier",
           "text": "受けるダメージの係数",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "FreeClimb",
-          "text": "フリークライム",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -5087,20 +5108,7 @@
           "spriteAddress": null,
           "videoAddress": null
         },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "CHSpoilerWarning",
-          "text": "まだクリスタルハントモードをプレイしていない場合、サンドボックスが本来の進行モードの体験を損なうようなネタバレになってしまう可能性があります。\nそれでも大丈夫な場合は、どうぞお楽しみください!",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "FSR1",
-          "text": "AMD FSR 1.0",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
+        
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "District",
@@ -5378,6 +5386,27 @@
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "IL2CPPBridgeWarning",
           "text": "スクリプト付きのmodが検出されました!これは実験途上の機能であり、ゲーム動作の不安定さをもたらす可能性があります!スクリプト付きのmodを読み込みますか?",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "Report",
+          "text": "通報",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "ReportMessage",
+          "text": "このモッドを通報してもよろしいですか？",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "SeatedMode",
+          "text": "高さオフセット",
           "spriteAddress": null,
           "videoAddress": null
         }
@@ -6115,7 +6144,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Test Mod",
-          "text": "テストmod",
+          "text": "テストMod",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -6191,7 +6220,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "MapInfoDalgarianFoundDescription",
-          "text": "ダルガリアのダンジョンを踏破しよう!",
+          "text": "ダルガリアの遺跡を踏破せよ!",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -6205,7 +6234,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "MapInfoTutoDescription",
-          "text": "先へ進むには前哨基地のダンジョンをクリアしよう。",
+          "text": "先へ進むには前哨基地を制覇しよう。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -6351,6 +6380,13 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "SandboxLoadoutLightningTitle",
+          "text": "雷光魔術師",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "SandboxLoadoutNothingTitle",
           "text": "庶民",
           "spriteAddress": null,
@@ -6374,13 +6410,6 @@
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "SandboxLoadoutFireTitle",
           "text": "火炎魔術師",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "SandboxLoadoutLightningTitle",
-          "text": "雷光魔術師",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -11459,8 +11488,8 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "TheEyeMessageToAcolytes",
-          "text": "純血者、弟子、魔教士、魔範士たちよ、\n\tヘメネトの循環はまもなく終わる。カヨスヴァの目は夜空からこれまで以上に明るく照らし、我らを見守っている。そして我らも彼女を見上げる。今のところ、ヘメネトを転生させるほど強力な魔法使いは現れていないが、油断してはならない。次の時代まで彼らに我らを支配させはしない。我らは古き教えの鎖から自らを解き放つのだ。ヘメネトの統治は終わった!",
+          "id": "TheEyeMessa導くs",
+          "text": "純血者、修魔士、魔導士、魔範師諸君よ、\n\tヘメネトの循環はまもなく終わる。カヨスヴァの目は夜空からこれまで以上に明るく照らし、我らを見守っている。そして我らも彼女を見上げる。今のところ、ヘメネトを転生させるほど強力な魔法使いは現れていないが、油断してはならない。次の時代まで彼らに我らを支配させはしない。我らは古き教えの鎖から自らを解き放つのだ。ヘメネトの統治は終わった!",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -11488,7 +11517,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "TheEyeThrallLiberation",
-          "text": "純血者、弟子、魔教士、魔範士たちよ、\n\tエラデン王国は魔法を見下すふりをしているが、実際には力のために我らを支配しようとしているのだ。\n\t盛んに同胞たちを殺す一方で、彼らやその魔法に魅入られている。彼らがスラールと呼ぶ者たちは我らの血族だ。囚われ、利用され、その扱いは動物以下だ。束縛を断ち切らねばならない。ただ彼らを救うためではなく、我らの敵であるヘメネトと戦うには可能な限り魔法が必要なのだ。",
+          "text": "純血者、修魔士、魔導師、魔範師諸君よ、\n\tエラデン王国は魔法を見下すふりをしているが、実際には力欲しさに我らを支配しようとしているのだ。\n\t盛んに同胞たちを殺す一方で、彼らやその魔法に魅入られている。彼らがスラールと呼ぶ者たちは我らの血族だ。囚われ、利用され、その扱いは動物以下だ。束縛を断ち切らねばならない。ただ彼らを救うためではなく、我らの敵であるヘメネトと戦うには可能な限り魔法が必要なのだ。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -11530,7 +11559,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "TheEyePropagandaGuidelinestoThird",
-          "text": "血族たちよ、\n\t味方となり弟子になるための訓練を始めた君たちに、我らの戒律を伝えておく。この戒律を破る者は処刑される。\n\t1. 機会が与えられたら、けがれた血は処刑しなければならない。けがれた血とどのような関係にあったとしても、処刑を拒めば、それはカヨスヴァへの侮辱とされる。彼女は我々の行動を常に監視している。マヤク゠ナアにつながることのできる者だけが勝利する。",
+          "text": "血族たちよ、\n\t味方となり修魔士になるための訓練を始めた君たちに、我らの戒律を伝えておく。この戒律を破る者は処刑される。\n\t1. 機会が与えられたら、けがれた血は処刑しなければならない。けがれた血とどのような関係にあったとしても、処刑を拒めば、それはカヨスヴァへの侮辱とされる。彼女は我々の行動を常に監視している。マヤク゠ナアにつながることのできる者だけが勝利する。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -11565,21 +11594,21 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "TheEyeRespondsToPlayer",
-          "text": "純血者、弟子、魔教士、魔範士たちよ、\n\tそなたたちの地域で危険な魔法使いが目撃された。それはヘメネトその者である可能性がある。彼らはすでにこちらの偵察隊をたくさん殺しており、そこにはこちらの優秀な魔法使いも含まれている。\n\t我らの旅を守るために全力を注いでくれ。機会が与えられたら、その命を賭けてヘメネトを倒すのだ。与えられた任務の重さに比べれば個々の存在など重要ではない。\n\tこの邪悪な魔法使いを我らの世界から消し去ることで、ようやく我らの魔法は自由でいられるのだ。自分自身の力を信じろ。ヘメネトは奴隷を作るばかりで、決して優れた存在などではない。カヨスヴァは空からそなたを見ている。彼女の導きに従え!\nそなたたちを信頼している、\n<align=\"right\">第一の目、テレイン・ベリン",
+          "text": "純血者、修魔士、魔導師、魔範師諸君よ、\n\tそなたたちの地域で危険な魔法使いが目撃された。それはヘメネトその者である可能性がある。彼らはすでにこちらの偵察隊をたくさん殺しており、そこにはこちらの優秀な魔法使いも含まれている。\n\t我らの旅を守るために全力を注いでくれ。機会が与えられたら、その命を賭けてヘメネトを倒すのだ。与えられた任務の重さに比べれば個々の存在など重要ではない。\n\tこの邪悪な魔法使いを我らの世界から消し去ることで、ようやく我らの魔法は自由でいられるのだ。自分自身の力を信じろ。ヘメネトは奴隷を作るばかりで、決して優れた存在などではない。カヨスヴァは空からそなたを見ている。彼女の導きに従え!\nそなたたちを信頼している、\n<align=\"right\">第一の目、テレイン・ベリン",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "TheEyeDalgarianWorryTitle",
-          "text": "弟子たちを虐殺する魔法使い",
+          "text": "修魔士たちを虐殺する魔術師",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "TheEyeDalgarianWorry",
-          "text": "\t我らの弟子たちを虐殺する魔法使いは、クリスタルコアの在り処を知っている。\n\t彼らがヘメネトだとすれば、十分な数を手にする前に阻止せねばならない。彼らの動きは速い。ダルガリア保全協会がこのヘメネトを誘導しているに違いない。協会は我らを支配しようとしている。彼らは魔法を消し去り、下等な部族に世界を牛耳らせるつもりだ。\n\t協会は彼らを保護することを条件にヘメネトと盟約を結んだに違いない。協会は潰す必要がある。協会と彼らの知識すべてを。\n\t例の魔法使いより先にクリスタルコアを見つけなければ。",
+          "text": "\t我らの修魔士たちを虐殺する魔法使いは、クリスタルコアの在り処を知っている。\n\t彼らがヘメネトだとすれば、十分な数を手にする前に阻止せねばならない。彼らの動きは速い。ダルガリア保全協会がこのヘメネトを誘導しているに違いない。協会は我らを支配しようとしている。彼らは魔法を消し去り、下等な部族に世界を牛耳らせるつもりだ。\n\t協会は彼らを保護することを条件にヘメネトと盟約を結んだに違いない。協会は潰す必要がある。協会と彼らの知識すべてを。\n\t例の魔法使いより先にクリスタルコアを見つけなければ。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -13639,6 +13668,265 @@
           "text": "俺からは、これくらいだな。せいぜい、がんばれよ。",
           "spriteAddress": null,
           "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "UpdateIntro_1",
+          "text": "やあ、友よ! 嵐で難破した外国の船を見つけた。海岸に打ち上げられたものなら何でも売るぜ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "UpdateIntro_2",
+          "text": "よく来たな相棒! ニュースは聞いたか? 嵐で外国の船が難破したらしい。島に流れ着いたものは何でも売るぜ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "UpdateIntro_3",
+          "text": "よう、友よ! 外国の風変わりな船が嵐で難破したの見つけたぜ。島に流れ着いたものは何でも売ろう。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaArmor_1",
+          "text": "そいつはラクタの高級な鎧だな。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaArmor_2",
+          "text": "ラクタ人の鎧は頑丈なだけじゃない、驚くほど動きやすいんだ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaArmor_3",
+          "text": "ラクタの民は甲冑職人として有名だ。きっと役に立つだろう。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaArmor_4",
+          "text": "珍妙な見た目をしているが、性能は十分だ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaNormalWeapon_2",
+          "text": "そりゃあラクタ製の上等な武器だな。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaNormalWeapon_3",
+          "text": "ラクタのサムライはこういうものを戦いで使うって話だ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaNormalWeapon_4",
+          "text": "この辺じゃあ、こんな武器は2つと見つからないな。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaNormalWeapon_5",
+          "text": "こういう武器はラクタの戦士ならみんな使っている。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaNormalWeapon_6",
+          "text": "良い買い物をしたな!こんな代物はエラデンの兵士だって持ってないぜ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaNormalWeapon_7",
+          "text": "ああ、こいつは向こうの国特有の武器だな。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaMagicWeapon_1",
+          "text": "ラクタのサムライがこういった魔法武器を持って戦いに臨むことは珍しいことじゃない。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaMagicWeapon_2",
+          "text": "ラクタ人の兵士たちはよく、こういう魔法武器を装備していることが多い。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaMagicWeapon_3",
+          "text": "ここいらで手に入る物の中では強力な武器だな。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaMagicWeapon_4",
+          "text": "ラクタ人は魔術を崇拝しているから、この手の武器はきっと上等な品だろう。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_A_0",
+          "text": "ラクタの国の低地は広大な沼地網で、さまざまな種類の邪悪な生き物が生息している。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_A_1",
+          "text": "俺が冒険家だった頃、ブルワグを何匹も倒した。忌々しい生き物はどこからともなく現れるものだ…だが、重要なのは、舌を切ることだ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_B_0",
+          "text": "ラクタには行ったことがある。寒々しい山脈と、沼地だらけの低地に、わずかな食料だ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_B_1",
+          "text": "波に乗って漂ってくる噂によれば、飢饉の影響でラクタの皇帝がエラデンの肥沃な平野部へ侵入せざるを得なくなったらしい。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_B_2",
+          "text": "全面戦争に発展するのではないかと心配する奴も多い。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_C_0",
+          "text": "ラクタではな、クリスタルの使用は合法的なだけでなく、崇拝される行為だ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_C_1",
+          "text": "誰もがクリスタルを使用している、特に戦士たちは。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_C_2",
+          "text": "奴らは優れた戦士だが、俺に言わせてみれば、ある時を境にクリスタルを使うようになるのではなく、クリスタルに使われるようになる。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_C_3",
+          "text": "奴らは優れた戦士だが、俺に言わせてみれば、ある時を境にクリスタルを使うようになるのではなく、クリスタルに使われるようになる。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_D_0",
+          "text": "昔、俺がそれなりに鳴らしていたことを知ってるか?",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_D_1",
+          "text": "完全にクリスタルに堕落したラクタのサムライと対峙したんだ。青白い肌に、赤い目だった…。肉薄されて片目を失った。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_E_0",
+          "text": "ラクタに行ったことはあるか? クリスタル中毒のサムライにサイコロで勝ったことあるんだ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_E_1",
+          "text": "怒り狂った奴に、危うく首を取られそうになった。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaLore_E_2",
+          "text": "幸いにも無事に逃げ切り…、しかも８ゴールドも手に入れた。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaFirstPurchase_0",
+          "text": "おお、これはまさにラクタの職人技が光る美しい逸品だ。ラクタのことは知っているか?",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaFirstPurchase_1",
+          "text": "おお、これはまさにラクタの職人技が光る美しい逸品だ。ラクタのことは知っているか?",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaFirstPurchase_2",
+          "text": "簡潔に言えば、ラクタは目玉からクリスタルの魔法光が漏れ出ている狂信者たちの国さ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaFirstPurchase_3",
+          "text": "ラクタはここしばらくエラデンの北部を攻撃しているが、どうやら偵察船の一隻が南へ行き過ぎて嵐に巻き込まれてしまったらしい。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaFirstPurchase_4",
+          "text": "それで、この美しい品々を拝借したわけだ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "RaktaFirstPurchase_5",
+          "text": "ラクタ人は卓越した職人だ、だから海岸に打ち上げられた品は全部確保した。新入荷品にご期待くださいってな。",
+          "spriteAddress": null,
+          "videoAddress": null
         }
       ]
     },
@@ -14278,12 +14566,6 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "Mug",
       "name": "マグ",
-      "description": ""
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "Pillow",
-      "name": "枕",
       "description": ""
     },
     {
@@ -15086,33 +15368,15 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "ChaliceAstarium",
-      "name": "儀式の聖杯",
-      "description": "『眼』が魔法の儀式で使用する聖杯だ。使い古されたクリスタルが脚部分に埋め込まれている。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "ChaliceBronze",
-      "name": "銅のゴブレット",
-      "description": "古代の装飾品で、さほど貴重ではないものの、耐久性と実用性を兼ね備えている。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "CopperCoin",
       "name": "銅貨",
       "description": "エラデンでの交易で使われる通貨の1つだ。貴重な金属でできているため、これ自体に本質的な価値がある。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "SilverCoin",
-      "name": "銀貨",
-      "description": "エラデンで使われる通貨の1つだ。裏面にはエラデン王国の紋章が刻まれている。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "GoldCoin",
       "name": "金貨",
-      "description": "エラデンで使われる通貨の1つだ。初代エラデン王アルダリクの頭部が刻まれている。"
+      "description": "エラデンで使われる通貨の1つだ。初代エラデン王アルダリクの顔が刻まれている。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -15125,54 +15389,6 @@
       "id": "Relic",
       "name": "帝国のメダリオン",
       "description": "貴族が忠誠の証として身につけるエラデン王国のメダリオン。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "RelicAstarium",
-      "name": "使い古されたペンダント",
-      "description": "かつては強い力を持っていたであろう魔法のクリスタルも今はすっかり消耗しきっている。このような物品はエラデンでは極めて違法なものだが、とても価値がある。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "IngotAstarium",
-      "name": "アスタリウムのインゴット",
-      "description": "魔力の触媒に使う極めて珍しい金属だ。エラデン領内では所有したり製造することは極めて違法なこととされる。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "IngotBronze",
-      "name": "銅のインゴット",
-      "description": "銅のインゴットだ。加工しやすいが、やや時代遅れではある。ワイルドフォークは今でもこうした金属を使っている。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "IngotGold",
-      "name": "金のインゴット",
-      "description": "光沢のある黄金のインゴットだ。エラデンの富裕層や権力者から、純粋に見た目の美しさが高く評価されている。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "IngotSilver",
-      "name": "銀のインゴット",
-      "description": "銀のインゴットだ。エラデン国内では貴重とされる加工金属だ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "StatuetteKingDalgar",
-      "name": "アルダリク王の像",
-      "description": "かつてエラデンを統一した王アルダリクの小さな像だ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "StatuetteGuard",
-      "name": "見張りの像",
-      "description": "エラデン軍の強さを象徴するエラデン王国の像だ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "StatuetteWildfolk",
-      "name": "ワイルドフォークの像",
-      "description": "北方部族の長きにわたる不屈の精神を象徴する戦の女神の像だ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -15420,6 +15636,90 @@
       "name": "飾り壷",
       "description": ""
     },
+        {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SpellFire",
+      "name": "火炎",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SpellGravity",
+      "name": "重力",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SpellLightning",
+      "name": "雷光",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ChaliceAstarium",
+      "name": "儀式の聖杯",
+      "description": "『眼』が魔法の儀式で使用する聖杯だ。使い古されたクリスタルが脚部分に埋め込まれている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ChaliceBronze",
+      "name": "銅のゴブレット",
+      "description": "古代の装飾品で、さほど貴重ではないものの、耐久性と実用性を兼ね備えている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SilverCoin",
+      "name": "銀貨",
+      "description": "エラデンで使われる通貨の1つだ。裏面にはエラデン王国の紋章が刻まれている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "RelicAstarium",
+      "name": "使い古されたペンダント",
+      "description": "かつては強い力を持っていたであろう魔法のクリスタルも今はすっかり消耗しきっている。このような物品はエラデンでは極めて違法なものだが、とても価値がある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "IngotAstarium",
+      "name": "アスタリウムのインゴット",
+      "description": "魔力の触媒に使う極めて珍しい金属だ。エラデン領内では所有したり製造することは極めて違法なこととされる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "IngotBronze",
+      "name": "銅のインゴット",
+      "description": "銅のインゴットだ。加工しやすいが、やや時代遅れではある。ワイルドフォークは今でもこうした金属を使っている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "IngotGold",
+      "name": "金のインゴット",
+      "description": "光沢のある黄金のインゴットだ。エラデンの富裕層や権力者から、純粋に見た目の美しさが高く評価されている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "IngotSilver",
+      "name": "銀のインゴット",
+      "description": "銀のインゴットだ。エラデン国内では貴重とされる加工金属だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "StatuetteKingDalgar",
+      "name": "アルダリク王の像",
+      "description": "かつてエラデンを統一した王アルダリクの小さな像だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "StatuetteGuard",
+      "name": "見張りの像",
+      "description": "エラデン軍の強さを象徴するエラデン王国の像だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "StatuetteWildfolk",
+      "name": "ワイルドフォークの像",
+      "description": "北方部族の長きにわたる不屈の精神を象徴する戦の女神の像だ。"
+    },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "ToolDalgarianPickaxe",
@@ -15566,12 +15866,6 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "CharmChain",
-      "name": "首飾りの鎖",
-      "description": ""
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "DalgLantern",
       "name": "点灯中のランタン",
       "description": ""
@@ -15680,24 +15974,6 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "SpellFire",
-      "name": "火炎",
-      "description": ""
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "SpellGravity",
-      "name": "重力",
-      "description": ""
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "SpellLightning",
-      "name": "雷光",
-      "description": ""
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "Journal",
       "name": "ジャーナル",
       "description": "プレイヤーの日誌だ"
@@ -15749,12 +16025,6 @@
       "id": "DruidLegs",
       "name": "ドルイドのトラウザー",
       "description": "北方部族のドルイドが作った、シンプルでありながら実用的なズボンだ。"
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "DruidShirt",
-      "name": "ドルイドのチュニック",
-      "description": "粗末だが実用的なドルイドが作った肌着だ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -15879,37 +16149,37 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "WarMageChest",
-      "name": "弟子のダブレット",
+      "name": "修魔士のダブレット",
       "description": "『眼』の魔法使いが着用するシャツだ。生地にはクリスタル片の粉が丹念に染み込ませてあり、使用者の魔力を高めてくれる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "WarMageFeet",
-      "name": "弟子のブーツ",
+      "name": "修魔士のブーツ",
       "description": "『眼』の魔法使いが着用するブーツだ。とても軽快でありながら防御力もある。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "WarMageHandL",
-      "name": "弟子の左手袋",
+      "name": "修魔士の左手袋",
       "description": "『眼』の魔法使いが着用する手袋だ。魔法の邪魔にならない設計になっている。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "WarMageHandR",
-      "name": "弟子の右手袋",
+      "name": "修魔士の右手袋",
       "description": "『眼』の魔法使いが着用する手袋だ。魔法の邪魔にならない設計になっている。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "WarMageHeadShoulders",
-      "name": "弟子のカウル",
+      "name": "修魔士のカウル",
       "description": "『眼』の魔法使いが着用するフードだ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "WarMageLegs",
-      "name": "弟子のトラウザー",
+      "name": "修魔士のトラウザー",
       "description": "『眼』の魔法使いが着用するズボンだ。とても軽快でありながら防御力もある。"
     },
     {
@@ -16040,21 +16310,105 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "ApparelImprovisedLeatherFeet",
-      "name": "革の脚巻き",
-      "description": ""
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
-      "id": "ApparelImprovisedLeatherTorso",
-      "name": "革の胸当て",
-      "description": ""
-    },
-    {
-      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "DalgarianLoot",
       "name": "ダルガリアの遺物",
       "description": "長い年月の間忘れ去られた目的不明の遺物だ。考古学者にとって非常に価値があるかもしれない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SwordLongRaktaZhanmadao",
+      "name": "Sunderer",
+      "description": "A greatsword build for maximizing hewing damage and nothing else. Used by the more daring individuals of Raike infantry, as it could not be wielded with a shield, nor keep the wielder at a safe distance from the target."
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SwordRaktaKatana",
+      "name": "ラクタの剣",
+      "description": "ラクタ由来の、精鋭兵の使う彼らの特有の文化を表す剣だ。ラクタの法によれば、明確な殺意なく抜くべきではないという。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "DaggerRaktaSai",
+      "name": "ジュッテ",
+      "description": "より大きな剣を受け止めたり弾いたりするための短剣だ。大型の武器を所持しているところを目撃されてはならない、極めて熟練したラクタの間諜によって使用される。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SpearRaktaGuanDao",
+      "name": "長刀",
+      "description": "ラクタの軍でよく見られる汎用的な武器だ。戦場では、長さと力強さの釣り合いがよく取れた武器として活躍する。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "AxeShortRaktaKama",
+      "name": "手鎌",
+      "description": "ラクタの下級市民によって使われるありふれたありあわせの武器だ。盗賊その他の脅威から身を守る用途ですら頼りない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "MaceLongRaktaKanabo",
+      "name": "大鉄棒",
+      "description": "ラクタの精鋭兵のために設計された、鎧を砕く棍棒だ。非常な重量であり、重量魔法で軽くして使用されることもある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ThrowablesRaktaThrowingStar",
+      "name": "手裏剣",
+      "description": "ラクタの間諜が陽動や、敵に気づかれず息の根を止めるため、あるいは戦闘中に意表を突くために使用する道具だ。ラクタの精鋭兵からは卑怯者の武器とみなされている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "RaktaThrowingStarQuiver",
+      "name": "手裏剣袋",
+      "description": "ラクタの間諜が陽動や、敵に気づかれず息の根を止めるため、あるいは戦闘中に意表を突くために使用する道具だ。ラクタの精鋭兵からは卑怯者の武器とみなされている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "StaffRaktaBoStaff",
+      "name": "クリスタルの双極杖",
+      "description": "熟練のラクタの戦闘僧の使う魔術用の杖で、接近戦の武器としても魔道具としても使える。変わった武器であり、2つのクリスタルを効果的に使いこなすのは極めて難しい。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelRaktaHelmet",
+      "name": "ラクタ精鋭兵の兜",
+      "description": "ラクタ精鋭兵のかぶる兜だ。面はラクタに生息する恐ろしい怪物をかたどっている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelRaktaHandL",
+      "name": "ラクタ精鋭兵の左手甲",
+      "description": "ラクタの精鋭兵が身につけている、装飾のある高品質な防具だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelRaktaHandR",
+      "name": "ラクタ精鋭兵の右手甲",
+      "description": "ラクタの精鋭兵が身につけている、装飾のある高品質な防具だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelRaktaChest",
+      "name": "ラクタ精鋭兵の胸当て",
+      "description": "ラクタの精鋭兵が身につけている、装飾のある高品質な防具だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelRaktaLegs",
+      "name": "ラクタ精鋭兵の股引",
+      "description": "ラクタの精鋭兵が身につけている、装飾のある高品質な防具だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelRaktaFeet",
+      "name": "ラクタ精鋭兵の脛当て",
+      "description": "ラクタの精鋭兵が身につけている、装飾のある高品質な防具だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelRaktaShoulders",
+      "name": "ラクタ精鋭兵の肩甲",
+      "description": "ラクタの精鋭兵が身につけている、装飾のある高品質な防具だ。"
     }
   ],
   "waves": [
