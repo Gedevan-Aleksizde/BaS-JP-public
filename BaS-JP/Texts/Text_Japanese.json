@@ -1912,7 +1912,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "TrackerCalibrationHelp",
-          "text": "両足と腰を対応するマーカーの位置にそろえて、トリガーボタンを引いてカリブレートしてください\n\nアバターの身長が適切弐設定されていることも確認してください",
+          "text": "両足と腰を対応するマーカーの位置にそろえて、両手のトリガーボタンを引いて較正してください\n\nアバターの身長が適切に設定されていることも確認してください",
           "spriteAddress": null,
           "videoAddress": null
         },
