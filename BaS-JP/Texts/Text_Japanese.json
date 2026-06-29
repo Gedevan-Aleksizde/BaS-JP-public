@@ -4,6 +4,7 @@
   "sensitiveContent": "None",
   "sensitiveFilterBehaviour": "Discard",
   "version": 1,
+  "groupPath": null,
   "languageCode": "ja",
   "textGroups": [
     {
@@ -15004,7 +15005,7 @@
           "text": "ラクタ",
           "spriteAddress": null,
           "videoAddress": null
-        }
+        },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "RaktaOutpost",
