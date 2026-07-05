@@ -1,0 +1,7 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "ShipBell",
+  "localizationId": "ShipBell",
+  "displayName": "Bell",
+  "description": ""
+}

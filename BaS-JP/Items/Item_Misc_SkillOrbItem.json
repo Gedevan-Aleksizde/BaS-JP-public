@@ -1,0 +1,7 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "SkillOrbItem",
+  "localizationId": "SkillOrbItem",
+  "displayName": "Skill Orb",
+  "description": null
+}

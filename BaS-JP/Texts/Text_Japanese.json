@@ -9262,7 +9262,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "SlowTimeName",
-          "text": "スロー",
+          "text": "遅滞",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -15595,7 +15595,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleArmorOfficerName",
-          "text": "黒板金の装備一式",
+          "text": "黒板金セット",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -15616,63 +15616,63 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleArmorSoldierName",
-          "text": "プレートアーマーの一式",
+          "text": "プレートアーマーセット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleArmorWarMageName",
-          "text": "見習いのローブ一式",
+          "text": "見習い魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleBlacksmithBundleT0Name",
-          "text": "鍛冶師の装備一式",
+          "text": "鍛冶師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleCavemanBundleT0Name",
-          "text": "石器時代の装備一式",
+          "text": "石器時代セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleFarmerBundleT0Name",
-          "text": "ファーミングバンドル",
+          "text": "農業セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleGravediggerBundleT0Name",
-          "text": "物漁りの装備一式",
+          "text": "物漁りセット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleGravitySorcererBundleT0Name",
-          "text": "違法魔術師の装備一式",
+          "text": "違法魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundlePoomancerBundleT0Name",
-          "text": "クソザコ魔術師の装備一式",
+          "text": "クソザコ魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleSwordAndBoardBundleT0Name",
-          "text": "剣と板の装備一式",
+          "text": "剣と板セット",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -15686,322 +15686,322 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleWannabeSorcererBundleT0Name",
-          "text": "モグリの装備一式",
+          "text": "モグリの魔術師のセット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleArcherBundleT1Name",
-          "text": "射手の装備一式",
+          "text": "射手セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleBerserkerBundleT1Name",
-          "text": "狂戦士の装備一式",
+          "text": "狂戦士セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleDalgarianSmasherBundleT2Name",
-          "text": "ダルガリアの壊し屋の装備一式",
+          "text": "ダルガリアの壊し屋セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleFireSorcererBundleT1Name",
-          "text": "火炎魔術師の装備一式",
+          "text": "火炎魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleFireSpellswordBundleT1Name",
-          "text": "火炎魔法剣の装備一式",
+          "text": "火炎魔法剣セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleLightningFisherBundleT1Name",
-          "text": "嵐の漁師の装備一式",
+          "text": "嵐の漁師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleSpearmanBundleT1Name",
-          "text": "槍戦士の装備一式",
+          "text": "槍戦士セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleSwordAndBoardBundleT1Name",
-          "text": "剣と板の装備一式",
+          "text": "剣と板セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleTelekineticBundleT1Name",
-          "text": "念動力者の装備一式",
+          "text": "念動力者セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleThrowingKnifeBundleT1Name",
-          "text": "回る剣の装備一式",
+          "text": "回る剣セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleWarriorMonkBundleT1Name",
-          "text": "武装僧侶の装備一式",
+          "text": "武装僧侶セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleArcherBundleT2Name",
-          "text": "射手の装備一式",
+          "text": "射手セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleCaptainDalgarianBundleT2Name",
-          "text": "盾弾きの装備一式",
+          "text": "盾弾きセット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleChargeSapperBundleT3Name",
-          "text": "戦闘工兵の装備一式",
+          "text": "戦闘工兵セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleDaggerBenderBundleT2Name",
-          "text": "傭兵探検家の装備一式",
+          "text": "傭兵探検家セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleDuelistBundleT2Name",
-          "text": "決闘者の装備一式",
+          "text": "決闘者セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleFireSorcererBundleT2Name",
-          "text": "火炎魔術師の装備一式",
+          "text": "火炎魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleFireSpellswordBundleT2Name",
-          "text": "火炎魔法剣の装備一式",
+          "text": "火炎魔法剣セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleGravityMonkBundleT2Name",
-          "text": "重力僧侶の装備一式",
+          "text": "重力僧侶セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleLightningSorcererBundleT2Name",
-          "text": "雷撃魔術師の装備一式",
+          "text": "雷撃魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleLightningSpellswordBundleT2Name",
-          "text": "雷撃魔法剣の装備一式",
+          "text": "雷撃魔法剣セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleMobilityBundleT2Name",
-          "text": "重力跳躍の装備一式",
+          "text": "重力跳躍セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleSpearmanBundleT2Name",
-          "text": "槍戦士の装備一式",
+          "text": "槍戦士セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleSwordAndBoardBundleT2Name",
-          "text": "剣と板の装備一式",
+          "text": "剣と板セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleWarriorMonkBundleT2Name",
-          "text": "武装僧侶の装備一式",
+          "text": "武装僧侶セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleArcherBundleT3Name",
-          "text": "射手の装備一式",
+          "text": "射手セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleArcwireBundleT3Name",
-          "text": "アーク放電魔法剣の装備一式",
+          "text": "アーク放電魔法剣セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleBaronBundleT3Name",
-          "text": "バロンの装備一式",
+          "text": "バロンセット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleBerserkerBundleT3Name",
-          "text": "狂戦士の装備一式",
+          "text": "狂戦士セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleFireSorcererBundleT3Name",
-          "text": "火炎魔術師の装備一式",
+          "text": "火炎魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleGravitySorcererBundleT3Name",
-          "text": "重力魔術師の装備一式",
+          "text": "重力魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleLightningSorcererBundleT3Name",
-          "text": "雷撃魔術師の装備一式",
+          "text": "雷撃魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleSpearmanBundleT3Name",
-          "text": "槍戦士の装備一式",
+          "text": "槍戦士セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleSwordAndBoardBundleT3Name",
-          "text": "剣と板の装備一式",
+          "text": "剣と板セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleTeslaWiresBundleT3Name",
-          "text": "テスラワイヤーの装備一式",
+          "text": "テスラワイヤーセット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleUnarmedSorceryBundleT3Name",
-          "text": "肉体魔術師の装備一式",
+          "text": "肉体魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleChronoMasterBundleT4Name",
-          "text": "時空の達人の装備一式",
+          "text": "時空の達人セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleGrandmasterBundleT4Name",
-          "text": "大師範の装備一式",
+          "text": "大師範セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundlePunchSorcererBundleT4Name",
-          "text": "近接攻撃の達人の装備一式",
+          "text": "近接攻撃の達人セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleRemoteDetonatorBundleT4Name",
-          "text": "遠隔爆破魔術師の装備一式",
+          "text": "遠隔爆破魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleSorceryArcherT4Name",
-          "text": "天才射手の装備一式",
+          "text": "天才射手セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleTelekineticBundleT4Name",
-          "text": "念動力の達人の装備一式",
+          "text": "念動力の達人セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleFoodBundleName",
-          "text": "フードの一式",
+          "text": "フードセット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundleElementalistBundleT1Name",
-          "text": "元素魔術師の装備一式",
+          "text": "元素魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "BundlePsionicBundleT1Name",
-          "text": "精神魔術師の装備一式",
+          "text": "精神魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
         }
@@ -18070,19 +18070,19 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "ApparelSentaraHat",
       "name": "センタラのトリコーン",
-      "description": "船長にふさわしい上品な帽子。"
+      "description": "船長にふさわしい上品な帽子だ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "ApparelSentaraLegs",
       "name": "センタラのパンタロン",
-      "description": "完全に素晴らしいパンツ。"
+      "description": "完全に素晴らしいパンツだ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "ApparelSentaraTorso",
-      "name": "センタリウエストコート",
-      "description": "暗黒の時でも乗組員の士気を高く保つために作られた派手なベスト。"
+      "name": "センタラの胴衣",
+      "description": "暗黒の時でも乗組員の士気を高く保つために作られた派手なベストだ。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -18095,7 +18095,133 @@
       "id": "Dojo_Gong_Mallet",
       "name": "ゴングマレット",
       "description": null
-    }
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "Chandelier",
+      "name": "シャンデリア",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "CharmChain",
+      "name": "CharmChain",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "Meteor",
+      "name": "メテオ",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SkillOrbItem",
+      "name": "スキルオーブ",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "Anvil",
+      "name": "金床",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "AnvilSupport",
+      "name": "金床の土台",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "Dalg_Minecart",
+      "name": "トロッコ",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "Dojo_Gong",
+      "name": "ゴング",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "Dojo_Pedestal",
+      "name": "台座",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "Globe",
+      "name": "地球儀",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "Gong",
+      "name": "ゴング",
+      "description": "Gong doing «dong»!"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "Rock_Boulder",
+      "name": "丸石",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ShipBell",
+      "name": "鐘",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ShipBellClapper",
+      "name": "鐘舌",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ShipBellRope",
+      "name": "ロープ",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ShipHelmWheel",
+      "name": "ShipHelmWheel",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "InventoryBag",
+      "name": "InventoryBag",
+      "description": "アイテムを掴む\nインベントリが開く\nアイテムを離すと\nインベントリは閉じる"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "Bundle",
+      "name": "バンドル",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelImprovisedLeatherFeet",
+      "name": "革の脚絆",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelImprovisedLeatherTorso",
+      "name": "革の胴鎧",
+      "description": null
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelImprovisedPants",
+      "name": "出来合いの股引き",
+      "description": null
+    } 
   ],
   "waves": [
     {
@@ -18338,6 +18464,5 @@
       "title": "センタラの船長との決闘",
       "description": "センタラの船長たちと死闘を繰り広げる。"
     }
-  ],
-  "groupPath": null
+  ]
 }

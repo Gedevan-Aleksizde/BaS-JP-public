@@ -1,0 +1,7 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "Bundle",
+  "localizationId": "Bundle",
+  "displayName": "Bundle",
+  "description": ""
+}
