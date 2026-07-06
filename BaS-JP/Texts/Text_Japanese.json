@@ -3907,6 +3907,13 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LoadAchievements",
+          "text": "実績の読み込み中",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "GeneratePools",
           "text": "プールを生成中",
           "spriteAddress": null,
@@ -6124,6 +6131,20 @@
       "texts": [
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LevelDayVariantName",
+          "text": "日中",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "LevelNightVariantName",
+          "text": "夜間",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "Arena",
           "text": "闘技場",
           "spriteAddress": null,
@@ -6187,10 +6208,17 @@
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "MarketDescription",
-          "text": "エラデンの都市の中心にある市場だ。真夜中にはそれほど賑わいを見せない。",
-          "spriteAddress": null,
-          "videoAddress": null
+          "id": "MarketDayVariantDescription",
+          "text": "エラデン王国の街の中心にある市場だ。曇りない晴天の日だ。",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "MarketNightVariantDescription",
+          "text": "エラデン王国の街の中心にある市場だ。深夜はさほど賑やかではない。",
+          "spriteAddress": "",
+          "videoAddress": ""
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
@@ -6321,7 +6349,7 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "OutpostChapelDescription",
-          "text": "古代のアルダリク王に捧げられた礼拝所だ。",
+          "text": "古代のアルダリク王に捧げられた礼拝堂だ。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -6387,6 +6415,139 @@
           "text": "マドル",
           "spriteAddress": null,
           "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "DalgarianMuseumDescription",
+          "text": "書類や展示物の散らばる、半壊した古代ダルガリアの遺跡の部屋だ。かつては博物館だったのだろう。",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "DalgarianRefinaryDescription",
+          "text": "大きなクリスタル精製機のある天井の高い部屋だ。重力クリスタルの周囲に液状化したクリスタルの回路が張り巡らされているが、その目的はわからない。",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "DalgarianSenateDescription",
+          "text": "ダルガリアの元老院の間だ。かつてはダルガリアの評議会がここで開催されたのだろう。",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "DalgarianForgeDescription",
+          "text": "ダルガリアの鍛冶場だ。アストラリウムはここで精錬され、鍛造されていたのだろう。",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "DalgarianTempleDescription",
+          "text": "古代の祭壇へと続く、広大な広間だ。",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "OutpostLibrary",
+          "text": "前哨基地の図書室",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "OutpostWatermill",
+          "text": "前哨基地の水車小屋",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "OutpostFallenCorridor",
+          "text": "前哨基地の崩落した回廊",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "OutpostChapel",
+          "text": "前哨基地の礼拝堂",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "OutpostCoastalFort",
+          "text": "前哨基地の海岸の砦",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "DalgarianMuseum",
+          "text": "ダルガリアの博物館",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "DalgarianRefinary",
+          "text": "ダルガリアの精製機",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "DalgarianSenate",
+          "text": "ダルガリアの元老院議場",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "DalgarianForge",
+          "text": "ダルガリアの鍛冶場",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "DalgarianTemple",
+          "text": "ダルガリアの寺院",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibDesert",
+          "text": "ハル゠ティブの要塞",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibDesertDescription",
+          "text": "長年放棄されていた要塞だ。ハル゠ティブの灼熱の砂漠の要地に位置している。",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "OutpostArenasMap",
+          "text": "前哨基地の闘技場",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "DalgarianArenasMap",
+          "text": "ダルガリアの闘技場",
+          "spriteAddress": "",
+          "videoAddress": ""
         }
       ]
     },
@@ -12868,49 +13029,21 @@
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "ItemFalchion_1",
-          "text": "おいおい、こりゃなんだ?こいつはハル゠ティブ製のファルシオンじゃねぇか!それは売らないほうがいいぞ!",
+          "text": "おお、そいつはセンタラの剣だ! 二度と手放したくないと思うだろう!",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "ItemFalchion_4",
-          "text": "おいおい、こりゃなんだ?こいつはハル゠ティブ製のファルシオンじゃねぇか!それは売らないほうがいいぞ!",
+          "id": "ItemFalchion_2",
+          "text": "それはなんだ、ファルシオンか? この辺りじゃ珍しいな。あんたは是非その剣を提げるべきだ。",
           "spriteAddress": null,
           "videoAddress": null
         },
         {
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "ItemFalchion_6",
-          "text": "珍しい剣だからな!ハル゠ティブの船乗りたちが使うやつだ。それは持っておいたほうがいい。",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "ItemFalchion_9",
-          "text": "珍しい剣だからな!ハル゠ティブの船乗りたちが使うやつだ。それは持っておいたほうがいい。",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "ItemFalchion_11",
-          "text": "どうやらここらの海岸じゃあまり見ない武器を手に入れたようだな。その丸みのある刀身はハル゠ティブの砂漠で作られたファルシオンだ。",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "ItemFalchion_13",
-          "text": "どうやらここらの海岸じゃあまり見ない武器を手に入れたようだな。その丸みのある刀身はハル゠ティブの砂漠で作られたファルシオンだ。",
-          "spriteAddress": null,
-          "videoAddress": null
-        },
-        {
-          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
-          "id": "ItemFalchion_18",
-          "text": "どうやらここらの海岸じゃあまり見ない武器を手に入れたようだな。その丸みのある刀身はハル゠ティブの砂漠で作られたファルシオンだ。",
+          "id": "ItemFalchion_3",
+          "text": "おお、こいつは! センタラ製のファルシオンだな。冒険に明け暮れていた頃は、俺も愛用していた。こいつは掘り出し物だぞ。俺だったら絶対に手放さないぜ。",
           "spriteAddress": null,
           "videoAddress": null
         },
@@ -14838,6 +14971,321 @@
           "text": "装填完了だぜ、相棒!",
           "spriteAddress": null,
           "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibArmour_1",
+          "text": "頑丈さが感触でわかるだろう? ハル゠ティブは砂漠に住む変わった生き物の殻から鎧を作るらしい。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibArmour_2",
+          "text": "砂漠では、金属や布といったものはなかなか手に入らない、だがハル゠ティブは手に入るものだけで最善を尽くしたってことだ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibArmour_3",
+          "text": "俺としては砂は苦手だ。ざらざらして、粗くて、いらいらする、そんなのがどこにでもある。だから、身につける前によく振っておけ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibBombFire_1",
+          "text": "その瓶の中には劫火が詰まってるぞ! 取り扱いには注意だ。絶対に近くでパイプに火をつけたりするんじゃないぞ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibBombFire_2",
+          "text": "ハル゠ティブの砂漠の熱は暴力的だが、こんなものを浴びるよりは何週間も砂漠をさまようほうを選ぶね。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibBombGravity_1",
+          "text": "壁を駆け上る必要があるなら、こいつを足元に投げつけて吹き飛んで行け!",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibBombLightning_1",
+          "text": "強大な魔術師が杖から放った電撃で、相手を真っ二つに切り裂くのを見たことがあるか? そう、ハル゠ティブはその力を小瓶に詰め込むことに成功したんだ!",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibBombLightning_2",
+          "text": "この爆弾は、必殺の威力と、炸裂した後に残された惨状でハル゠ティブじゃ有名だ。背筋が寒くなるぜ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibBombGeneric_Special",
+          "text": "ランプ用の油か? ロープか? 爆弾か? 欲しいものをくれてやる。代金さえ払ってくれりゃあな!",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibCrossbow_1",
+          "text": "クロスボウは弓の不得手な人間にとっては良い選択だ。狙いを付けるのが簡単で、弓を引いたまま踏ん張る必要もない!",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibCrossbow_2",
+          "text": "クロスボウの射撃は簡単だ。ハル゠ティブの小規模な部族の、戦闘訓練を受けてない民が防衛のために使うには魅力的な武器だ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibCrossbow_3",
+          "text": "センタラの発明家がハル゠ティブのクロスボウを改良しようとして作った、面白い図面を見たことがある。回転する「筒」が付いているんだ。発想はすごいが、実際にはうまく動きゃしないだろう!",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibCrystalCore_1",
+          "text": "クリスタルの核か! とてつもなく貴重な品だが…、俺がクリスタルの核を売っていると知れれば、島中の力に飢えた魔術師どもが殺到して、力づくで奪おうとするだろう。悪いがこいつには買い値をつけられないぜ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibCrystalCore_2",
+          "text": "クリスタルの核か…、とうとうやったな! それを手にすれば強大な力が手に入る。だが聞け、一人の人間が手にする力が強ければ強いほど、その目は曇っていくものだ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibCrystalCore_3",
+          "text": "ほほう…、ギルドが知れば大慌てだろうな。だが、どんな値をつけようと、原則として俺はクリスタルの核を売りに出せない。あまりに大きな力は、一人の人間では御しきれないものだ…。そして大きすぎる力は、自分こそはその力を持つに値する、と人に思い込ませようとしてくる。あらゆる手を使って誘惑してくるんだ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibGenericWeapon_1",
+          "text": "ハル゠ティブの職人技には何度も驚かされる。骨を散りばめた細かく優雅な装飾の武器だ。実に見事だ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibGenericWeapon_2",
+          "text": "湾曲した刀身はハル゠ティブ特有のものだ。湾曲した刀身は、相手の肌に食らいつくというより走るから、彼らは簡単に傷を負わせられるんだ。だからこういうのは避けるのが一番だ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibGenericWeapon_3",
+          "text": "ハル゠ティブは実に機知に富んでいる。この武器に見られるような骨は、主に砂漠に住む生物から取られたものだ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibGenericWeapon_4",
+          "text": "お目が高いな。これはハル゠ティブの伝統的な武器だ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibGenericWeapon_5",
+          "text": "この武器はハル゠ティブの発祥だ。きっと役に立つだろう。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibGenericWeapon_6",
+          "text": "ハル゠ティブの戦士は戦いの前に太陽の下で刃を清めると、エラデン人が噂しているのを聞いたことがある。そうすれば敵にさらに炎ダメージを与えられるんだと。ただの作り話だろう。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibGenericWeapon_7",
+          "text": "両端に刃のある槍を扱う奴を見たことがあるか? 南のほうでは魔術師の間でかなり人気があるらしい。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibSwordOfNaa_1",
+          "text": "一体何を持ってるんだ? ダルガリアの品か? うわっ、こいつは熱すぎて触れられん。これはあんたの手元に残しておけ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibSwordOfNaa_2",
+          "text": "こいつは… ダルガリアの剣か? こいつには値がつけられないほど価値がある。手放さずにいたほうがいい。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibSwordOfNaa_3",
+          "text": "信じられん! 本物のダルガリアの剣じゃないか。お前を殺してでもうばいとろうとする連中だって現れそうだ。こんなヤバい代物は、俺にはリスクが大きすぎて売り捌けないな。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibWristBlade_1",
+          "text": "暗殺者のための究極の道具だ。これを使うまさにその瞬間まで、刃を隠しておける。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibWristBlade_2",
+          "text": "この武器の正確な起源はわかっていない。ハル゠ティブの暗殺者ギルドで使われていたという噂が有名だ。だが俺は嘘だと思う。この造りはハル゠ティブの職人のものとは全く違う。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibWristBlade_3",
+          "text": "このからくりには実に魅入られる。俺も仕組みを完全には理解できないが。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibCheckout_Special",
+          "text": "よく来たな、大将。客があんたで良かったよ。ここには時々、変わった連中が来る。つい昨日も、流れ者がふらりと入ってきて、走り回ったり、独り言をぶつぶつ言ったりして、俺は冷や汗をかいたぜ!",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibFirstLore_0",
+          "text": "おやおや、それが何だか知っているか? それはハル゠ティブ製だ! 一度行ったらそう簡単には忘れられない場所だが、実に複雑な土地でもある。一言で言い表せるような文化じゃないんだ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibFirstLore_1",
+          "text": "砂の大海に散らばる、部族の集まりだ。それぞれの部族が独自の指導者や慣習や、そして怨恨を抱えている。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibFirstLore_2",
+          "text": "昼は焼けつくような暑さで、夜は身を切るような寒さだ。慈悲など微塵もない。だが、そこに住む人々は? これ以上ないほど屈強だ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibFirstLore_3",
+          "text": "もちろん、彼らはなるべくしてそうなったんだ。それにあの砂漠の下に潜む生き物は…、あんたは知らないほうが幸せだ!",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibLore_A_0",
+          "text": "ハル゠ティブの各部族は、自分たちこそが最も古く、強く、正当な支配者であると主張している。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibLore_A_1",
+          "text": "面白いことに、彼らと長いこと一緒にいると、どの部族の話も正しいと信じるようになってしまうんだ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibLore_B_0",
+          "text": "ハル゠ティブは常に、共通の文化的アイデンティティを共有することで緩やかに結びついている、ばらばらの部族の集まりだ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibLore_B_1",
+          "text": "今、ある有力な武将がすべての部族を一つの旗の下にまとめ上げようとしているという噂がある。危険な動きだ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibLore_B_2",
+          "text": "Khar-Tib’s strength has always been tempered by its lack of cohesion… unify it, and you’ve got something the rest of the world should worry about.",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibLore_C_0",
+          "text": "ハル゠ティブの軍事力は、彼らの団結力のなさによって常に抑えられてきた…。だが、もしひとたび彼らが一つにまとまれば、他の国々にとって脅威となるだろう。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibLore_C_1",
+          "text": "もし外で低い唸るような音が聞こえたら、その正体を確かめようと立ち止まったりするな。これだけは信じてくれ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibLore_D",
+          "text": "「砂滑り船」を見たことはあるか? ハル゠ティブの奇妙な乗り物だ。半分は船で、残り半分は奇跡でできている。本来なら航行不可能な砂漠を滑走して進むよう設計されている。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibLore_E_0",
+          "text": "ハル゠ティブの市場は混沌そのものだ。だが、美しい混沌だ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibLore_E_1",
+          "text": "空気に濃厚に漂うスパイスの香り、宝石よりも鮮やかな布地、そして「その値段で売ったら店が潰れてしまう」と必死に訴えかけてくる商人たち。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibLore_F",
+          "text": "ハル゠ティブに夜が訪れるのは、まるでハンマーで打ち据えられるかのような唐突さだ。ついさっきまでブーツの中が汗で蒸れていたかと思えば、次の瞬間には凍えるような寒さに包まれる。空はあまりにも澄み渡り、手を伸ばせばオロンに触れられそうなほどだ。",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibLore_G",
+          "text": "ハル゠ティブの交易は、実に楽しい。鉄や木材は王様を質に入れたのかというほど高値がつき、その代わりにこちらはビエスの他のどこにもないような織物や果物を手できる。",
+          "spriteAddress": null,
+          "videoAddress": null
         }
       ]
     },
@@ -15031,6 +15479,27 @@
           "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
           "id": "RaktaDalgDesc",
           "text": "ラクタのダルガリア遺跡だ。",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTib",
+          "text": "ハル゠ティブ",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibOutpostDesc",
+          "text": "ハル゠ティブの前哨基地",
+          "spriteAddress": "",
+          "videoAddress": ""
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "KharTibDalgDesc",
+          "text": "ハル゠ティブのダルガリア遺跡",
           "spriteAddress": "",
           "videoAddress": ""
         }
@@ -16004,6 +16473,20 @@
           "text": "精神魔術師セット",
           "spriteAddress": null,
           "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "BundleArmorKharTibName",
+          "text": "ハル゠ティブの戦士セット",
+          "spriteAddress": null,
+          "videoAddress": null
+        },
+        {
+          "$type": "ThunderRoad.TextData+TextID, ThunderRoad",
+          "id": "BundleKharTibBundleT2Name",
+          "text": "剣と板セット",
+          "spriteAddress": null,
+          "videoAddress": null
         }
       ]
     },
@@ -16276,8 +16759,8 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "DualBladeStaff",
-      "name": "剣杖",
-      "description": "ハル゠ティブの奇抜な武器だ。戦闘というよりは舞踊に使用したとされるものだが、刃は鋭く品質も申し分ない。"
+      "name": "双刃の剣杖",
+      "description": "奇抜な武器だ。戦闘ではなく舞踊に使用したとされるものだが、刃は鋭く品質も申し分ない。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -16361,7 +16844,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "WristBlade",
       "name": "手甲剣",
-      "description": "ハル゠ティブの暗殺用の剣だ。手首に固定した刃は、通常よりも力を込めて刺せる。"
+      "description": "異国の暗殺用の剣だ。手首に固定した刃は、通常よりも力を込めて刺せる。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -16925,7 +17408,7 @@
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "SwordOldieFalchion",
       "name": "ファルシオン",
-      "description": "ハル゠ティブ発祥の古いファルシオンだ。海上の戦闘でセンタラの海賊から身を守るためによく使われる。"
+      "description": "センタラ発祥の古いファルシオンだ。船員・私掠船員・海賊などによって世界中で使用されている。"
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
@@ -18098,6 +18581,162 @@
     },
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "AxeKharTibDouble",
+      "name": "両刃斧",
+      "description": "ハル゠ティブの重く、脅威的な戦斧だ。使いこなすには筋力とスタミナが必要だが、その分威力は申し分ない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "AxeLongKharTibWarpick",
+      "name": "War Talon",
+      "description": "軍用つるはしと鎌を合成したハル゠ティブの武器だ。ハル゠ティブの砂漠に住む生物の恐ろしい鈎爪を参考にしたという。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "DaggerKharTibHaladie",
+      "name": "双刃の短剣",
+      "description": "ハル゠ティブの短剣で、完全に使いこなすには特殊な技能が必要だ。これを誇示して携帯することは、精鋭兵としての技能があることを表している。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ShieldKharTib",
+      "name": "ハル゠ティブの盾",
+      "description": "ハル゠ティブの兵士の多くが使用している盾で、攻撃と防御を同時に行えることから評価されている。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SwordKharTibKhopesh",
+      "name": "鎌のような剣",
+      "description": "ハル゠ティブ起源の精鋭の剣で、斧と剣のそれぞれの強さが融合している。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SwordKharTibScimitar",
+      "name": "シミター",
+      "description": "ハル゠ティブではありふれた剣で、簡素だが優れた斬撃武器だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "DualBladeStaffKharTib",
+      "name": "ハル゠ティブの決闘剣杖",
+      "description": "ハル゠ティブ由来の戦闘杖だ。独りで複数の敵を相手にするために作られたと言われており、戦場ではあまり見かけない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SpellBombLightning",
+      "name": "雷撃クリスタル爆弾",
+      "description": "元素クリスタルから作られた爆発物だ。構えて、投げつける必要がある。投げてしばらくすると切り裂く雷撃の鞭を解放する。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SpellBombFire",
+      "name": "火炎クリスタル爆弾",
+      "description": "元素クリスタルから作られた爆発物だ。構えて、投げつける必要がある。敵のそばに落ちると、爆炎を生み出す。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "SpellBombGravity",
+      "name": "重力クリスタル爆弾",
+      "description": "元素クリスタルから作られた爆発物だ。構えて、投げつける必要がある。何かに触れると、重力の衝撃波を発生させる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "BombQuiverLightning",
+      "name": "雷撃クリスタル爆弾の束",
+      "description": "元素クリスタルから作られた爆発物だ。構えて、投げつける必要がある。投げてしばらくすると切り裂く雷撃の鞭を解放する。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "BombQuiverFire",
+      "name": "火炎クリスタル爆弾",
+      "description": "元素クリスタルから作られた爆発物だ。構えて、投げつける必要がある。敵のそばに落ちると、爆炎を生み出す。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "BombQuiverGravity",
+      "name": "重力クリスタル爆弾",
+      "description": "元素クリスタルから作られた爆発物だ。構えて、投げつける必要がある。何かに触れると、重力の衝撃波を発生させる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KharTibCrossbow",
+      "name": "クロスボウ",
+      "description": "高度な小型のクロスボウだ。普通の弓に比べると力強さに欠けるが、扱うのが簡単で、素早く撃てる。複数の矢弾を入れられるので、一度撃つたびに装填する必要はない。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KharTibCrossbowBolt",
+      "name": "クロスボウの太矢",
+      "description": "クロスボウ用の小さな矢だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "QuiverBolts",
+      "name": "クロスボウの矢筒",
+      "description": "クロスボウ用の小さな矢だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelKharTibBoots",
+      "name": "ハル゠ティブの戦士のブーツ",
+      "description": "ハル゠ティブ由来の、砂の中を歩くためのブーツだ。 砂漠の厳しい自然環境から身を守るのに適している。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelKharTibGloveL",
+      "name": "ハル゠ティブの戦士の腕甲 (左)",
+      "description": "ハル゠ティブの前腕用の防具だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelKharTibGloveR",
+      "name": "ハル゠ティブの戦士の腕甲 (右)",
+      "description": "ハル゠ティブの前腕用の防具だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelKharTibHelmet",
+      "name": "ハル゠ティブの戦士の兜",
+      "description": "ハル゠ティブの不気味な兜だ。敵の攻撃からも、厳しい砂漠からも身を守るのに役立つ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelKharTibJacket",
+      "name": "ハル゠ティブの戦士の胸当て",
+      "description": "ハル゠ティブの獣の革を強化して作られたハル゠ティブの戦士の鎧だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelKharTibPants",
+      "name": "ハル゠ティブの戦士の足鎧",
+      "description": "ハル゠ティブの堅牢な足鎧だ。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "ApparelKharTibShoulder",
+      "name": "ハル゠ティブの戦士の肩当て",
+      "description": "ハル゠ティブの肩鎧で、これもまた原料の持ち主である獣の特徴を真似て作ってある。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "Cushion",
+      "name": "クッション",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "GenieLamp",
+      "name": "ランプ",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
+      "id": "KharTibDrum",
+      "name": "ドラム",
+      "description": ""
+    },
+    {
+      "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "Chandelier",
       "name": "シャンデリア",
       "description": null
@@ -18105,7 +18744,7 @@
     {
       "$type": "ThunderRoad.TextData+Item, ThunderRoad",
       "id": "CharmChain",
-      "name": "CharmChain",
+      "name": " CharmChain",
       "description": null
     },
     {
@@ -18463,6 +19102,30 @@
       "id": "SentaraDuel",
       "title": "センタラの船長との決闘",
       "description": "センタラの船長たちと死闘を繰り広げる。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
+      "id": "KharTibDuel",
+      "title": "ハル゠ティブの戦士の決闘",
+      "description": "ハル゠ティブの戦士たちと死ぬまで戦え。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
+      "id": "KharTibFull",
+      "title": "標準",
+      "description": "この勢力の全ての種類の敵と戦う。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
+      "id": "KharTibMeleeOnly",
+      "title": "近接のみ",
+      "description": "近接武器を使う敵とのみ戦う。"
+    },
+    {
+      "$type": "ThunderRoad.TextData+Wave, ThunderRoad",
+      "id": "KharTibSorceryOnly",
+      "title": "魔法のみ",
+      "description": "この勢力の魔法使いと戦う。"
     }
   ]
 }
