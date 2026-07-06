@@ -1,6 +1,7 @@
 {
   "$type": "ThunderRoad.ItemData, ThunderRoad",
   "id": "Globe",
+  "version": 4,
   "localizationId": "Globe",
   "displayName": "Globe",
   "description": null

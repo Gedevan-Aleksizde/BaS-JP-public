@@ -1,6 +1,7 @@
 {
   "$type": "ThunderRoad.ItemData, ThunderRoad",
   "id": "Chandelier_Small",
+  "version": 4,
   "localizationId": "Chandelier",
   "displayName": "Chandelier",
   "description": null

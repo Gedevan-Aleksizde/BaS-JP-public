@@ -1,6 +1,7 @@
 {
   "$type": "ThunderRoad.ItemData, ThunderRoad",
   "id": "ShipBellClapper",
+  "version": 4,
   "localizationId": "ShipBellClapper",
   "displayName": "Clapper",
   "description": ""

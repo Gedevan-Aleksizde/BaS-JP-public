@@ -1,6 +1,7 @@
 {
   "$type": "ThunderRoad.ItemData, ThunderRoad",
   "id": "AnvilSupport",
+  "version": 4,
   "localizationId": "AnvilSupport",
   "displayName": "Anvil support",
   "description": null

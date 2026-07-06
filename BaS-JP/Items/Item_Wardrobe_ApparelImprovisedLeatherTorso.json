@@ -1,6 +1,7 @@
 {
   "$type": "ThunderRoad.ItemData, ThunderRoad",
   "id": "ApparelImprovisedLeatherTorso",
+  "version": 4,
   "localizationId": "ApparelImprovisedLeatherTorso",
   "displayName": "Leather Chest Armor",
   "description": null

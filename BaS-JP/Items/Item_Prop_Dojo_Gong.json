@@ -1,6 +1,7 @@
 {
   "$type": "ThunderRoad.ItemData, ThunderRoad",
   "id": "Dojo_Gong",
+  "version": 4,
   "localizationId": "Dojo_Gong",
   "displayName": "Gong",
   "description": null

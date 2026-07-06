@@ -1,6 +1,7 @@
 {
   "$type": "ThunderRoad.ItemData, ThunderRoad",
   "id": "CharmChain",
+  "version": 4,
   "localizationId": "CharmChain",
   "displayName": "CharmChain",
   "description": null

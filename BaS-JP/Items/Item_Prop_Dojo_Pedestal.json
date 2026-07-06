@@ -1,6 +1,7 @@
 {
   "$type": "ThunderRoad.ItemData, ThunderRoad",
   "id": "Dojo_Pedestal",
+  "version": 4,
   "localizationId": "Dojo_Pedestal",
   "displayName": "Pedestal",
   "description": ""

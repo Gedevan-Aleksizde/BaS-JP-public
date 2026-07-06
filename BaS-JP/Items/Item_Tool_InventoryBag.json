@@ -1,6 +1,7 @@
 {
   "$type": "ThunderRoad.ItemData, ThunderRoad",
   "id": "InventoryBag",
+  "version": 4,
   "localizationId": "InventoryBag",
   "displayName": "InventoryBag",
   "description": "Grab the item\nThe inventory opens\nLet go of the item\nThe inventory closes"
